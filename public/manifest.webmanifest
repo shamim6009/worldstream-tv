@@ -1,0 +1,11 @@
+{
+  "name": "WorldStream TV",
+  "short_name": "WorldStream",
+  "description": "Authorized free live TV, sports and news from around the world.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#080D1B",
+  "theme_color": "#080D1B",
+  "icons": [{ "src": "icons/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}

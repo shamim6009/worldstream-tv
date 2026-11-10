@@ -1,0 +1,21 @@
+[
+  { "code": "BD", "name": "Bangladesh", "slug": "bangladesh", "flag": "🇧🇩", "region": "Asia" },
+  { "code": "IN", "name": "India", "slug": "india", "flag": "🇮🇳", "region": "Asia" },
+  { "code": "JP", "name": "Japan", "slug": "japan", "flag": "🇯🇵", "region": "Asia" },
+  { "code": "KR", "name": "South Korea", "slug": "south-korea", "flag": "🇰🇷", "region": "Asia" },
+  { "code": "SG", "name": "Singapore", "slug": "singapore", "flag": "🇸🇬", "region": "Asia" },
+  { "code": "CN", "name": "China", "slug": "china", "flag": "🇨🇳", "region": "Asia" },
+  { "code": "TR", "name": "Türkiye", "slug": "turkiye", "flag": "🇹🇷", "region": "Asia" },
+  { "code": "QA", "name": "Qatar", "slug": "qatar", "flag": "🇶🇦", "region": "Middle East" },
+  { "code": "AE", "name": "United Arab Emirates", "slug": "united-arab-emirates", "flag": "🇦🇪", "region": "Middle East" },
+  { "code": "SA", "name": "Saudi Arabia", "slug": "saudi-arabia", "flag": "🇸🇦", "region": "Middle East" },
+  { "code": "IQ", "name": "Iraq", "slug": "iraq", "flag": "🇮🇶", "region": "Middle East" },
+  { "code": "DE", "name": "Germany", "slug": "germany", "flag": "🇩🇪", "region": "Europe" },
+  { "code": "FR", "name": "France", "slug": "france", "flag": "🇫🇷", "region": "Europe" },
+  { "code": "GB", "name": "United Kingdom", "slug": "united-kingdom", "flag": "🇬🇧", "region": "Europe" },
+  { "code": "AT", "name": "Austria", "slug": "austria", "flag": "🇦🇹", "region": "Europe" },
+  { "code": "US", "name": "United States", "slug": "united-states", "flag": "🇺🇸", "region": "North America" },
+  { "code": "CA", "name": "Canada", "slug": "canada", "flag": "🇨🇦", "region": "North America" },
+  { "code": "ZA", "name": "South Africa", "slug": "south-africa", "flag": "🇿🇦", "region": "Africa" },
+  { "code": "AU", "name": "Australia", "slug": "australia", "flag": "🇦🇺", "region": "Oceania" }
+]

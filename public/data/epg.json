@@ -1,0 +1,6 @@
+{
+  "generatedAt": "2026-11-10T00:00:00.000Z",
+  "timezone": "UTC",
+  "note": "Populated by npm run sync:epg from allowlisted XMLTV feeds. The UI displays 'Schedule unavailable' when a channel has no guide data; it never invents schedules.",
+  "channels": {}
+}

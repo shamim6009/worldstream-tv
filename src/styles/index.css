@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    color-scheme: dark;
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    background-color: #080d1b;
+    min-height: 100vh;
+  }
+  h1, h2, h3, h4 {
+    @apply font-heading;
+  }
+  :focus-visible {
+    outline: 2px solid #3b82f6;
+    outline-offset: 2px;
+  }
+  input[type='search']::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-accent px-5 py-2.5 text-sm font-semibold text-white shadow-glow transition hover:bg-accent-soft disabled:cursor-not-allowed disabled:opacity-50;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-white/15 bg-white/5 px-5 py-2.5 text-sm font-semibold text-slate-100 transition hover:border-white/30 hover:bg-white/10 disabled:cursor-not-allowed disabled:opacity-50;
+  }
+  .chip {
+    @apply inline-flex items-center gap-1.5 whitespace-nowrap rounded-full border border-white/10 bg-ink-900/80 px-3 py-1.5 text-xs font-semibold text-slate-300 transition hover:border-white/25 hover:text-slate-100;
+  }
+  .chip-active {
+    @apply border-accent-soft/60 bg-accent/20 text-white;
+  }
+  .field {
+    @apply w-full rounded-xl border border-white/10 bg-ink-900 px-3 py-2 text-sm text-slate-100 outline-none transition focus:border-accent-soft/60 focus:ring-2 focus:ring-accent/20;
+  }
+  .panel {
+    @apply rounded-2xl border border-white/10 bg-ink-900/60;
+  }
+  .page {
+    @apply mx-auto w-full max-w-7xl px-4 py-6 sm:px-6 sm:py-8 lg:px-8;
+  }
+}
+
+@layer utilities {
+  .scrollbar-none {
+    scrollbar-width: none;
+  }
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(148, 163, 184, 0.3) transparent;
+  }
+}
+
+mark {
+  background: rgba(6, 182, 212, 0.25);
+  color: inherit;
+  border-radius: 3px;
+  padding: 0 1px;
+}
+
+input[type='range'].volume {
+  accent-color: #3b82f6;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/*
+ * Light theme. Components are authored against the dark palette; the light theme
+ * remaps the small set of palette utilities they use so every page stays consistent.
+ */
+html.light {
+  color-scheme: light;
+}
+html.light body,
+html.light .bg-ink-950 { background-color: #f4f7fb; }
+html.light .bg-ink-950\/85,
+html.light .bg-ink-950\/95,
+html.light .bg-ink-950\/80,
+html.light .bg-ink-950\/75,
+html.light .bg-ink-950\/60 { background-color: rgba(255, 255, 255, 0.9); }
+html.light .bg-ink-900,
+html.light .bg-ink-900\/80,
+html.light .bg-ink-900\/70,
+html.light .bg-ink-900\/60,
+html.light .bg-ink-900\/40 { background-color: #ffffff; }
+html.light .bg-ink-850,
+html.light .bg-ink-800,
+html.light .bg-ink-800\/80 { background-color: #eef2f8; }
+html.light .bg-ink-700 { background-color: #e2e8f0; }
+html.light .from-ink-800 { --tw-gradient-from: #e8eef8 var(--tw-gradient-from-position); --tw-gradient-to: rgb(232 238 248 / 0) var(--tw-gradient-to-position); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to); }
+html.light .via-ink-850 { --tw-gradient-to: rgb(241 245 251 / 0) var(--tw-gradient-to-position); --tw-gradient-stops: var(--tw-gradient-from), #f1f5fb var(--tw-gradient-via-position), var(--tw-gradient-to); }
+html.light .to-ink-950 { --tw-gradient-to: #f8fafc var(--tw-gradient-to-position); }
+html.light .from-ink-950\/90 { --tw-gradient-from: rgb(255 255 255 / 0.92) var(--tw-gradient-from-position); --tw-gradient-to: rgb(255 255 255 / 0) var(--tw-gradient-to-position); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to); }
+html.light .from-ink-700\/80 { --tw-gradient-from: #e2e8f0 var(--tw-gradient-from-position); --tw-gradient-to: rgb(226 232 240 / 0) var(--tw-gradient-to-position); --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to); }
+html.light .to-ink-850 { --tw-gradient-to: #f1f5f9 var(--tw-gradient-to-position); }
+html.light .text-slate-50,
+html.light .text-slate-100 { color: #0f172a; }
+html.light .text-slate-200 { color: #1e293b; }
+html.light .text-slate-300 { color: #334155; }
+html.light .text-slate-400 { color: #475569; }
+html.light .text-slate-500 { color: #64748b; }
+html.light .border-white\/5 { border-color: rgba(15, 23, 42, 0.06); }
+html.light .border-white\/10 { border-color: rgba(15, 23, 42, 0.1); }
+html.light .border-white\/15 { border-color: rgba(15, 23, 42, 0.14); }
+html.light .bg-white\/5 { background-color: rgba(15, 23, 42, 0.04); }
+html.light .bg-white\/10 { background-color: rgba(15, 23, 42, 0.07); }
+html.light .hover\:bg-white\/5:hover { background-color: rgba(15, 23, 42, 0.05); }
+html.light .hover\:bg-white\/10:hover { background-color: rgba(15, 23, 42, 0.08); }
+html.light .hover\:text-slate-100:hover,
+html.light .hover\:text-slate-200:hover { color: #0f172a; }
+html.light .bg-hero-grid { background-color: #ffffff; }
+html.light .shadow-card { box-shadow: 0 18px 40px -28px rgba(15, 23, 42, 0.35); }
+/* Video surfaces stay dark in both themes. */
+html.light .video-surface,
+html.light .video-surface .text-slate-100,
+html.light .video-surface .text-slate-200,
+html.light .video-surface .text-slate-300 { color: #e2e8f0; }
+html.light .video-surface .bg-ink-950\/80,
+html.light .video-surface .bg-ink-950\/75 { background-color: rgba(8, 13, 27, 0.8); }

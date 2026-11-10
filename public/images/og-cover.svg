@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="a" cx="25%" cy="20%" r="70%">
+      <stop offset="0" stop-color="#2563EB" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#080D1B" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="b" cx="85%" cy="80%" r="60%">
+      <stop offset="0" stop-color="#06B6D4" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#080D1B" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="l" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#080D1B"/>
+  <rect width="1200" height="630" fill="url(#a)"/>
+  <rect width="1200" height="630" fill="url(#b)"/>
+  <rect x="96" y="96" width="112" height="112" rx="28" fill="url(#l)"/>
+  <path d="M138 128v48a3 3 0 0 0 4.6 2.5l37-24a3 3 0 0 0 0-5l-37-24a3 3 0 0 0-4.6 2.5Z" fill="#fff"/>
+  <text x="96" y="330" fill="#F8FAFC" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="76" font-weight="800">WorldStream TV</text>
+  <text x="96" y="410" fill="#94A3B8" font-family="Manrope, Arial, sans-serif" font-size="36">Free live TV, sports &amp; news from authorized sources</text>
+  <text x="96" y="530" fill="#06B6D4" font-family="Manrope, Arial, sans-serif" font-size="28" font-weight="700">News · Sports · Entertainment · Bangladesh TV</text>
+</svg>

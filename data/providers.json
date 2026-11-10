@@ -1,0 +1,74 @@
+[
+  {
+    "id": "pluto-tv",
+    "name": "Pluto TV",
+    "url": "https://pluto.tv/live-tv",
+    "description": "Free ad-supported live TV and on-demand service operated by Paramount. Availability varies by country.",
+    "kind": "FAST platform",
+    "regions": ["US", "UK", "DE", "FR", "ES", "IT", "BR", "LATAM"]
+  },
+  {
+    "id": "plex-live-tv",
+    "name": "Plex Live TV",
+    "url": "https://watch.plex.tv/live-tv",
+    "description": "Free ad-supported live channels available through Plex. A free Plex account may be required.",
+    "kind": "FAST platform",
+    "regions": ["US", "UK", "CA", "AU", "Global"]
+  },
+  {
+    "id": "tubi",
+    "name": "Tubi",
+    "url": "https://tubitv.com/live",
+    "description": "Free ad-supported streaming service with live channels and movies. Availability varies by region.",
+    "kind": "FAST platform",
+    "regions": ["US", "CA", "UK", "AU", "MX"]
+  },
+  {
+    "id": "samsung-tv-plus",
+    "name": "Samsung TV Plus",
+    "url": "https://www.samsungtvplus.com/",
+    "description": "Free ad-supported live TV from Samsung, available on Samsung devices and the web in supported regions.",
+    "kind": "FAST platform",
+    "regions": ["US", "UK", "DE", "FR", "IN", "KR", "Global"]
+  },
+  {
+    "id": "rakuten-tv",
+    "name": "Rakuten TV",
+    "url": "https://rakuten.tv/",
+    "description": "Free ad-supported channels alongside rental content. Channel availability varies by country.",
+    "kind": "FAST platform",
+    "regions": ["EU", "UK", "US", "LATAM"]
+  },
+  {
+    "id": "fifa-plus",
+    "name": "FIFA+",
+    "url": "https://www.plus.fifa.com/",
+    "description": "FIFA's official free platform with selected live matches, replays and documentaries. Rights vary by territory.",
+    "kind": "Official sports platform",
+    "regions": ["Global"]
+  },
+  {
+    "id": "uefa-tv",
+    "name": "UEFA.tv",
+    "url": "https://www.uefa.tv/",
+    "description": "Official UEFA streaming platform with free live matches, highlights and archives in supported territories.",
+    "kind": "Official sports platform",
+    "regions": ["Global"]
+  },
+  {
+    "id": "olympics",
+    "name": "Olympics.com",
+    "url": "https://www.olympics.com/en/live/",
+    "description": "Official Olympic live streams and highlights. Free availability depends on local broadcast rights.",
+    "kind": "Official sports platform",
+    "regions": ["Global"]
+  },
+  {
+    "id": "youtube-live",
+    "name": "Official YouTube Live",
+    "url": "https://www.youtube.com/live",
+    "description": "Many broadcasters publish authorized live streams on their official YouTube channels. Use the broadcaster's own channel link.",
+    "kind": "Official broadcaster platform",
+    "regions": ["Global"]
+  }
+]

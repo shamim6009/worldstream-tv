@@ -1,0 +1,3236 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-10T00:00:00.000Z",
+  "note": "Curated allowlist of channels approved for public playback. Each entry documents provenance and authorization. New playlist imports are written to candidates.json and never published automatically.",
+  "channels": [
+    {
+      "id": "al-jazeera-english",
+      "name": "Al Jazeera English",
+      "altNames": [
+        "AJE"
+      ],
+      "country": "QA",
+      "language": "en",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://dtil.tmsimg.com/assets/s159135_ld_h15_aa.png?lock=720x540",
+      "provider": "Al Jazeera Media Network",
+      "description": "Qatar-based international news channel with rolling coverage, documentaries and analysis, published as an official free web stream.",
+      "region": "Middle East",
+      "featured": true,
+      "quality": "1080p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Official Al Jazeera HLS web stream. Free-to-air news; availability can vary by region.",
+      "officialWatchUrl": "https://www.aljazeera.com/live",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "al-jazeera-english-s1",
+          "type": "hls",
+          "url": "https://live-hls-apps-aje.getaj.net/AJE/index.m3u8",
+          "provider": "Al Jazeera (getaj.net)",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official Al Jazeera application HLS endpoint.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        },
+        {
+          "id": "al-jazeera-english-s2",
+          "type": "hls",
+          "url": "https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8",
+          "provider": "Al Jazeera (getaj.net)",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official fallback endpoint.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "al-jazeera-arabic",
+      "name": "Al Jazeera Arabic",
+      "altNames": [
+        "الجزيرة"
+      ],
+      "country": "QA",
+      "language": "ar",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://dtil.tmsimg.com/assets/s159135_ld_h15_aa.png?lock=720x540",
+      "provider": "Al Jazeera Media Network",
+      "description": "Arabic-language international news channel from the Al Jazeera Media Network.",
+      "region": "Middle East",
+      "featured": false,
+      "quality": "1080p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Official Al Jazeera HLS web stream.",
+      "officialWatchUrl": "https://www.aljazeera.net/live",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "al-jazeera-arabic-s1",
+          "type": "hls",
+          "url": "https://live-hls-web-aja.getaj.net/AJA/index.m3u8",
+          "provider": "Al Jazeera (getaj.net)",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official Al Jazeera web HLS endpoint.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "dw-english",
+      "name": "DW English",
+      "altNames": [
+        "Deutsche Welle"
+      ],
+      "country": "DE",
+      "language": "en",
+      "categories": [
+        "news",
+        "documentary"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/MNKkgfa.png",
+      "provider": "Deutsche Welle",
+      "description": "Germany’s international public broadcaster, covering world news, business, science and culture in English.",
+      "region": "Europe",
+      "featured": true,
+      "quality": "1080p",
+      "authorization": "public-broadcaster",
+      "authorizationNote": "Official Deutsche Welle HLS stream operated by the public broadcaster.",
+      "officialWatchUrl": "https://www.dw.com/en/live-tv/channel-english",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "dw-english-s1",
+          "type": "hls",
+          "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8",
+          "provider": "Deutsche Welle",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official DW English HLS endpoint.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "france-24-english",
+      "name": "France 24 English",
+      "altNames": [],
+      "country": "FR",
+      "language": "en",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c1/France_24_logo_%282013%29.svg",
+      "provider": "France Médias Monde",
+      "description": "France’s international news channel with English-language rolling news, reports and debate.",
+      "region": "Europe",
+      "featured": false,
+      "quality": "1080p",
+      "authorization": "public-broadcaster",
+      "authorizationNote": "Official France 24 HLS stream.",
+      "officialWatchUrl": "https://www.france24.com/en/live",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "france-24-english-s1",
+          "type": "hls",
+          "url": "https://static.france24.com/live/F24_EN_LO_HLS/live_web.m3u8",
+          "provider": "France 24",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official France 24 English HLS endpoint.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "france-24-french",
+      "name": "France 24 Français",
+      "altNames": [],
+      "country": "FR",
+      "language": "fr",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c1/France_24_logo_%282013%29.svg",
+      "provider": "France Médias Monde",
+      "description": "French-language international news from France 24.",
+      "region": "Europe",
+      "featured": false,
+      "quality": "720p",
+      "authorization": "public-broadcaster",
+      "authorizationNote": "Official France 24 HLS stream.",
+      "officialWatchUrl": "https://www.france24.com/fr/live",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "france-24-french-s1",
+          "type": "hls",
+          "url": "https://static.france24.com/live/F24_FR_LO_HLS/live_web.m3u8",
+          "provider": "France 24",
+          "quality": "720p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official France 24 French HLS endpoint.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "france-24-arabic",
+      "name": "France 24 العربية",
+      "altNames": [],
+      "country": "FR",
+      "language": "ar",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c1/France_24_logo_%282013%29.svg",
+      "provider": "France Médias Monde",
+      "description": "Arabic-language international news from France 24.",
+      "region": "Europe",
+      "featured": false,
+      "quality": "720p",
+      "authorization": "public-broadcaster",
+      "authorizationNote": "Official France 24 Arabic HLS stream.",
+      "officialWatchUrl": "https://www.france24.com/ar/live",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "france-24-arabic-s1",
+          "type": "hls",
+          "url": "https://live.france24.com/hls/live/2037222/F24_AR_HI_HLS/master_2300.m3u8",
+          "provider": "France 24",
+          "quality": "720p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official France 24 Arabic HLS endpoint.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "euronews-english",
+      "name": "Euronews English",
+      "altNames": [],
+      "country": "FR",
+      "language": "en",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://a.jsrdn.com/hls/22886/euronews/extras/1080_logo.png",
+      "provider": "Euronews",
+      "description": "European public-service news channel with a multilingual, rolling-news format.",
+      "region": "Europe",
+      "featured": false,
+      "quality": "720p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Official Euronews CDN HLS stream.",
+      "officialWatchUrl": "https://www.euronews.com/live",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "euronews-english-s1",
+          "type": "hls",
+          "url": "https://cdn-euronews.akamaized.net/live/eds/euronews-en/25002/index.m3u8",
+          "provider": "Euronews CDN",
+          "quality": "720p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official Euronews English HLS endpoint.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "euronews-french",
+      "name": "Euronews Français",
+      "altNames": [],
+      "country": "FR",
+      "language": "fr",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/5A0Wnrv.png",
+      "provider": "Euronews",
+      "description": "French-language rolling news from Euronews.",
+      "region": "Europe",
+      "featured": false,
+      "quality": "720p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Official Euronews CDN HLS stream.",
+      "officialWatchUrl": "https://fr.euronews.com/live",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "euronews-french-s1",
+          "type": "hls",
+          "url": "https://cdn-euronews.akamaized.net/live/eds/euronews-fr/25026/index.m3u8",
+          "provider": "Euronews CDN",
+          "quality": "720p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official Euronews French HLS endpoint.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "euronews-german",
+      "name": "Euronews Deutsch",
+      "altNames": [],
+      "country": "FR",
+      "language": "de",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/8t9mdg9.png",
+      "provider": "Euronews",
+      "description": "German-language rolling news from Euronews.",
+      "region": "Europe",
+      "featured": false,
+      "quality": "720p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Official Euronews CDN HLS stream.",
+      "officialWatchUrl": "https://de.euronews.com/live",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "euronews-german-s1",
+          "type": "hls",
+          "url": "https://cdn-euronews.akamaized.net/live/eds/euronews-de/25027/index.m3u8",
+          "provider": "Euronews CDN",
+          "quality": "720p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official Euronews German HLS endpoint.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "africanews-english",
+      "name": "Africanews English",
+      "altNames": [],
+      "country": "FR",
+      "language": "en",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://a.jsrdn.com/hls/22886/africanews/extras/1080_logo.png",
+      "provider": "Africanews (Euronews)",
+      "description": "Pan-African news service covering politics, business, culture and sport across the continent.",
+      "region": "Europe",
+      "featured": false,
+      "quality": "720p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Official Africanews CDN HLS stream.",
+      "officialWatchUrl": "https://www.africanews.com/live",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "africanews-english-s1",
+          "type": "hls",
+          "url": "https://cdn-euronews.akamaized.net/live/eds/africanews-en/25049/index.m3u8",
+          "provider": "Africanews CDN",
+          "quality": "720p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official Africanews English HLS endpoint.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "africanews-french",
+      "name": "Africanews Français",
+      "altNames": [],
+      "country": "FR",
+      "language": "fr",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/5UxU4zc.png",
+      "provider": "Africanews (Euronews)",
+      "description": "French-language pan-African news from Africanews.",
+      "region": "Europe",
+      "featured": false,
+      "quality": "720p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Official Africanews CDN HLS stream.",
+      "officialWatchUrl": "https://fr.africanews.com/live",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "africanews-french-s1",
+          "type": "hls",
+          "url": "https://cdn-euronews.akamaized.net/live/eds/africanews-fr/25050/index.m3u8",
+          "provider": "Africanews CDN",
+          "quality": "720p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official Africanews French HLS endpoint.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "bloomberg-tv-us",
+      "name": "Bloomberg Television",
+      "altNames": [],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "business",
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/OuogLHx.png",
+      "provider": "Bloomberg",
+      "description": "Business and markets news from Bloomberg’s official free US stream.",
+      "region": "North America",
+      "featured": true,
+      "quality": "720p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Official Bloomberg media-manifest HLS stream.",
+      "officialWatchUrl": "https://www.bloomberg.com/live/us",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "bloomberg-tv-us-s1",
+          "type": "hls",
+          "url": "https://bloomberg.com/media-manifest/streams/us.m3u8",
+          "provider": "Bloomberg",
+          "quality": "720p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official Bloomberg US HLS manifest.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "bloomberg-tv-asia",
+      "name": "Bloomberg Television Asia",
+      "altNames": [],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "business",
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/OuogLHx.png",
+      "provider": "Bloomberg",
+      "description": "Bloomberg’s Asia-focused markets and business feed, free from the official manifest.",
+      "region": "North America",
+      "featured": false,
+      "quality": "720p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Official Bloomberg media-manifest HLS stream.",
+      "officialWatchUrl": "https://www.bloomberg.com/live/asia",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "bloomberg-tv-asia-s1",
+          "type": "hls",
+          "url": "https://bloomberg.com/media-manifest/streams/asia.m3u8",
+          "provider": "Bloomberg",
+          "quality": "720p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official Bloomberg Asia HLS manifest.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "abc-news-live",
+      "name": "ABC News Live",
+      "altNames": [],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/960px-ABC_News_Live_logo_2021.svg.png",
+      "provider": "ABC News",
+      "description": "ABC News’ free 24/7 streaming news channel with breaking news and live events.",
+      "region": "North America",
+      "featured": false,
+      "quality": "720p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Official ABC News Live HLS endpoint.",
+      "officialWatchUrl": "https://abcnews.go.com/Live",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "abc-news-live-s1",
+          "type": "hls",
+          "url": "https://abcnews-streams.akamaized.net/hls/live/2023560/abcnewshudson1/master.m3u8",
+          "provider": "ABC News",
+          "quality": "720p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official ABC News Live HLS endpoint.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "cbs-news-247",
+      "name": "CBS News 24/7",
+      "altNames": [],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/CBS_News_247_logo.svg/960px-CBS_News_247_logo.svg.png",
+      "provider": "CBS News",
+      "description": "CBS News’ free 24/7 streaming news service.",
+      "region": "North America",
+      "featured": false,
+      "quality": "720p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Official CBS News streaming HLS endpoint.",
+      "officialWatchUrl": "https://www.cbsnews.com/live/",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "cbs-news-247-s1",
+          "type": "hls",
+          "url": "https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8",
+          "provider": "CBS News",
+          "quality": "720p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official CBS News 24/7 HLS endpoint.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "nbc-news-now",
+      "name": "NBC News NOW",
+      "altNames": [],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/JZt2qh5.png",
+      "provider": "NBC News",
+      "description": "NBC News’ free streaming news channel, distributed through NBCUniversal’s FAST platform.",
+      "region": "North America",
+      "featured": false,
+      "quality": "1080p",
+      "authorization": "official-fast",
+      "authorizationNote": "Publisher-operated NBCUniversal FAST feed.",
+      "officialWatchUrl": "https://www.nbcnews.com/now",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "nbc-news-now-s1",
+          "type": "hls",
+          "url": "https://xumo-drct-nbcnn-ir8ze.fast.nbcuni.com/live/master.m3u8",
+          "provider": "NBCUniversal FAST",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official NBCUniversal FAST HLS feed.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "livenow-from-fox",
+      "name": "LiveNOW from FOX",
+      "altNames": [],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/1JnyzHv.png",
+      "provider": "FOX",
+      "description": "Fox’s free live news and events channel, with extended coverage of breaking stories.",
+      "region": "North America",
+      "featured": false,
+      "quality": "720p",
+      "authorization": "official-fast",
+      "authorizationNote": "Publisher-operated FOX FAST feed distributed via Amagi.",
+      "officialWatchUrl": "https://www.livenowfox.com/",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "livenow-from-fox-s1",
+          "type": "hls",
+          "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00488-foxdigital-livenowbyfox-lgus/playlist.m3u8",
+          "provider": "FOX / Amagi",
+          "quality": "720p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Publisher-operated FAST feed.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "scripps-news",
+      "name": "Scripps News",
+      "altNames": [],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/UfN6aAi.png",
+      "provider": "Scripps News",
+      "description": "US free over-the-air and streaming news network focused on national and international reporting.",
+      "region": "North America",
+      "featured": false,
+      "quality": "720p",
+      "authorization": "official-fast",
+      "authorizationNote": "Publisher-operated Scripps News HLS feed via UpLynk.",
+      "officialWatchUrl": "https://www.scrippsnews.com/live",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "scripps-news-s1",
+          "type": "hls",
+          "url": "https://content.uplynk.com/channel/4bb4901b934c4e029fd4c1abfc766c37.m3u8",
+          "provider": "Scripps / UpLynk",
+          "quality": "720p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official Scripps News HLS endpoint.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "nhk-world-japan",
+      "name": "NHK World-Japan",
+      "altNames": [],
+      "country": "JP",
+      "language": "en",
+      "categories": [
+        "news",
+        "culture",
+        "documentary"
+      ],
+      "sports": [],
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/3/36/World_Channel_2023.svg",
+      "provider": "NHK",
+      "description": "Japan’s international public broadcaster, with English-language news, travel, science and culture programming.",
+      "region": "Asia",
+      "featured": true,
+      "quality": "1080p",
+      "authorization": "public-broadcaster",
+      "authorizationNote": "Official NHK World-Japan HLS stream.",
+      "officialWatchUrl": "https://www3.nhk.or.jp/nhkworld/en/live/",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "nhk-world-japan-s1",
+          "type": "hls",
+          "url": "https://masterpl.hls.nhkworld.jp/hls/w/live/smarttv.m3u8",
+          "provider": "NHK",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official NHK World-Japan smart-TV HLS endpoint.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "cna",
+      "name": "CNA",
+      "altNames": [],
+      "country": "SG",
+      "language": "en",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/awIDugE.png",
+      "provider": "Mediacorp",
+      "description": "Singapore’s national English-language news channel from Mediacorp, covering Asia and the world.",
+      "region": "Asia",
+      "featured": false,
+      "quality": "1080p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Official Mediacorp CNA HLS feed.",
+      "officialWatchUrl": "https://www.channelnewsasia.com/watch",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "cna-s1",
+          "type": "hls",
+          "url": "https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8",
+          "provider": "Mediacorp",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official CNA HLS endpoint.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "arirang-tv",
+      "name": "Arirang TV",
+      "altNames": [],
+      "country": "KR",
+      "language": "en",
+      "categories": [
+        "news",
+        "culture"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/kk2MdNC.png",
+      "provider": "Arirang",
+      "description": "South Korea’s English-language international broadcaster, covering news, culture and Korean life.",
+      "region": "Asia",
+      "featured": false,
+      "quality": "720p",
+      "authorization": "public-broadcaster",
+      "authorizationNote": "Official Arirang HLS endpoint distributed by Akamai.",
+      "officialWatchUrl": "https://www.arirang.com/live",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "arirang-tv-s1",
+          "type": "hls",
+          "url": "https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8",
+          "provider": "Arirang / Akamai",
+          "quality": "720p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official Arirang HLS endpoint.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "trt-world",
+      "name": "TRT World",
+      "altNames": [],
+      "country": "TR",
+      "language": "en",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/TRT_World.svg/960px-TRT_World.svg.png",
+      "provider": "TRT",
+      "description": "Türkiye’s English-language international news channel.",
+      "region": "Asia",
+      "featured": false,
+      "quality": "1080p",
+      "authorization": "public-broadcaster",
+      "authorizationNote": "Official TRT World HLS stream.",
+      "officialWatchUrl": "https://www.trtworld.com/live",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "trt-world-s1",
+          "type": "hls",
+          "url": "https://tv-trtworld.medya.trt.com.tr/master.m3u8",
+          "provider": "TRT",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official TRT World HLS endpoint.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "cgtn",
+      "name": "CGTN",
+      "altNames": [],
+      "country": "CN",
+      "language": "en",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Estrella_TV_Logo_2020.png/500px-Estrella_TV_Logo_2020.png",
+      "provider": "CGTN",
+      "description": "China Global Television Network’s English-language news channel.",
+      "region": "Asia",
+      "featured": false,
+      "quality": "1080p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Official CGTN HLS stream.",
+      "officialWatchUrl": "https://www.cgtn.com/live",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "cgtn-s1",
+          "type": "hls",
+          "url": "https://english-livebkali.cgtn.com/live/encgtn.m3u8",
+          "provider": "CGTN",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official CGTN English HLS endpoint.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "sky-news-arabia",
+      "name": "Sky News Arabia",
+      "altNames": [],
+      "country": "AE",
+      "language": "ar",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/SvjU4h6.png",
+      "provider": "Sky News Arabia",
+      "description": "Arabic-language rolling news channel based in Abu Dhabi.",
+      "region": "Middle East",
+      "featured": false,
+      "quality": "720p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Official Sky News Arabia HLS stream.",
+      "officialWatchUrl": "https://www.skynewsarabia.com/live",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "sky-news-arabia-s1",
+          "type": "hls",
+          "url": "https://stream.skynewsarabia.com/ott/ott.m3u8",
+          "provider": "Sky News Arabia",
+          "quality": "720p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official Sky News Arabia OTT HLS endpoint.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "al-arabiya-english",
+      "name": "Al Arabiya English",
+      "altNames": [],
+      "country": "SA",
+      "language": "en",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://english.alarabiya.net/.resources/aa-fe-templating/webresources/dist/assets/gfx/logo/en-night-logo.svg",
+      "provider": "Al Arabiya",
+      "description": "English-language news from Al Arabiya, covering the Middle East and international affairs.",
+      "region": "Middle East",
+      "featured": false,
+      "quality": "1080p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Official Al Arabiya HLS stream.",
+      "officialWatchUrl": "https://english.alarabiya.net/live",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "al-arabiya-english-s1",
+          "type": "hls",
+          "url": "https://live.alarabiya.net/alarabiapublish/english/playlist_dvr.m3u8",
+          "provider": "Al Arabiya",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official Al Arabiya English HLS endpoint.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "rudaw",
+      "name": "Rudaw TV",
+      "altNames": [],
+      "country": "IQ",
+      "language": "ar",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/Zo3IWOn.png",
+      "provider": "Rudaw Media Network",
+      "description": "Kurdish news network with Arabic, Kurdish and English coverage of the region.",
+      "region": "Middle East",
+      "featured": false,
+      "quality": "1080p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Official Rudaw HLS stream.",
+      "officialWatchUrl": "https://www.rudaw.net/live",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "rudaw-s1",
+          "type": "hls",
+          "url": "https://live.rudaw.net/hls/rudaw-tv/master.m3u8",
+          "provider": "Rudaw",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official Rudaw HLS endpoint.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "sabc-news",
+      "name": "SABC News",
+      "altNames": [],
+      "country": "ZA",
+      "language": "en",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/liLta8j.png",
+      "provider": "SABC",
+      "description": "South Africa’s public broadcaster news channel, with national and African coverage.",
+      "region": "Africa",
+      "featured": false,
+      "quality": "720p",
+      "authorization": "public-broadcaster",
+      "authorizationNote": "Official SABC News HLS stream via Mangomolo.",
+      "officialWatchUrl": "https://www.sabcnews.com/sabcnews/live/",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "sabc-news-s1",
+          "type": "hls",
+          "url": "https://sabconetanw.cdn.mangomolo.com/news/smil:news.stream.smil/master.m3u8",
+          "provider": "SABC / Mangomolo",
+          "quality": "720p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official SABC News HLS endpoint.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "reuters-tv",
+      "name": "Reuters TV",
+      "altNames": [],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "news",
+        "business"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/6eQ2nCJ.png",
+      "provider": "Reuters",
+      "description": "Reuters’ free streaming news service with global reporting and live events.",
+      "region": "North America",
+      "featured": false,
+      "quality": "1080p",
+      "authorization": "official-fast",
+      "authorizationNote": "Publisher-operated Reuters FAST feed distributed via Amagi.",
+      "officialWatchUrl": "https://www.reuters.com/live/",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "reuters-tv-s1",
+          "type": "hls",
+          "url": "https://amg00453-reuters-amg00453c1-rakuten-uk-2110.playouts.now.amagi.tv/playlist/amg00453-reuters-reuters-rakutenuk/playlist.m3u8",
+          "provider": "Reuters / Amagi",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Publisher-operated Reuters FAST feed.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "wion",
+      "name": "WION",
+      "altNames": [],
+      "country": "IN",
+      "language": "en",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://dtil.tmsimg.com/assets/s144087_ld_h15_aa.png?lock=720x540",
+      "provider": "Zee Media",
+      "description": "India’s English-language international news channel.",
+      "region": "Asia",
+      "featured": false,
+      "quality": "720p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Official WION HLS feed.",
+      "officialWatchUrl": "https://www.wionews.com/live-tv",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "wion-s1",
+          "type": "hls",
+          "url": "https://d7x8z4yuq42qn.cloudfront.net/index_1.m3u8",
+          "provider": "WION",
+          "quality": "720p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official WION HLS endpoint.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "ndtv-24x7",
+      "name": "NDTV 24x7",
+      "altNames": [],
+      "country": "IN",
+      "language": "en",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://dtil.tmsimg.com/assets/s154895_ld_h15_aa.png?lock=720x540",
+      "provider": "NDTV",
+      "description": "Indian English-language news channel with national and international coverage.",
+      "region": "Asia",
+      "featured": false,
+      "quality": "480p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Official NDTV HLS endpoint.",
+      "officialWatchUrl": "https://www.ndtv.com/live-tv",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "ndtv-24x7-s1",
+          "type": "hls",
+          "url": "https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8",
+          "provider": "NDTV",
+          "quality": "480p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official NDTV 24x7 HLS endpoint.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "india-today",
+      "name": "India Today",
+      "altNames": [],
+      "country": "IN",
+      "language": "en",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://dtil.tmsimg.com/assets/s143197_ld_h15_aa.png?lock=720x540",
+      "provider": "India Today Group",
+      "description": "Indian English-language news channel with rolling news and current affairs.",
+      "region": "Asia",
+      "featured": false,
+      "quality": "720p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Official India Today HLS endpoint.",
+      "officialWatchUrl": "https://www.indiatoday.in/live-tv",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "india-today-s1",
+          "type": "hls",
+          "url": "https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/playlist.m3u8",
+          "provider": "India Today",
+          "quality": "720p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official India Today HLS endpoint.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "aaj-tak",
+      "name": "Aaj Tak",
+      "altNames": [],
+      "country": "IN",
+      "language": "hi",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/JYLmXy4.png",
+      "provider": "India Today Group",
+      "description": "Hindi-language news channel from the India Today Group.",
+      "region": "Asia",
+      "featured": false,
+      "quality": "1080p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Official Aaj Tak HLS endpoint.",
+      "officialWatchUrl": "https://www.aajtak.in/live-tv",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "aaj-tak-s1",
+          "type": "hls",
+          "url": "https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8",
+          "provider": "Aaj Tak",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official Aaj Tak HLS endpoint.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "abc-news-australia",
+      "name": "ABC News Australia",
+      "altNames": [],
+      "country": "AU",
+      "language": "en",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/BrW7gk8.png",
+      "provider": "Australian Broadcasting Corporation",
+      "description": "The Australian public broadcaster’s free news channel, with national and Asia-Pacific coverage.",
+      "region": "Oceania",
+      "featured": false,
+      "quality": "720p",
+      "authorization": "public-broadcaster",
+      "authorizationNote": "Official ABC News HLS stream.",
+      "officialWatchUrl": "https://www.abc.net.au/news/newschannel/",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "abc-news-australia-s1",
+          "type": "hls",
+          "url": "https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8",
+          "provider": "ABC Australia",
+          "quality": "720p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official ABC News HLS endpoint.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "sky-news-australia",
+      "name": "Sky News Australia",
+      "altNames": [],
+      "country": "AU",
+      "language": "en",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/NI2728P.png",
+      "provider": "Sky News Australia",
+      "description": "Australian news channel with rolling news, politics and opinion programming.",
+      "region": "Oceania",
+      "featured": false,
+      "quality": "1080p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Official Sky News Australia HLS stream.",
+      "officialWatchUrl": "https://www.skynews.com.au/live",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "sky-news-australia-s1",
+          "type": "hls",
+          "url": "https://skynewsau-live-premium.akamaized.net/hls/live/2105299/skynews/live.m3u8",
+          "provider": "Sky News Australia",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official Sky News Australia HLS endpoint.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "cbc-news-international",
+      "name": "CBC News International",
+      "altNames": [],
+      "country": "CA",
+      "language": "en",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/SjTdhvJ.png",
+      "provider": "CBC / Radio-Canada",
+      "description": "An international news feed from Canada’s public broadcaster.",
+      "region": "North America",
+      "featured": false,
+      "quality": "1080p",
+      "authorization": "public-broadcaster",
+      "authorizationNote": "Official CBC News international FAST feed.",
+      "officialWatchUrl": "https://www.cbc.ca/news/live",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "cbc-news-international-s1",
+          "type": "hls",
+          "url": "https://d2ny9lo79ujali.cloudfront.net/CBC_News_International.m3u8",
+          "provider": "CBC",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official CBC News International HLS feed.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "sky-news",
+      "name": "Sky News",
+      "altNames": [],
+      "country": "GB",
+      "language": "en",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1404.png",
+      "provider": "Sky News",
+      "description": "Sky News’ official YouTube live stream with rolling UK and international news.",
+      "region": "Europe",
+      "featured": true,
+      "quality": "1080p",
+      "authorization": "official-youtube",
+      "authorizationNote": "Official Sky News YouTube channel. Embedding and live availability are controlled by Sky.",
+      "officialWatchUrl": "https://www.youtube.com/channel/UCoMdktPbSTixAyNGwb-UYkQ/live",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "sky-news-s1",
+          "type": "youtube",
+          "url": "https://www.youtube.com/channel/UCoMdktPbSTixAyNGwb-UYkQ/live",
+          "provider": "Sky News (YouTube)",
+          "quality": null,
+          "authorization": "official-youtube",
+          "authorizationNote": "Official broadcaster YouTube channel. Live availability and embedding are controlled by the broadcaster.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "tv5monde-asia",
+      "name": "TV5Monde Asie",
+      "altNames": [],
+      "country": "FR",
+      "language": "fr",
+      "categories": [
+        "culture",
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/FRsRXRR.png",
+      "provider": "TV5Monde",
+      "description": "French-language public broadcaster for Asia, with news, culture and documentaries. Opens on the official TV5Monde site.",
+      "region": "Europe",
+      "featured": false,
+      "quality": "1080p",
+      "authorization": "provider-embed",
+      "authorizationNote": "The official HLS endpoint does not send CORS headers for browser playback, so this listing links to the authorized provider page instead.",
+      "officialWatchUrl": "https://asia.tv5monde.com/",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "tv5monde-asia-s1",
+          "type": "provider",
+          "url": "https://asia.tv5monde.com/",
+          "provider": "TV5Monde",
+          "quality": null,
+          "authorization": "provider-embed",
+          "authorizationNote": "Official provider page. Direct HLS playback is not embedded because the stream lacks browser CORS headers.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "somoy-tv",
+      "name": "Somoy TV",
+      "altNames": [
+        "সময় টিভি"
+      ],
+      "country": "BD",
+      "language": "bn",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://yt3.googleusercontent.com/HIVp56M09fDcVPKGpRXkl47xJcG7JGV5Mwn8E_7TlwmPgjgg1MQ7t_oxiy4xkmgo5fmWxilY3yU=s900-c-k-c0x00ffffff-no-rj",
+      "provider": "Somoy Media Limited",
+      "description": "One of Bangladesh’s leading 24-hour news channels, with breaking news, politics and current affairs.",
+      "region": "Asia",
+      "featured": true,
+      "quality": null,
+      "authorization": "official-youtube",
+      "authorizationNote": "Official broadcaster YouTube channel. Live availability and embedding are controlled by the broadcaster.",
+      "officialWatchUrl": "https://www.youtube.com/channel/UCxHoBXkY88Tb8z1Ssj6CWsQ/live",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "somoy-tv-s1",
+          "type": "youtube",
+          "url": "https://www.youtube.com/channel/UCxHoBXkY88Tb8z1Ssj6CWsQ/live",
+          "provider": "Somoy TV (YouTube)",
+          "quality": null,
+          "authorization": "official-youtube",
+          "authorizationNote": "Official broadcaster YouTube channel. Live availability and embedding are controlled by the broadcaster.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "jamuna-tv",
+      "name": "Jamuna TV",
+      "altNames": [
+        "যমুনা টিভি"
+      ],
+      "country": "BD",
+      "language": "bn",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://yt3.googleusercontent.com/54prTx28YpPxSpk_PfJGuOfQgcZbNdvbfk0adGePrAvINO4Mo9_bw3j-J4seXn6hNGuMr1ck=s900-c-k-c0x00ffffff-no-rj",
+      "provider": "Jamuna Group",
+      "description": "Bangladeshi news channel known for investigative reporting and live coverage.",
+      "region": "Asia",
+      "featured": true,
+      "quality": null,
+      "authorization": "official-youtube",
+      "authorizationNote": "Official broadcaster YouTube channel. Live availability and embedding are controlled by the broadcaster.",
+      "officialWatchUrl": "https://www.youtube.com/channel/UCN6sm8iHiPd0cnoUardDAnw/live",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "jamuna-tv-s1",
+          "type": "youtube",
+          "url": "https://www.youtube.com/channel/UCN6sm8iHiPd0cnoUardDAnw/live",
+          "provider": "Jamuna TV (YouTube)",
+          "quality": null,
+          "authorization": "official-youtube",
+          "authorizationNote": "Official broadcaster YouTube channel. Live availability and embedding are controlled by the broadcaster.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "channel-i",
+      "name": "Channel i",
+      "altNames": [
+        "চ্যানেল আই"
+      ],
+      "country": "BD",
+      "language": "bn",
+      "categories": [
+        "entertainment",
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://yt3.googleusercontent.com/ytc/AIdro_lh1FTz_U0Ddy4wiQQMuI9jdMJb02T7mSaNTbqdgxYTkQ=s900-c-k-c0x00ffffff-no-rj",
+      "provider": "Impress Telefilm",
+      "description": "Bangladeshi general entertainment and news channel with drama, music and cultural programming.",
+      "region": "Asia",
+      "featured": false,
+      "quality": null,
+      "authorization": "official-youtube",
+      "authorizationNote": "Official broadcaster YouTube channel. Live availability and embedding are controlled by the broadcaster.",
+      "officialWatchUrl": "https://www.youtube.com/channel/UCUQ_G2mLEQXm3MfgNPUbgKw/live",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "channel-i-s1",
+          "type": "youtube",
+          "url": "https://www.youtube.com/channel/UCUQ_G2mLEQXm3MfgNPUbgKw/live",
+          "provider": "Channel i (YouTube)",
+          "quality": null,
+          "authorization": "official-youtube",
+          "authorizationNote": "Official broadcaster YouTube channel. Live availability and embedding are controlled by the broadcaster.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "atn-bangla",
+      "name": "ATN Bangla",
+      "altNames": [
+        "এটিএন বাংলা"
+      ],
+      "country": "BD",
+      "language": "bn",
+      "categories": [
+        "entertainment",
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://yt3.googleusercontent.com/dhREYuj-B0b_qbOdwGxrq4tBA4aL0sN5xv-3oPBJsWCcdu2nVDRucKEid_LJB-EDZFhj3E3rLQ=s900-c-k-c0x00ffffff-no-rj",
+      "provider": "Multimedia Production Company",
+      "description": "One of Bangladesh’s first private satellite channels, with entertainment, news and talk shows.",
+      "region": "Asia",
+      "featured": false,
+      "quality": null,
+      "authorization": "official-youtube",
+      "authorizationNote": "Official broadcaster YouTube channel. Live availability and embedding are controlled by the broadcaster.",
+      "officialWatchUrl": "https://www.youtube.com/channel/UCVg8WjB-6bgtcYmrl1hj_Fg/live",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "atn-bangla-s1",
+          "type": "youtube",
+          "url": "https://www.youtube.com/channel/UCVg8WjB-6bgtcYmrl1hj_Fg/live",
+          "provider": "ATN Bangla (YouTube)",
+          "quality": null,
+          "authorization": "official-youtube",
+          "authorizationNote": "Official broadcaster YouTube channel. Live availability and embedding are controlled by the broadcaster.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "rtv",
+      "name": "RTV",
+      "altNames": [
+        "আরটিভি"
+      ],
+      "country": "BD",
+      "language": "bn",
+      "categories": [
+        "news",
+        "entertainment"
+      ],
+      "sports": [],
+      "logo": "https://yt3.googleusercontent.com/ytc/AIdro_lOGHtTcbgIK4NBEttKpT_zf4_LPTlmSPwt1mCAoGrozQ=s900-c-k-c0x00ffffff-no-rj",
+      "provider": "RTV",
+      "description": "Bangladeshi private television channel with news bulletins and entertainment programming.",
+      "region": "Asia",
+      "featured": false,
+      "quality": null,
+      "authorization": "official-youtube",
+      "authorizationNote": "Official broadcaster YouTube channel. Live availability and embedding are controlled by the broadcaster.",
+      "officialWatchUrl": "https://www.youtube.com/channel/UCR0hSGudjeZfnGL3uodU9Sw/live",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "rtv-s1",
+          "type": "youtube",
+          "url": "https://www.youtube.com/channel/UCR0hSGudjeZfnGL3uodU9Sw/live",
+          "provider": "RTV (YouTube)",
+          "quality": null,
+          "authorization": "official-youtube",
+          "authorizationNote": "Official broadcaster YouTube channel. Live availability and embedding are controlled by the broadcaster.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "ntv",
+      "name": "NTV",
+      "altNames": [
+        "এনটিভি"
+      ],
+      "country": "BD",
+      "language": "bn",
+      "categories": [
+        "news",
+        "entertainment"
+      ],
+      "sports": [],
+      "logo": "https://yt3.googleusercontent.com/NgVaE3RsOhC9cIV_6kTp0h2ikrHIFG8QPJF5IrRg_nPiQbQeG-dzK5SHLmi_MDEyVNj73aeSHg=s900-c-k-c0x00ffffff-no-rj",
+      "provider": "International Television Channel Ltd.",
+      "description": "Bangladeshi satellite channel with news, drama and entertainment.",
+      "region": "Asia",
+      "featured": false,
+      "quality": null,
+      "authorization": "official-youtube",
+      "authorizationNote": "Official broadcaster YouTube channel. Live availability and embedding are controlled by the broadcaster.",
+      "officialWatchUrl": "https://www.youtube.com/channel/UC0V3IJCnr6ZNjB9t_GLhFFA/live",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "ntv-s1",
+          "type": "youtube",
+          "url": "https://www.youtube.com/channel/UC0V3IJCnr6ZNjB9t_GLhFFA/live",
+          "provider": "NTV (YouTube)",
+          "quality": null,
+          "authorization": "official-youtube",
+          "authorizationNote": "Official broadcaster YouTube channel. Live availability and embedding are controlled by the broadcaster.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "ekattor-tv",
+      "name": "Ekattor TV",
+      "altNames": [
+        "একাত্তর টিভি"
+      ],
+      "country": "BD",
+      "language": "bn",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://yt3.googleusercontent.com/Nj-mDNlEtWz54fHotok-TwPoYLGzgmyE3MuPzGZRpY5LIzY9kZUEI2UoPHBFvgeKpy0BOjk7=s900-c-k-c0x00ffffff-no-rj",
+      "provider": "Ekattor Media Limited",
+      "description": "Bangladeshi news channel with a focus on independent journalism and live coverage.",
+      "region": "Asia",
+      "featured": false,
+      "quality": null,
+      "authorization": "official-youtube",
+      "authorizationNote": "Official broadcaster YouTube channel. Live availability and embedding are controlled by the broadcaster.",
+      "officialWatchUrl": "https://www.youtube.com/channel/UC0ymyAHCxFl55r3mWg8M3hQ/live",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "ekattor-tv-s1",
+          "type": "youtube",
+          "url": "https://www.youtube.com/channel/UC0ymyAHCxFl55r3mWg8M3hQ/live",
+          "provider": "Ekattor TV (YouTube)",
+          "quality": null,
+          "authorization": "official-youtube",
+          "authorizationNote": "Official broadcaster YouTube channel. Live availability and embedding are controlled by the broadcaster.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "independent-tv",
+      "name": "Independent TV",
+      "altNames": [
+        "ইনডিপেনডেন্ট টিভি"
+      ],
+      "country": "BD",
+      "language": "bn",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://yt3.googleusercontent.com/JO8MicN497ze8WVXcu-wmA2WAMqhO8UIQhslV3VhiRu1kaQU3r9nOB4IVkmUt0ALC23DVSSp=s900-c-k-c0x00ffffff-no-rj",
+      "provider": "Independent Television",
+      "description": "Bangladeshi news channel with national and international coverage.",
+      "region": "Asia",
+      "featured": false,
+      "quality": null,
+      "authorization": "official-youtube",
+      "authorizationNote": "Official broadcaster YouTube channel. Live availability and embedding are controlled by the broadcaster.",
+      "officialWatchUrl": "https://www.youtube.com/channel/UCATUkaOHwO9EP_W87zCiPbA/live",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "independent-tv-s1",
+          "type": "youtube",
+          "url": "https://www.youtube.com/channel/UCATUkaOHwO9EP_W87zCiPbA/live",
+          "provider": "Independent TV (YouTube)",
+          "quality": null,
+          "authorization": "official-youtube",
+          "authorizationNote": "Official broadcaster YouTube channel. Live availability and embedding are controlled by the broadcaster.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "dbc-news",
+      "name": "DBC News",
+      "altNames": [
+        "ডিবিসি নিউজ"
+      ],
+      "country": "BD",
+      "language": "bn",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://yt3.googleusercontent.com/ytc/AIdro_mcjICfjqYwOn4eljNmtsZLBpOmW0t0JlzJUhXSslAkBVo=s900-c-k-c0x00ffffff-no-rj",
+      "provider": "Dhaka Bangla Media",
+      "description": "Bangladeshi news channel with rolling bulletins and live events.",
+      "region": "Asia",
+      "featured": false,
+      "quality": null,
+      "authorization": "official-youtube",
+      "authorizationNote": "Official broadcaster YouTube channel. Live availability and embedding are controlled by the broadcaster.",
+      "officialWatchUrl": "https://www.youtube.com/channel/UCUvXoiDEKI8VZJrr58g4VAw/live",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "dbc-news-s1",
+          "type": "youtube",
+          "url": "https://www.youtube.com/channel/UCUvXoiDEKI8VZJrr58g4VAw/live",
+          "provider": "DBC News (YouTube)",
+          "quality": null,
+          "authorization": "official-youtube",
+          "authorizationNote": "Official broadcaster YouTube channel. Live availability and embedding are controlled by the broadcaster.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "maasranga-tv",
+      "name": "Maasranga TV",
+      "altNames": [
+        "মাছরাঙা টিভি"
+      ],
+      "country": "BD",
+      "language": "bn",
+      "categories": [
+        "entertainment",
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://yt3.googleusercontent.com/ytc/AIdro_mxgmnbxSkawdY7IMQsOYvh0ObBGpWk5XxLyD9BimxYZMs=s900-c-k-c0x00ffffff-no-rj",
+      "provider": "Maasranga Television",
+      "description": "Bangladeshi entertainment and news channel with drama, sports and current affairs.",
+      "region": "Asia",
+      "featured": false,
+      "quality": null,
+      "authorization": "official-youtube",
+      "authorizationNote": "Official broadcaster YouTube channel. Live availability and embedding are controlled by the broadcaster.",
+      "officialWatchUrl": "https://www.youtube.com/channel/UCsVlf7Cr6RA81GFiU_qS5EQ/live",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "maasranga-tv-s1",
+          "type": "youtube",
+          "url": "https://www.youtube.com/channel/UCsVlf7Cr6RA81GFiU_qS5EQ/live",
+          "provider": "Maasranga TV (YouTube)",
+          "quality": null,
+          "authorization": "official-youtube",
+          "authorizationNote": "Official broadcaster YouTube channel. Live availability and embedding are controlled by the broadcaster.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "channel-24",
+      "name": "Channel 24",
+      "altNames": [
+        "চ্যানেল ২৪"
+      ],
+      "country": "BD",
+      "language": "bn",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://yt3.googleusercontent.com/8Q8MCd6ypr2Hzbp60VE_stJPl063kQYfeTxdIQkAXRfhdzxByLl0sJYHsk43uTM4W_cOzwcbPQ=s900-c-k-c0x00ffffff-no-rj",
+      "provider": "Times Media",
+      "description": "Bangladeshi 24-hour news channel with live bulletins and talk shows.",
+      "region": "Asia",
+      "featured": false,
+      "quality": null,
+      "authorization": "official-youtube",
+      "authorizationNote": "Official broadcaster YouTube channel. Live availability and embedding are controlled by the broadcaster.",
+      "officialWatchUrl": "https://www.youtube.com/channel/UCHLqIOMPk20w-6cFgkA90jw/live",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "channel-24-s1",
+          "type": "youtube",
+          "url": "https://www.youtube.com/channel/UCHLqIOMPk20w-6cFgkA90jw/live",
+          "provider": "Channel 24 (YouTube)",
+          "quality": null,
+          "authorization": "official-youtube",
+          "authorizationNote": "Official broadcaster YouTube channel. Live availability and embedding are controlled by the broadcaster.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "bangla-vision",
+      "name": "Bangla Vision",
+      "altNames": [
+        "বাংলা ভিশন"
+      ],
+      "country": "BD",
+      "language": "bn",
+      "categories": [
+        "news",
+        "entertainment"
+      ],
+      "sports": [],
+      "logo": "https://yt3.googleusercontent.com/XZE2K34ledGloBod-N-XZbBFJQhW4SJCbOzrI4ev3hkabqJBIQ6bggEWG6q9cCYiygw_NqcvOFE=s900-c-k-c0x00ffffff-no-rj",
+      "provider": "Bangla Vision",
+      "description": "Bangladeshi satellite channel with news, drama and entertainment.",
+      "region": "Asia",
+      "featured": false,
+      "quality": null,
+      "authorization": "official-youtube",
+      "authorizationNote": "Official broadcaster YouTube channel. Live availability and embedding are controlled by the broadcaster.",
+      "officialWatchUrl": "https://www.youtube.com/channel/UCAIEufoszs1J38-pKECORRg/live",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "bangla-vision-s1",
+          "type": "youtube",
+          "url": "https://www.youtube.com/channel/UCAIEufoszs1J38-pKECORRg/live",
+          "provider": "Bangla Vision (YouTube)",
+          "quality": null,
+          "authorization": "official-youtube",
+          "authorizationNote": "Official broadcaster YouTube channel. Live availability and embedding are controlled by the broadcaster.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "nagorik-tv",
+      "name": "Nagorik TV",
+      "altNames": [
+        "নাগরিক টিভি"
+      ],
+      "country": "BD",
+      "language": "bn",
+      "categories": [
+        "news",
+        "entertainment"
+      ],
+      "sports": [],
+      "logo": "https://yt3.googleusercontent.com/ytc/AIdro_nykIzQGpGcqmNF_jpUTWWKMKMatCeU8p701b9XZTn_ZnM=s900-c-k-c0x00ffffff-no-rj",
+      "provider": "Nagorik Media",
+      "description": "Bangladeshi channel with news, current affairs and entertainment.",
+      "region": "Asia",
+      "featured": false,
+      "quality": null,
+      "authorization": "official-youtube",
+      "authorizationNote": "Official broadcaster YouTube channel. Live availability and embedding are controlled by the broadcaster.",
+      "officialWatchUrl": "https://www.youtube.com/channel/UCu5_9xekpXOIlyqRHWqOd_Q/live",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "nagorik-tv-s1",
+          "type": "youtube",
+          "url": "https://www.youtube.com/channel/UCu5_9xekpXOIlyqRHWqOd_Q/live",
+          "provider": "Nagorik TV (YouTube)",
+          "quality": null,
+          "authorization": "official-youtube",
+          "authorizationNote": "Official broadcaster YouTube channel. Live availability and embedding are controlled by the broadcaster.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "news24",
+      "name": "News24",
+      "altNames": [
+        "নিউজ ২৪"
+      ],
+      "country": "BD",
+      "language": "bn",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://yt3.googleusercontent.com/bn7BHmnbqkIJMoQWzUk3K5Wzzt_mVgVdjQ5XV8PWdQS18_w4ZVZOSFwe_ZIKaO3KitQPVuQczA=s900-c-k-c0x00ffffff-no-rj",
+      "provider": "News24",
+      "description": "Bangladeshi 24-hour news channel with rolling coverage and live updates.",
+      "region": "Asia",
+      "featured": false,
+      "quality": null,
+      "authorization": "official-youtube",
+      "authorizationNote": "Official broadcaster YouTube channel. Live availability and embedding are controlled by the broadcaster.",
+      "officialWatchUrl": "https://www.youtube.com/channel/UCb2O5Uo4a26CdTE7_2QA-jA/live",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "news24-s1",
+          "type": "youtube",
+          "url": "https://www.youtube.com/channel/UCb2O5Uo4a26CdTE7_2QA-jA/live",
+          "provider": "News24 (YouTube)",
+          "quality": null,
+          "authorization": "official-youtube",
+          "authorizationNote": "Official broadcaster YouTube channel. Live availability and embedding are controlled by the broadcaster.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "btv",
+      "name": "Bangladesh Television",
+      "altNames": [
+        "BTV",
+        "বাংলাদেশ টেলিভিশন"
+      ],
+      "country": "BD",
+      "language": "bn",
+      "categories": [
+        "news",
+        "entertainment"
+      ],
+      "sports": [],
+      "logo": "https://yt3.googleusercontent.com/ytc/AIdro_nL2jYMpSFZHSV47_1T3Kdx_oACYy6EB7G9bzWr_UQJMw=s900-c-k-c0x00ffffff-no-rj",
+      "provider": "Bangladesh Television",
+      "description": "The state-owned public broadcaster of Bangladesh. Live availability on YouTube varies by schedule.",
+      "region": "Asia",
+      "featured": false,
+      "quality": null,
+      "authorization": "official-youtube",
+      "authorizationNote": "Official broadcaster YouTube channel. Live availability and embedding are controlled by the broadcaster.",
+      "officialWatchUrl": "https://www.youtube.com/channel/UClzwimpLoZu9us9MwalLbtA/live",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "btv-s1",
+          "type": "youtube",
+          "url": "https://www.youtube.com/channel/UClzwimpLoZu9us9MwalLbtA/live",
+          "provider": "Bangladesh Television (YouTube)",
+          "quality": null,
+          "authorization": "official-youtube",
+          "authorizationNote": "Official public broadcaster YouTube channel. Live availability is controlled by BTV.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "atn-news",
+      "name": "ATN News",
+      "altNames": [
+        "এটিএন নিউজ"
+      ],
+      "country": "BD",
+      "language": "bn",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://yt3.googleusercontent.com/I4MzJxtQQBa2SToxkY_r2OaxnLQ0X2csOD7zoUhkBPx8xwNFfoBKMqYyuH4IKUZCMR4nOXw=s900-c-k-c0x00ffffff-no-rj",
+      "provider": "Multimedia Production Company",
+      "description": "Bangladeshi news channel with bulletins, business and current affairs.",
+      "region": "Asia",
+      "featured": false,
+      "quality": null,
+      "authorization": "official-youtube",
+      "authorizationNote": "Official broadcaster YouTube channel. Live availability and embedding are controlled by the broadcaster.",
+      "officialWatchUrl": "https://www.youtube.com/channel/UCbgcYEdMsuypG2NJ-znBp3w/live",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "atn-news-s1",
+          "type": "youtube",
+          "url": "https://www.youtube.com/channel/UCbgcYEdMsuypG2NJ-znBp3w/live",
+          "provider": "ATN News (YouTube)",
+          "quality": null,
+          "authorization": "official-youtube",
+          "authorizationNote": "Official broadcaster YouTube channel. Live availability and embedding are controlled by the broadcaster.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "deepto-tv",
+      "name": "Deepto TV",
+      "altNames": [
+        "দীপ্ত টিভি"
+      ],
+      "country": "BD",
+      "language": "bn",
+      "categories": [
+        "entertainment",
+        "family"
+      ],
+      "sports": [],
+      "logo": "https://yt3.googleusercontent.com/ytc/AIdro_mAd_68MdZlq04iEEHF6HGv9wj-9pBEHHcnVZBX9uKGzI4=s900-c-k-c0x00ffffff-no-rj",
+      "provider": "Kazi Media",
+      "description": "Bangladeshi entertainment channel with drama serials, films and family programming.",
+      "region": "Asia",
+      "featured": false,
+      "quality": null,
+      "authorization": "official-youtube",
+      "authorizationNote": "Official broadcaster YouTube channel. Live availability and embedding are controlled by the broadcaster.",
+      "officialWatchUrl": "https://www.youtube.com/channel/UC-xwwLWkh1Ypt90iJ7BvBew/live",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "deepto-tv-s1",
+          "type": "youtube",
+          "url": "https://www.youtube.com/channel/UC-xwwLWkh1Ypt90iJ7BvBew/live",
+          "provider": "Deepto TV (YouTube)",
+          "quality": null,
+          "authorization": "official-youtube",
+          "authorizationNote": "Official broadcaster YouTube channel. Live availability and embedding are controlled by the broadcaster.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "duronto-tv",
+      "name": "Duronto TV",
+      "altNames": [
+        "দুরন্ত টিভি"
+      ],
+      "country": "BD",
+      "language": "bn",
+      "categories": [
+        "kids",
+        "family"
+      ],
+      "sports": [],
+      "logo": "https://yt3.googleusercontent.com/Aao4N9YdOnSrar6JNETeZOqOUs7d3H-yJdSmrm49aBXvBzIa5IVI7yOEP-yh_fqO51az-zN4BR0=s900-c-k-c0x00ffffff-no-rj",
+      "provider": "Duronto TV",
+      "description": "Bangladesh’s dedicated children’s television channel, with cartoons and learning programmes.",
+      "region": "Asia",
+      "featured": false,
+      "quality": null,
+      "authorization": "official-youtube",
+      "authorizationNote": "Official broadcaster YouTube channel. Live availability and embedding are controlled by the broadcaster.",
+      "officialWatchUrl": "https://www.youtube.com/channel/UCFpAtv5HG8zFVTblY4liS5g/live",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "duronto-tv-s1",
+          "type": "youtube",
+          "url": "https://www.youtube.com/channel/UCFpAtv5HG8zFVTblY4liS5g/live",
+          "provider": "Duronto TV (YouTube)",
+          "quality": null,
+          "authorization": "official-youtube",
+          "authorizationNote": "Official broadcaster YouTube channel. Live availability and embedding are controlled by the broadcaster.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "t-sports",
+      "name": "T Sports",
+      "altNames": [
+        "টি স্পোর্টস"
+      ],
+      "country": "BD",
+      "language": "bn",
+      "categories": [
+        "sports"
+      ],
+      "sports": [
+        "cricket",
+        "football",
+        "other"
+      ],
+      "logo": "https://yt3.googleusercontent.com/IFgAG_o_AdtX4IauErKIzuFGCj0m4QyH81Q1Uq8H-2Si9ul3vmXkLihDUnn6-QI3xiMZech0AQ=s900-c-k-c0x00ffffff-no-rj",
+      "provider": "T Sports",
+      "description": "Bangladesh’s dedicated sports channel. Official YouTube live when broadcast rights allow.",
+      "region": "Asia",
+      "featured": true,
+      "quality": null,
+      "authorization": "official-youtube",
+      "authorizationNote": "Official broadcaster YouTube channel. Live availability and embedding are controlled by the broadcaster.",
+      "officialWatchUrl": "https://www.youtube.com/channel/UCCqIQrVd8vknHzLoYzg8OcQ/live",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "t-sports-s1",
+          "type": "youtube",
+          "url": "https://www.youtube.com/channel/UCCqIQrVd8vknHzLoYzg8OcQ/live",
+          "provider": "T Sports (YouTube)",
+          "quality": null,
+          "authorization": "official-youtube",
+          "authorizationNote": "Official T Sports YouTube channel. Some events are geo-restricted or not streamed on YouTube.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "gaan-bangla",
+      "name": "Gaan Bangla",
+      "altNames": [
+        "গান বাংলা"
+      ],
+      "country": "BD",
+      "language": "bn",
+      "categories": [
+        "music"
+      ],
+      "sports": [],
+      "logo": "https://yt3.googleusercontent.com/ytc/AIdro_kO8uM2Iwy-Ydtu6i3Gsku6Q2dskadTbtOUIEZ7BvGdNWQ=s900-c-k-c0x00ffffff-no-rj",
+      "provider": "Gaan Bangla",
+      "description": "Bangladeshi music television channel. Opens on its official YouTube channel because the broadcaster controls live embedding.",
+      "region": "Asia",
+      "featured": false,
+      "quality": null,
+      "authorization": "provider-embed",
+      "authorizationNote": "Embedding is not consistently permitted for this channel, so the listing opens the official YouTube page.",
+      "officialWatchUrl": "https://www.youtube.com/channel/UCQE1lrNtxcz0Na4F0afHrPw/live",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "gaan-bangla-s1",
+          "type": "provider",
+          "url": "https://www.youtube.com/channel/UCQE1lrNtxcz0Na4F0afHrPw/live",
+          "provider": "Gaan Bangla (YouTube)",
+          "quality": null,
+          "authorization": "provider-embed",
+          "authorizationNote": "Official channel link; playback happens on YouTube.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "madani-channel-bangla",
+      "name": "Madani Channel Bangla",
+      "altNames": [],
+      "country": "BD",
+      "language": "bn",
+      "categories": [
+        "religious"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/vIJTVia.png",
+      "provider": "Madani Channel",
+      "description": "Bangla-language Islamic channel operated by Madani Channel, with an official free HLS stream.",
+      "region": "Asia",
+      "featured": false,
+      "quality": "1080p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Official Madani Channel HLS stream.",
+      "officialWatchUrl": "https://www.madanichannel.tv/",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "madani-channel-bangla-s1",
+          "type": "hls",
+          "url": "https://streaming.madanichannel.tv/static/streaming-playlists/hls/d3e49b76-ac06-4689-a641-9200445b647f/master.m3u8",
+          "provider": "Madani Channel",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official Madani Channel HLS endpoint.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "red-bull-tv",
+      "name": "Red Bull TV",
+      "altNames": [],
+      "country": "AT",
+      "language": "en",
+      "categories": [
+        "sports",
+        "lifestyle"
+      ],
+      "sports": [
+        "motorsport",
+        "other"
+      ],
+      "logo": "https://i.postimg.cc/8c78JM28/image.png",
+      "provider": "Red Bull",
+      "description": "Free action sports, motorsport, music and outdoor channel operated by Red Bull.",
+      "region": "Europe",
+      "featured": true,
+      "quality": "1080p",
+      "authorization": "official-fast",
+      "authorizationNote": "Official Red Bull TV HLS stream.",
+      "officialWatchUrl": "https://www.redbull.com/tv",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "red-bull-tv-s1",
+          "type": "hls",
+          "url": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8",
+          "provider": "Red Bull TV",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official Red Bull TV HLS endpoint.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "fifa-plus",
+      "name": "FIFA+",
+      "altNames": [],
+      "country": "GB",
+      "language": "en",
+      "categories": [
+        "sports"
+      ],
+      "sports": [
+        "football"
+      ],
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/9/9c/FIFA%2B_%282025%29.svg",
+      "provider": "FIFA",
+      "description": "FIFA’s official free football channel with selected live matches, replays and original programming. Rights vary by territory.",
+      "region": "Europe",
+      "featured": true,
+      "quality": "720p",
+      "authorization": "official-fast",
+      "authorizationNote": "Publisher-operated FIFA+ FAST feed distributed via Wurl.",
+      "officialWatchUrl": "https://www.plus.fifa.com/",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "fifa-plus-s1",
+          "type": "hls",
+          "url": "https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8",
+          "provider": "FIFA+ / Wurl",
+          "quality": "720p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official FIFA+ English FAST feed.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "fifa-plus-women",
+      "name": "FIFA+ Women",
+      "altNames": [],
+      "country": "GB",
+      "language": "en",
+      "categories": [
+        "sports"
+      ],
+      "sports": [
+        "football"
+      ],
+      "logo": "https://i.ibb.co/LhpwRm8V/GB3800009-F0-20251028-T010335-SQUARE.png",
+      "provider": "FIFA",
+      "description": "Women’s football channel from FIFA+ with matches, highlights and features where rights permit.",
+      "region": "Europe",
+      "featured": false,
+      "quality": "720p",
+      "authorization": "official-fast",
+      "authorizationNote": "Publisher-operated FIFA+ Women FAST feed distributed via Wurl.",
+      "officialWatchUrl": "https://www.plus.fifa.com/",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "fifa-plus-women-s1",
+          "type": "hls",
+          "url": "https://cffda8ff.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9GSUZBUGx1c3dvbWVuX0hMUw/playlist.m3u8",
+          "provider": "FIFA+ / Wurl",
+          "quality": "720p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official FIFA+ Women FAST feed.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "cbs-sports-golazo",
+      "name": "CBS Sports Golazo Network",
+      "altNames": [],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "sports"
+      ],
+      "sports": [
+        "football"
+      ],
+      "logo": "https://i.imgur.com/eMjutHS.png",
+      "provider": "CBS Sports",
+      "description": "Free 24/7 football (soccer) news, analysis and live match coverage from CBS Sports.",
+      "region": "North America",
+      "featured": false,
+      "quality": "720p",
+      "authorization": "official-fast",
+      "authorizationNote": "Publisher-operated CBS Sports FAST feed via Google DAI.",
+      "officialWatchUrl": "https://www.cbssports.com/live/",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "cbs-sports-golazo-s1",
+          "type": "hls",
+          "url": "https://dai.google.com/linear/hls/event/7f3Wv6f7QEKfQna22jHqLQ/master.m3u8",
+          "provider": "CBS Sports / Google DAI",
+          "quality": "720p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official CBS Sports Golazo FAST feed.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "tennis-channel",
+      "name": "Tennis Channel",
+      "altNames": [],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "sports"
+      ],
+      "sports": [
+        "tennis"
+      ],
+      "logo": "https://i.imgur.com/tsljAnY.png",
+      "provider": "Tennis Channel",
+      "description": "Free FAST tennis channel with match coverage, highlights and analysis where rights allow.",
+      "region": "North America",
+      "featured": false,
+      "quality": "1080p",
+      "authorization": "official-fast",
+      "authorizationNote": "Publisher-operated Tennis Channel FAST feed distributed via Amagi.",
+      "officialWatchUrl": "https://www.tennischannel.com/",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "tennis-channel-s1",
+          "type": "hls",
+          "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8",
+          "provider": "Tennis Channel / Amagi",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Publisher-operated FAST feed.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "world-poker-tour",
+      "name": "World Poker Tour",
+      "altNames": [],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "sports"
+      ],
+      "sports": [
+        "other"
+      ],
+      "logo": "https://i.imgur.com/98kLMjj.png",
+      "provider": "World Poker Tour",
+      "description": "Poker tournaments, highlights and analysis from the World Poker Tour’s free FAST channel.",
+      "region": "North America",
+      "featured": false,
+      "quality": "1080p",
+      "authorization": "official-fast",
+      "authorizationNote": "Publisher-operated World Poker Tour FAST feed distributed via Amagi.",
+      "officialWatchUrl": "https://www.wpt.com/",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "world-poker-tour-s1",
+          "type": "hls",
+          "url": "https://amg00477-samsungelectron-worldpokertour-samsunguk-81igb.amagi.tv/playlist/amg00477-samsungelectron-worldpokertour-samsunguk/playlist.m3u8",
+          "provider": "World Poker Tour / Amagi",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Publisher-operated FAST feed.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "vevo-pop",
+      "name": "Vevo Pop",
+      "altNames": [],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "music"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/dZHktKR.png",
+      "provider": "Vevo",
+      "description": "Pop music videos from Vevo’s official free ad-supported channel.",
+      "region": "North America",
+      "featured": false,
+      "quality": "1080p",
+      "authorization": "official-fast",
+      "authorizationNote": "Publisher-operated Vevo FAST feed.",
+      "officialWatchUrl": "https://www.vevo.com/",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "vevo-pop-s1",
+          "type": "hls",
+          "url": "https://d2n5ee9u100agb.cloudfront.net/Vevo_Pop.m3u8",
+          "provider": "Vevo",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official Vevo Pop FAST feed.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "vevo-2k",
+      "name": "Vevo 2K",
+      "altNames": [],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "music"
+      ],
+      "sports": [],
+      "logo": "https://images.pluto.tv/channels/5fd7bca3e0a4ee0007a38e8c/featuredImage.jpg",
+      "provider": "Vevo",
+      "description": "2000s music videos from Vevo’s free ad-supported channel.",
+      "region": "North America",
+      "featured": false,
+      "quality": "1080p",
+      "authorization": "official-fast",
+      "authorizationNote": "Publisher-operated Vevo FAST feed.",
+      "officialWatchUrl": "https://www.vevo.com/",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "vevo-2k-s1",
+          "type": "hls",
+          "url": "https://d3150hggbcolbo.cloudfront.net/Vevo_2K.m3u8",
+          "provider": "Vevo",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official Vevo 2K FAST feed.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "vevo-80s",
+      "name": "Vevo '80s",
+      "altNames": [],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "music"
+      ],
+      "sports": [],
+      "logo": "https://images.pluto.tv/channels/5fd7b8bf927e090007685853/featuredImage.jpg",
+      "provider": "Vevo",
+      "description": "1980s music videos from Vevo’s free ad-supported channel.",
+      "region": "North America",
+      "featured": false,
+      "quality": "1080p",
+      "authorization": "official-fast",
+      "authorizationNote": "Publisher-operated Vevo FAST feed.",
+      "officialWatchUrl": "https://www.vevo.com/",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "vevo-80s-s1",
+          "type": "hls",
+          "url": "https://d3svsvgc81yfe1.cloudfront.net/Vevo_80s.m3u8",
+          "provider": "Vevo",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official Vevo 80s FAST feed.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "vevo-hip-hop",
+      "name": "Vevo Hip-Hop",
+      "altNames": [],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "music"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/Lbc9cYw.png",
+      "provider": "Vevo",
+      "description": "Hip-hop music videos from Vevo’s free ad-supported channel.",
+      "region": "North America",
+      "featured": false,
+      "quality": "1080p",
+      "authorization": "official-fast",
+      "authorizationNote": "Publisher-operated Vevo FAST feed.",
+      "officialWatchUrl": "https://www.vevo.com/",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "vevo-hip-hop-s1",
+          "type": "hls",
+          "url": "https://d3vgs3ro3x6v8a.cloudfront.net/Vevo_Hip_Hop.m3u8",
+          "provider": "Vevo",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official Vevo Hip-Hop FAST feed.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "pbs-kids",
+      "name": "PBS Kids",
+      "altNames": [],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "kids",
+        "education",
+        "family"
+      ],
+      "sports": [],
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e3/PBS_Kids_logo_%282022%29.svg",
+      "provider": "PBS",
+      "description": "PBS Kids’ free 24/7 children’s channel with educational and family programming.",
+      "region": "North America",
+      "featured": true,
+      "quality": "720p",
+      "authorization": "public-broadcaster",
+      "authorizationNote": "Official PBS Kids HLS stream.",
+      "officialWatchUrl": "https://pbskids.org/",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "pbs-kids-s1",
+          "type": "hls",
+          "url": "https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est.m3u8",
+          "provider": "PBS Kids",
+          "quality": "720p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official PBS Kids HLS endpoint.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "moonbug-kids",
+      "name": "Moonbug Kids",
+      "altNames": [],
+      "country": "GB",
+      "language": "en",
+      "categories": [
+        "kids",
+        "family"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/vZHtxQb.png",
+      "provider": "Moonbug Entertainment",
+      "description": "Kids’ animation channel featuring popular Moonbug characters and songs.",
+      "region": "Europe",
+      "featured": false,
+      "quality": "1080p",
+      "authorization": "official-fast",
+      "authorizationNote": "Publisher-operated Moonbug FAST feed.",
+      "officialWatchUrl": "https://www.moonbug.com/",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "moonbug-kids-s1",
+          "type": "hls",
+          "url": "https://dq2a9ghraf7sw.cloudfront.net/Moonbug.m3u8",
+          "provider": "Moonbug",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official Moonbug FAST feed.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "baby-shark-tv",
+      "name": "Baby Shark TV",
+      "altNames": [],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "kids",
+        "family"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/SbBKr8L.png",
+      "provider": "Pinkfong",
+      "description": "Baby Shark and friends in a free ad-supported children’s channel from Pinkfong.",
+      "region": "North America",
+      "featured": false,
+      "quality": "1080p",
+      "authorization": "official-fast",
+      "authorizationNote": "Publisher-operated Baby Shark TV FAST feed.",
+      "officialWatchUrl": "https://www.pinkfong.com/",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "baby-shark-tv-s1",
+          "type": "hls",
+          "url": "https://newidco-babysharktv-1-us.roku.wurl.tv/playlist.m3u8",
+          "provider": "Pinkfong / Wurl",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official Baby Shark TV FAST feed.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "nasa-tv",
+      "name": "NASA TV",
+      "altNames": [],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "documentary",
+        "education"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/ywQRvDc.png",
+      "provider": "NASA",
+      "description": "NASA’s official public channel with mission coverage, launches, spacewalks and science programming.",
+      "region": "North America",
+      "featured": true,
+      "quality": "1080p",
+      "authorization": "public-broadcaster",
+      "authorizationNote": "Official NASA HLS stream.",
+      "officialWatchUrl": "https://www.nasa.gov/live/",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "nasa-tv-s1",
+          "type": "hls",
+          "url": "https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8",
+          "provider": "NASA",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official NASA TV HLS endpoint.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "wildearth",
+      "name": "WildEarth",
+      "altNames": [],
+      "country": "ZA",
+      "language": "en",
+      "categories": [
+        "documentary",
+        "lifestyle"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/Vhv5gjN.png",
+      "provider": "WildEarth",
+      "description": "Live safari and nature broadcasts from African wildlife reserves.",
+      "region": "Africa",
+      "featured": false,
+      "quality": "1080p",
+      "authorization": "official-fast",
+      "authorizationNote": "Publisher-operated WildEarth FAST feed distributed via Amagi.",
+      "officialWatchUrl": "https://wildearth.com/",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "wildearth-s1",
+          "type": "hls",
+          "url": "https://wildearth-ono.amagi.tv/playlist/amg01290-wildearth-oando/playlist.m3u8",
+          "provider": "WildEarth / Amagi",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Publisher-operated WildEarth FAST feed.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "cgtn-documentary",
+      "name": "CGTN Documentary",
+      "altNames": [],
+      "country": "CN",
+      "language": "en",
+      "categories": [
+        "documentary"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/JHv0WxM.png",
+      "provider": "CGTN",
+      "description": "English-language documentary channel from CGTN covering history, science and culture.",
+      "region": "Asia",
+      "featured": false,
+      "quality": "1080p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Official CGTN Documentary HLS stream.",
+      "officialWatchUrl": "https://www.cgtn.com/channel/documentary",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "cgtn-documentary-s1",
+          "type": "hls",
+          "url": "https://english-livebkali.cgtn.com/live/doccgtn.m3u8",
+          "provider": "CGTN",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official CGTN Documentary HLS endpoint.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "bloomberg-originals",
+      "name": "Bloomberg Originals",
+      "altNames": [],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "documentary",
+        "business"
+      ],
+      "sports": [],
+      "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Bloomberg_Originals.png",
+      "provider": "Bloomberg",
+      "description": "Business documentaries and original series from Bloomberg’s free channel.",
+      "region": "North America",
+      "featured": false,
+      "quality": "1080p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Official Bloomberg media-manifest HLS stream.",
+      "officialWatchUrl": "https://www.bloomberg.com/originals",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "bloomberg-originals-s1",
+          "type": "hls",
+          "url": "https://www.bloomberg.com/media-manifest/streams/originals-global.m3u8",
+          "provider": "Bloomberg",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official Bloomberg Originals HLS manifest.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "filmrise-classic-tv",
+      "name": "FilmRise Classic TV",
+      "altNames": [],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "movies",
+        "entertainment"
+      ],
+      "sports": [],
+      "logo": "https://provider-static.plex.tv/epg/cms/production/028c779c-2a24-4782-a9e4-f66614e170df/FilmRise_ClassicTV_1500x1000_Dark_Logo.png",
+      "provider": "FilmRise",
+      "description": "Classic television series from FilmRise’s free ad-supported channel.",
+      "region": "North America",
+      "featured": false,
+      "quality": "720p",
+      "authorization": "official-fast",
+      "authorizationNote": "Publisher-operated FilmRise FAST feed.",
+      "officialWatchUrl": "https://filmrise.com/",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "filmrise-classic-tv-s1",
+          "type": "hls",
+          "url": "https://d2tv4k5moji5m7.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-lu4pzh9l4b57p/master.m3u8",
+          "provider": "FilmRise",
+          "quality": "720p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official FilmRise Classic TV FAST feed.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "filmrise-anime",
+      "name": "FilmRise Anime",
+      "altNames": [],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "movies",
+        "entertainment"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/3wqeGXM.png",
+      "provider": "FilmRise",
+      "description": "Anime series and films from FilmRise’s free ad-supported channel.",
+      "region": "North America",
+      "featured": false,
+      "quality": "720p",
+      "authorization": "official-fast",
+      "authorizationNote": "Publisher-operated FilmRise FAST feed.",
+      "officialWatchUrl": "https://filmrise.com/",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "filmrise-anime-s1",
+          "type": "hls",
+          "url": "https://dvu7aia8rjlfm.cloudfront.net/master.m3u8",
+          "provider": "FilmRise",
+          "quality": "720p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official FilmRise Anime FAST feed.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "dust",
+      "name": "DUST",
+      "altNames": [],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "movies",
+        "entertainment"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/FxYhME9.png",
+      "provider": "DUST",
+      "description": "Science-fiction short films and series from DUST’s free channel.",
+      "region": "North America",
+      "featured": false,
+      "quality": "1080p",
+      "authorization": "official-fast",
+      "authorizationNote": "Publisher-operated DUST FAST feed.",
+      "officialWatchUrl": "https://www.watchdust.com/",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "dust-s1",
+          "type": "hls",
+          "url": "https://dqi7ayt2o24fn.cloudfront.net/playlist.m3u8",
+          "provider": "DUST",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official DUST FAST feed.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "fox-weather",
+      "name": "Fox Weather",
+      "altNames": [],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "weather",
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://lh3.googleusercontent.com/_MLPVWviF17NG-_Wrd0M-nCTeBMBmimUp21LMqSfayg0UGbxQw8NQtk2R8pI3FAVHwdAcs67_5_hXQ",
+      "provider": "FOX",
+      "description": "Free 24/7 weather news and forecasting channel from Fox Weather.",
+      "region": "North America",
+      "featured": false,
+      "quality": "720p",
+      "authorization": "official-fast",
+      "authorizationNote": "Publisher-operated FOX Weather HLS feed.",
+      "officialWatchUrl": "https://www.foxweather.com/live",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "fox-weather-s1",
+          "type": "hls",
+          "url": "https://247wlive.foxweather.com/stream/index.m3u8",
+          "provider": "Fox Weather",
+          "quality": "720p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official Fox Weather HLS endpoint.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "accuweather-now",
+      "name": "AccuWeather NOW",
+      "altNames": [],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "weather"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/M8wbVYK.png",
+      "provider": "AccuWeather",
+      "description": "Free weather news and forecasts from AccuWeather’s streaming channel.",
+      "region": "North America",
+      "featured": false,
+      "quality": "1080p",
+      "authorization": "official-fast",
+      "authorizationNote": "Publisher-operated AccuWeather FAST feed.",
+      "officialWatchUrl": "https://www.accuweather.com/en/accuweather-now",
+      "addedAt": "2026-11-10",
+      "updatedAt": "2026-11-10",
+      "sources": [
+        {
+          "id": "accuweather-now-s1",
+          "type": "hls",
+          "url": "https://d1gldweznovt26.cloudfront.net/Accuweather.m3u8",
+          "provider": "AccuWeather",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official AccuWeather NOW FAST feed.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    }
+  ]
+}
