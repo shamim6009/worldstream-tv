@@ -1,0 +1,4 @@
+# Cloudflare Pages & Netlify: SPA fallback for client-only routes (search, local playlists, sports/:sport).
+# Existing prerendered files are served first; this only applies to paths with no file.
+/bangladesh   /bangladesh-tv   301
+/*            /index.html      200

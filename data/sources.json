@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "playlists": [
+    {
+      "id": "iptv-org-world",
+      "name": "IPTV-org worldwide playlist",
+      "url": "https://iptv-org.github.io/iptv/index.m3u",
+      "country": null,
+      "enabled": true,
+      "publish": false,
+      "maxEntries": 8000,
+      "license": "Community playlist of publicly listed streams. Candidate-only until each source is reviewed and approved.",
+      "homepage": "https://github.com/iptv-org/iptv"
+    },
+    {
+      "id": "iptv-org-bangladesh",
+      "name": "IPTV-org Bangladesh playlist",
+      "url": "https://iptv-org.github.io/iptv/countries/bd.m3u",
+      "country": "BD",
+      "enabled": true,
+      "publish": false,
+      "maxEntries": 500,
+      "license": "Community playlist of publicly listed streams. Candidate-only until each source is reviewed and approved.",
+      "homepage": "https://github.com/iptv-org/iptv"
+    },
+    {
+      "id": "free-tv",
+      "name": "Free-TV IPTV playlist",
+      "url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8",
+      "country": null,
+      "enabled": true,
+      "publish": false,
+      "maxEntries": 4000,
+      "license": "Community playlist. Candidate-only until each source is reviewed and approved.",
+      "homepage": "https://github.com/Free-TV/IPTV"
+    }
+  ],
+  "metadata": {
+    "iptvOrgChannels": "https://iptv-org.github.io/api/channels.json",
+    "iptvOrgStreams": "https://iptv-org.github.io/api/streams.json",
+    "iptvOrgLogos": "https://iptv-org.github.io/api/logos.json",
+    "iptvOrgCountries": "https://iptv-org.github.io/api/countries.json",
+    "iptvOrgLanguages": "https://iptv-org.github.io/api/languages.json"
+  },
+  "epg": [
+    {
+      "id": "example-allowlisted-xmltv",
+      "name": "Example XMLTV feed",
+      "url": "",
+      "enabled": false,
+      "note": "Add an authorized XMLTV URL here, then run npm run sync:epg. Never scrape or redistribute a guide without permission."
+    }
+  ],
+  "blocklist": {
+    "note": "Hosts (including subdomains) and URL prefixes that must never be imported or published, e.g. after a copyright complaint or a confirmed unauthorized restream. Applied by sync:catalog and enforced by generate:catalog.",
+    "hosts": [],
+    "urls": []
+  }
+}

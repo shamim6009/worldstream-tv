@@ -1,0 +1,63 @@
+name: Sync catalog & check streams
+
+on:
+  schedule:
+    # Every 6 hours. Keep this modest: checks are rate-limited but providers deserve courtesy.
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+    inputs:
+      sync_playlists:
+        description: 'Also re-import community playlists as review candidates'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-streams
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+
+      # Candidates are written with publish:false and never reach the public catalog.
+      - name: Import playlist candidates
+        if: github.event_name == 'workflow_dispatch' && inputs.sync_playlists
+        run: npm run sync:catalog
+        continue-on-error: true
+
+      - name: Check approved streams (manifest + CORS, limited GET)
+        run: npm run validate:streams -- --concurrency=4
+
+      - name: Sync allowlisted EPG feeds
+        run: npm run sync:epg
+        continue-on-error: true
+
+      # Publish only if the catalog still validates and the app builds.
+      - name: Validate & build
+        run: |
+          npm run generate:catalog
+          npm test
+          npm run build:app
+
+      - name: Commit updated data
+        run: |
+          git config user.name "worldstream-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/stream-status.json data/epg.json data/candidates.json public/data public/sitemap.xml public/robots.txt 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No data changes."
+          else
+            git commit -m "chore(data): stream status & catalog refresh [skip ci]"
+            git push
+          fi

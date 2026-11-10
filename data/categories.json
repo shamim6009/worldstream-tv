@@ -1,0 +1,114 @@
+[
+  {
+    "id": "news",
+    "name": "News",
+    "slug": "news",
+    "description": "Rolling international, national and regional news bulletins.",
+    "icon": "Newspaper",
+    "color": "#38BDF8"
+  },
+  {
+    "id": "business",
+    "name": "Business",
+    "slug": "business",
+    "description": "Markets, finance and business news from public and official sources.",
+    "icon": "TrendingUp",
+    "color": "#22C55E"
+  },
+  {
+    "id": "sports",
+    "name": "Sports",
+    "slug": "sports",
+    "description": "Authorized free sports broadcasts, highlights and analysis.",
+    "icon": "Trophy",
+    "color": "#F97316"
+  },
+  {
+    "id": "entertainment",
+    "name": "Entertainment",
+    "slug": "entertainment",
+    "description": "General entertainment, talk shows, drama and variety.",
+    "icon": "Clapperboard",
+    "color": "#A855F7"
+  },
+  {
+    "id": "movies",
+    "name": "Movies & Series",
+    "slug": "movies",
+    "description": "Free ad-supported movie and series channels from authorized publishers.",
+    "icon": "Film",
+    "color": "#F43F5E"
+  },
+  {
+    "id": "music",
+    "name": "Music",
+    "slug": "music",
+    "description": "Music videos, live performances and dedicated music channels.",
+    "icon": "Music",
+    "color": "#EC4899"
+  },
+  {
+    "id": "kids",
+    "name": "Kids",
+    "slug": "kids",
+    "description": "Children's entertainment, learning and family-safe programming.",
+    "icon": "Baby",
+    "color": "#FACC15"
+  },
+  {
+    "id": "documentary",
+    "name": "Documentary",
+    "slug": "documentary",
+    "description": "Science, nature, history and factual programming.",
+    "icon": "Compass",
+    "color": "#14B8A6"
+  },
+  {
+    "id": "lifestyle",
+    "name": "Lifestyle",
+    "slug": "lifestyle",
+    "description": "Food, travel, home and everyday culture.",
+    "icon": "UtensilsCrossed",
+    "color": "#FB7185"
+  },
+  {
+    "id": "culture",
+    "name": "Culture",
+    "slug": "culture",
+    "description": "Arts, language and cultural programming from public broadcasters.",
+    "icon": "Landmark",
+    "color": "#8B5CF6"
+  },
+  {
+    "id": "education",
+    "name": "Education",
+    "slug": "education",
+    "description": "Learning, science and educational programming.",
+    "icon": "GraduationCap",
+    "color": "#60A5FA"
+  },
+  {
+    "id": "religious",
+    "name": "Religious",
+    "slug": "religious",
+    "description": "Religious and faith-based broadcasts published by their operators.",
+    "icon": "BookHeart",
+    "color": "#34D399"
+  },
+  {
+    "id": "weather",
+    "name": "Weather",
+    "slug": "weather",
+    "description": "Forecasts and weather news from authorized free channels.",
+    "icon": "CloudSun",
+    "color": "#0EA5E9"
+  },
+  {
+    "id": "family",
+    "name": "Family",
+    "slug": "family",
+    "description": "Family-friendly general entertainment.",
+    "icon": "Users",
+    "color": "#F59E0B"
+  }
+]

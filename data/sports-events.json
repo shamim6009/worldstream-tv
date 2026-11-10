@@ -1,0 +1,5 @@
+{
+  "generatedAt": "2026-11-10T00:00:00.000Z",
+  "note": "Only verified, licensed or publicly curated events belong here. The project ships with no invented fixtures. Add events with data/sports-events.json and run npm run generate:catalog.",
+  "events": []
+}
