@@ -8,7 +8,7 @@ import { EmptyState } from '../components/EmptyState';
 import { PageHeader } from '../components/PageHeader';
 import { SearchBox } from '../components/SearchBox';
 import { SectionHeading } from '../components/SectionHeading';
-import { OFFICIAL_SPORTS_DESTINATIONS, SPORT_CATEGORIES, sportName } from '../data/reference';
+import { OFFICIAL_SPORTS_DESTINATIONS, PREMIUM_SPORTS_SERVICES, SPORT_CATEGORIES, sportName } from '../data/reference';
 import { useSportsEvents } from '../hooks/useCatalog';
 import { searchChannels } from '../lib/search';
 import { useSeo } from '../lib/seo';
@@ -245,6 +245,39 @@ function SportsContent({ catalog, sport }: { catalog: Catalog; sport: string | n
             </a>
           ))}
         </div>
+      </section>
+
+      <section className="space-y-4" aria-label="Subscription sports services">
+        <SectionHeading
+          title="Where the subscription channels stream"
+          description="Star Sports, Sky Sports, TNT, ESPN, Willow and the rest are pay-TV rights holders. These links go to their own sign-up or watch pages — nothing here is restreamed."
+        />
+        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          {PREMIUM_SPORTS_SERVICES.map((service) => (
+            <a
+              key={service.url}
+              href={service.url}
+              target="_blank"
+              rel="noreferrer noopener"
+              className="panel group flex flex-col gap-2 p-4 transition hover:border-white/25"
+            >
+              <span className="flex items-center justify-between gap-2 font-heading text-base font-semibold text-slate-100">
+                <span className="flex items-center gap-2">
+                  {service.name}
+                  <span className="rounded bg-amber-500/15 px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-wider text-amber-300">
+                    Paid
+                  </span>
+                </span>
+                <ExternalLink className="h-4 w-4 text-slate-500 group-hover:text-slate-200" aria-hidden="true" />
+              </span>
+              <span className="text-sm leading-6 text-slate-400">{service.description}</span>
+            </a>
+          ))}
+        </div>
+        <p className="text-xs leading-5 text-slate-500">
+          Not listed here? Check the broadcaster’s own site for your region — rights are sold per country, so the same
+          match often sits on a different service depending on where you are.
+        </p>
       </section>
     </div>
   );

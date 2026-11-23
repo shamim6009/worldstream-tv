@@ -57,6 +57,9 @@ test.describe('core pages', () => {
     await isolate(page);
     await page.goto('/sports');
     await expect(page.getByRole('heading', { level: 1, name: 'Free Live Sports' })).toBeVisible();
+    // Paid rights holders are linked, never restreamed.
+    await expect(page.getByRole('heading', { name: /Where the subscription channels stream/ })).toBeVisible();
+    await expect(page.getByRole('link', { name: /Willow TV/ })).toHaveAttribute('href', 'https://www.willow.tv/');
     await page.getByRole('button', { name: /Cricket/ }).click();
     await expect(page).toHaveURL(/\/sports\/cricket/);
     await expect(page.getByText('No verified events listed')).toBeVisible();
