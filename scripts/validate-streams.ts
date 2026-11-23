@@ -4,6 +4,11 @@ import type { StreamStatus } from '../src/types/catalog';
 import { loadApproved } from './lib/catalog-build';
 import { probeUrl, validateManifest } from './lib/http';
 import {
+  detectYouTubeLive,
+  extractVideoId,
+  type YouTubeLiveProbe,
+} from './lib/youtube';
+import {
   isTransientFailure,
   readStatusFile,
   reconcileWithPrevious,
@@ -44,11 +49,10 @@ function extractChannelId(url: string): string | null {
   return match?.[1] ?? null;
 }
 
-function extractVideoId(url: string, body: string): string | null {
-  const fromUrl = url.match(/[?&]v=([\w-]{11})/)?.[1];
-  if (fromUrl) return fromUrl;
-  const fromBody = body.match(/"videoId":"([\w-]{11})"/)?.[1];
-  return fromBody ?? null;
+function describeOffline(probe: YouTubeLiveProbe): string {
+  return probe.upcoming
+    ? 'A scheduled broadcast was found, but nothing is live at check time.'
+    : 'No live stream was detected at check time. The broadcaster may be offline or between broadcasts.';
 }
 
 async function checkYouTube(
@@ -65,10 +69,8 @@ async function checkYouTube(
     headers: { 'accept-language': 'en-US,en;q=0.9' },
   });
   const videoId = extractVideoId(probe.finalUrl, probe.body);
-  const isLive =
-    Boolean(videoId) &&
-    /"isLiveNow":true/.test(probe.body) &&
-    /"isLiveContent":true/.test(probe.body);
+  const liveProbe = detectYouTubeLive(probe.body, probe.finalUrl);
+  const isLive = Boolean(probe.ok) && liveProbe.live;
 
   let status: StreamStatus = 'unknown';
   let error: string | null = null;
@@ -78,7 +80,7 @@ async function checkYouTube(
   } else if (isLive) {
     status = 'verified';
   } else {
-    error = 'No live stream was detected at check time. The broadcaster may be offline or between broadcasts.';
+    error = describeOffline(liveProbe);
   }
 
   const detail = isLive

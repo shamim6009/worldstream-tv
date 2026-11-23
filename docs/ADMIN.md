@@ -16,6 +16,29 @@ The `/admin` page in the app is read-only. It shows catalog stats, source status
 | `data/epg.json` | Output of `npm run sync:epg` |
 | `data/sports-events.json` | Curated, verified events only |
 
+## Triage the candidate queue
+
+`npm run sync:catalog` can import thousands of rows per playlist, and none of them are evidence of
+rights. Run `npm run review:candidates` after a sync to get an advisory queue:
+
+```
+npm run sync:catalog
+npm run review:candidates
+```
+
+It writes `data/candidates-review.md` (open this first) and `data/candidates-shortlist.json`. Every
+candidate is bucketed by how likely the stream is the broadcaster's own endpoint:
+
+| Tier | Signal |
+| --- | --- |
+| `official-domain` | stream host matches the channel's own website domain — start here |
+| `official-fast` | hosted on a known free ad-supported platform (Pluto, Samsung, Plex, Xumo, …) |
+| `official-youtube` | YouTube source, uploader still unverified |
+| `review` | IP-based restreams and unknown CDNs — expect to reject most of these |
+
+The tiers are a shortcut, **not** an approval. You still confirm rights and hand-write the entry as
+described below. Both generated files are git-ignored; they are working state, not published data.
+
 ## Approve a stream
 
 1. Find it in `data/candidates.json`, or start from the broadcaster's own site.
