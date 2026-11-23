@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-23T18:20:13.367Z",
+  "checkedAt": "2026-11-23T18:26:00.044Z",
   "sources": {
     "24-horas-es-s1": {
       "channelId": "24-horas-es",
@@ -4142,6 +4142,26 @@
       "manifestKind": "hls-master",
       "finalUrl": "https://stream1.antenaplay.ro/promo/nba-meci/playlist.m3u8",
       "lastVerifiedAt": "2026-11-23T18:20:12.777Z"
+    },
+    "a-sports-pakistan-s1": {
+      "channelId": "a-sports-pakistan",
+      "sourceId": "a-sports-pakistan-s1",
+      "status": "unknown",
+      "httpStatus": 200,
+      "cors": null,
+      "error": "No live stream was detected at check time. The broadcaster may be offline or between broadcasts.",
+      "checkedAt": "2026-11-23T18:25:58.885Z",
+      "finalUrl": "https://www.youtube.com/channel/UCCLdGxMC4fwkaQ4AIcL7Z8w/live"
+    },
+    "geo-super-s1": {
+      "channelId": "geo-super",
+      "sourceId": "geo-super-s1",
+      "status": "unknown",
+      "httpStatus": 200,
+      "cors": null,
+      "error": "No live stream was detected at check time. The broadcaster may be offline or between broadcasts.",
+      "checkedAt": "2026-11-23T18:25:59.666Z",
+      "finalUrl": "https://www.youtube.com/channel/UCF73oBsmZPG6YRZV-vVN1-A/live"
     }
   }
 }

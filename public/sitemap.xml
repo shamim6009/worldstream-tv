@@ -787,6 +787,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://worldstream-tv.pages.dev/channel/a-sports-pakistan</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://worldstream-tv.pages.dev/channel/a1-tv-nl</loc>
     <lastmod>2026-11-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -1718,6 +1724,12 @@
   </url>
   <url>
     <loc>https://worldstream-tv.pages.dev/channel/galaxiateve-do</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://worldstream-tv.pages.dev/channel/geo-super</loc>
     <lastmod>2026-11-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>

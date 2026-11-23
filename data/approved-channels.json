@@ -583,6 +583,50 @@
       ]
     },
     {
+      "id": "a-sports-pakistan",
+      "name": "A Sports",
+      "altNames": [
+        "A Sports Pakistan",
+        "ASports"
+      ],
+      "country": "PK",
+      "language": "ur",
+      "categories": [
+        "sports"
+      ],
+      "sports": [
+        "cricket",
+        "football",
+        "other"
+      ],
+      "provider": "ARY Digital Network",
+      "description": "Pakistani sports channel from the ARY Digital Network, carrying domestic and international cricket, hockey and football.",
+      "region": "Asia",
+      "quality": "1080p",
+      "authorization": "official-youtube",
+      "authorizationNote": "Official YouTube channel @ASportsPK, whose profile links to the broadcaster's own site a-sports.tv. Live feed verified 2026-11-23.",
+      "officialWatchUrl": "https://a-sports.tv/",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "a-sports-pakistan-s1",
+          "type": "youtube",
+          "url": "https://www.youtube.com/channel/UCCLdGxMC4fwkaQ4AIcL7Z8w/live",
+          "provider": "A Sports on YouTube",
+          "quality": "1080p",
+          "authorization": "official-youtube",
+          "authorizationNote": "Official YouTube channel @ASportsPK, whose profile links to the broadcaster's own site a-sports.tv. Live feed verified 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
       "id": "a1-tv-nl",
       "name": "A1 TV",
       "altNames": [
@@ -6877,6 +6921,49 @@
           "quality": "360p",
           "authorization": "official-broadcaster",
           "authorizationNote": "Official broadcaster endpoint at streaming.grupomediosdelnorte.com, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "geo-super",
+      "name": "Geo Super",
+      "altNames": [
+        "GEO SUPER"
+      ],
+      "country": "PK",
+      "language": "ur",
+      "categories": [
+        "sports"
+      ],
+      "sports": [
+        "cricket",
+        "hockey",
+        "other"
+      ],
+      "provider": "Geo TV Network",
+      "description": "Pakistani sports channel from the Geo TV Network with live cricket, hockey and sports news coverage.",
+      "region": "Asia",
+      "quality": "1080p",
+      "authorization": "official-youtube",
+      "authorizationNote": "Official YouTube channel @GeoSuper, whose profile links to the broadcaster's own site geosuper.tv. Live feed verified 2026-11-23.",
+      "officialWatchUrl": "https://www.geosuper.tv/",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "geo-super-s1",
+          "type": "youtube",
+          "url": "https://www.youtube.com/channel/UCF73oBsmZPG6YRZV-vVN1-A/live",
+          "provider": "Geo Super on YouTube",
+          "quality": "1080p",
+          "authorization": "official-youtube",
+          "authorizationNote": "Official YouTube channel @GeoSuper, whose profile links to the broadcaster's own site geosuper.tv. Live feed verified 2026-11-23.",
           "isPrimary": true,
           "status": "unknown",
           "lastCheckedAt": null,

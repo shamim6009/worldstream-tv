@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-23T18:20:35.157Z",
+  "generatedAt": "2026-11-23T18:26:21.586Z",
   "siteUrl": "https://worldstream-tv.pages.dev",
   "channels": [
     {
@@ -1317,6 +1317,58 @@
       "verifiedAt": "2026-11-23T18:07:41.565Z",
       "authorization": "official-broadcaster",
       "notes": "Stream is served from sitv.ru, the broadcaster's own domain. Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23."
+    },
+    {
+      "id": "a-sports-pakistan",
+      "slug": "a-sports-pakistan",
+      "name": "A Sports",
+      "altNames": [
+        "A Sports Pakistan",
+        "ASports"
+      ],
+      "country": "PK",
+      "countryName": "Pakistan",
+      "language": "ur",
+      "languageName": "Urdu",
+      "categories": [
+        "sports"
+      ],
+      "sports": [
+        "cricket",
+        "football",
+        "other"
+      ],
+      "logo": null,
+      "description": "Pakistani sports channel from the ARY Digital Network, carrying domestic and international cricket, hockey and football.",
+      "quality": "1080p",
+      "isHd": true,
+      "provider": "ARY Digital Network",
+      "sources": [
+        {
+          "id": "a-sports-pakistan-s1",
+          "type": "youtube",
+          "url": "https://www.youtube.com/channel/UCCLdGxMC4fwkaQ4AIcL7Z8w/live",
+          "provider": "A Sports on YouTube",
+          "quality": "1080p",
+          "authorization": "official-youtube",
+          "authorizationNote": "Official YouTube channel @ASportsPK, whose profile links to the broadcaster's own site a-sports.tv. Live feed verified 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": "2026-11-23T18:25:58.885Z",
+          "httpStatus": 200,
+          "cors": null,
+          "error": "No live stream was detected at check time. The broadcaster may be offline or between broadcasts."
+        }
+      ],
+      "status": "unknown",
+      "featured": false,
+      "region": "Asia",
+      "epgId": "a-sports-pakistan",
+      "officialWatchUrl": "https://a-sports.tv/",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "authorization": "official-youtube",
+      "notes": "Official YouTube channel @ASportsPK, whose profile links to the broadcaster's own site a-sports.tv. Live feed verified 2026-11-23."
     },
     {
       "id": "a1-tv-nl",
@@ -8680,6 +8732,57 @@
       "verifiedAt": "2026-11-23T18:07:50.242Z",
       "authorization": "official-broadcaster",
       "notes": "Stream is served from streaming.grupomediosdelnorte.com, the broadcaster's own domain (channel website grupomediosdelnorte.com). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23."
+    },
+    {
+      "id": "geo-super",
+      "slug": "geo-super",
+      "name": "Geo Super",
+      "altNames": [
+        "GEO SUPER"
+      ],
+      "country": "PK",
+      "countryName": "Pakistan",
+      "language": "ur",
+      "languageName": "Urdu",
+      "categories": [
+        "sports"
+      ],
+      "sports": [
+        "cricket",
+        "hockey",
+        "other"
+      ],
+      "logo": null,
+      "description": "Pakistani sports channel from the Geo TV Network with live cricket, hockey and sports news coverage.",
+      "quality": "1080p",
+      "isHd": true,
+      "provider": "Geo TV Network",
+      "sources": [
+        {
+          "id": "geo-super-s1",
+          "type": "youtube",
+          "url": "https://www.youtube.com/channel/UCF73oBsmZPG6YRZV-vVN1-A/live",
+          "provider": "Geo Super on YouTube",
+          "quality": "1080p",
+          "authorization": "official-youtube",
+          "authorizationNote": "Official YouTube channel @GeoSuper, whose profile links to the broadcaster's own site geosuper.tv. Live feed verified 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": "2026-11-23T18:25:59.666Z",
+          "httpStatus": 200,
+          "cors": null,
+          "error": "No live stream was detected at check time. The broadcaster may be offline or between broadcasts."
+        }
+      ],
+      "status": "unknown",
+      "featured": false,
+      "region": "Asia",
+      "epgId": "geo-super",
+      "officialWatchUrl": "https://www.geosuper.tv/",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "authorization": "official-youtube",
+      "notes": "Official YouTube channel @GeoSuper, whose profile links to the broadcaster's own site geosuper.tv. Live feed verified 2026-11-23."
     },
     {
       "id": "god-stands-kids-club-tv-pk",
@@ -16392,7 +16495,7 @@
       "slug": "pakistan",
       "flag": "🇵🇰",
       "region": "Asia",
-      "channelCount": 10
+      "channelCount": 12
     },
     {
       "code": "PS",
@@ -16743,7 +16846,7 @@
       "description": "Authorized free sports broadcasts, highlights and analysis.",
       "icon": "Trophy",
       "color": "#F97316",
-      "channelCount": 13
+      "channelCount": 15
     },
     {
       "id": "weather",
@@ -16756,10 +16859,10 @@
     }
   ],
   "stats": {
-    "totalChannels": 339,
+    "totalChannels": 341,
     "verifiedChannels": 328,
     "countries": 81,
     "categories": 14,
-    "sources": 341
+    "sources": 343
   }
 }
