@@ -1961,16 +1961,16 @@
       "authorizationNote": "Official broadcaster YouTube channel. Live availability and embedding are controlled by the broadcaster.",
       "officialWatchUrl": "https://www.youtube.com/channel/UCbgcYEdMsuypG2NJ-znBp3w/live",
       "addedAt": "2026-11-10",
-      "updatedAt": "2026-11-10",
+      "updatedAt": "2026-11-23",
       "sources": [
         {
           "id": "atn-news-s1",
           "type": "youtube",
-          "url": "https://www.youtube.com/channel/UCbgcYEdMsuypG2NJ-znBp3w/live",
+          "url": "https://www.youtube.com/channel/UCKlhfq1ILoAFav7iw5iCnfA/live",
           "provider": "ATN News (YouTube)",
           "quality": null,
           "authorization": "official-youtube",
-          "authorizationNote": "Official broadcaster YouTube channel. Live availability and embedding are controlled by the broadcaster.",
+          "authorizationNote": "ATN News Live official YouTube channel (@ATNNewsLive), verified 2026-11-23. Previously pointed at the ATN Bangla News channel.",
           "isPrimary": true,
           "status": "unknown",
           "lastCheckedAt": null,
@@ -2318,6 +2318,46 @@
           "quality": "1080p",
           "authorization": "official-broadcaster",
           "authorizationNote": "Official broadcaster endpoint at tv.beatfm.nl, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "bein-sports-xtra-es",
+      "name": "beIN SPORTS XTRA en Español",
+      "altNames": [],
+      "country": "US",
+      "language": "es",
+      "categories": [
+        "sports"
+      ],
+      "sports": [
+        "football",
+        "other"
+      ],
+      "provider": "beIN Media Group",
+      "description": "Spanish-language free sports channel from beIN Media Group carrying football talk, highlights and live event windows.",
+      "region": "North America",
+      "quality": "720p",
+      "authorization": "official-fast",
+      "authorizationNote": "beIN Media Group's free ad-supported channel, delivered from beIN's own CloudFront distribution. Verified playable with CORS 2026-11-23.",
+      "officialWatchUrl": "https://www.beinsports.com/",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "bein-sports-xtra-es-s1",
+          "type": "hls",
+          "url": "https://dc1644a9jazgj.cloudfront.net/beIN_Sports_Xtra_Espanol.m3u8",
+          "provider": "beIN Sports (CloudFront)",
+          "quality": "720p",
+          "authorization": "official-fast",
+          "authorizationNote": "beIN Media Group's free ad-supported channel, delivered from beIN's own CloudFront distribution. Verified playable with CORS 2026-11-23.",
           "isPrimary": true,
           "status": "unknown",
           "lastCheckedAt": null,
@@ -9736,6 +9776,45 @@
       ]
     },
     {
+      "id": "nba-antenaplay",
+      "name": "NBA on AntenaPlay",
+      "altNames": [],
+      "country": "RO",
+      "language": "ro",
+      "categories": [
+        "sports"
+      ],
+      "sports": [
+        "basketball"
+      ],
+      "provider": "Antena TV Group",
+      "description": "Romanian basketball channel from Antena TV Group carrying NBA coverage on the operator’s own streaming platform.",
+      "region": "Europe",
+      "quality": "720p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Promotional NBA feed published by Romanian rights holder Antena TV Group on its own domain antenaplay.ro. Verified playable with CORS 2026-11-23.",
+      "officialWatchUrl": "https://antenaplay.ro/live",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "nba-antenaplay-s1",
+          "type": "hls",
+          "url": "https://stream1.antenaplay.ro/promo/nba-meci/playlist.m3u8",
+          "provider": "AntenaPlay",
+          "quality": "720p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Promotional NBA feed published by Romanian rights holder Antena TV Group on its own domain antenaplay.ro. Verified playable with CORS 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
       "id": "nbc-news-now",
       "name": "NBC News NOW",
       "altNames": [],
@@ -10560,6 +10639,46 @@
           "quality": "720p",
           "authorization": "official-broadcaster",
           "authorizationNote": "Official broadcaster endpoint at tv.ondadigital.pe, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "orf-sport-plus",
+      "name": "ORF Sport+",
+      "altNames": [],
+      "country": "AT",
+      "language": "de",
+      "categories": [
+        "sports"
+      ],
+      "sports": [
+        "football",
+        "other"
+      ],
+      "provider": "ORF (Österreichischer Rundfunk)",
+      "description": "Austrian public-broadcaster sports channel with domestic football, winter sport and minority-sport coverage.",
+      "region": "Europe",
+      "quality": "720p",
+      "authorization": "public-broadcaster",
+      "authorizationNote": "Austrian public broadcaster ORF, served from ORS (ORF's own media delivery subsidiary) at mdn.ors.at. Verified playable with CORS 2026-11-23.",
+      "officialWatchUrl": "https://sport.orf.at/",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "orf-sport-plus-s1",
+          "type": "hls",
+          "url": "https://test02.mdn.ors.at/orf/orfs/qxa/manifest.m3u8",
+          "provider": "ORF / ORS",
+          "quality": "720p",
+          "authorization": "public-broadcaster",
+          "authorizationNote": "Austrian public broadcaster ORF, served from ORS (ORF's own media delivery subsidiary) at mdn.ors.at. Verified playable with CORS 2026-11-23.",
           "isPrimary": true,
           "status": "unknown",
           "lastCheckedAt": null,
@@ -12370,11 +12489,26 @@
       "featured": true,
       "quality": null,
       "authorization": "official-youtube",
-      "authorizationNote": "Official broadcaster YouTube channel. Live availability and embedding are controlled by the broadcaster.",
+      "authorizationNote": "Official T Sports live feed embedded on tsports.com.bd, plus a secondary T Sports YouTube channel as fallback.",
       "officialWatchUrl": "https://www.youtube.com/channel/UCCqIQrVd8vknHzLoYzg8OcQ/live",
       "addedAt": "2026-11-10",
-      "updatedAt": "2026-11-10",
+      "updatedAt": "2026-11-23",
       "sources": [
+        {
+          "id": "t-sports-s0",
+          "type": "youtube",
+          "url": "https://www.youtube.com/channel/UC2t9imwIR7xlDfma3CmRKJQ/live",
+          "provider": "T Sports on YouTube",
+          "quality": "1080p",
+          "authorization": "official-youtube",
+          "authorizationNote": "Channel ID taken from the live player embedded on the official site tsports.com.bd; verified live 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        },
         {
           "id": "t-sports-s1",
           "type": "youtube",
@@ -12383,7 +12517,7 @@
           "quality": null,
           "authorization": "official-youtube",
           "authorizationNote": "Official T Sports YouTube channel. Some events are geo-restricted or not streamed on YouTube.",
-          "isPrimary": true,
+          "isPrimary": false,
           "status": "unknown",
           "lastCheckedAt": null,
           "httpStatus": null,

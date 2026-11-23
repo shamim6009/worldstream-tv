@@ -36,8 +36,8 @@ test.describe('core pages', () => {
     const total = await page.getByText(/of \d+ channels/).textContent();
     await page.getByLabel('Country').selectOption('BD');
     await expect(page).toHaveURL(/country=BD/);
-    const filtered = await page.getByText(/of \d+ channels/).textContent();
-    expect(filtered).not.toEqual(total);
+    // The count re-renders after the filter applies; retry instead of reading once.
+    await expect(page.getByText(/of \d+ channels/)).not.toHaveText(total ?? '');
     const cards = page.getByTestId('channel-grid').locator('article');
     await expect(cards.first()).toContainText('Bangladesh');
   });

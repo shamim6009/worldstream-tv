@@ -1045,6 +1045,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://worldstream-tv.pages.dev/channel/bein-sports-xtra-es</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://worldstream-tv.pages.dev/channel/beitolabbas-tv-channel-iq</loc>
     <lastmod>2026-11-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -2155,6 +2161,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://worldstream-tv.pages.dev/channel/nba-antenaplay</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://worldstream-tv.pages.dev/channel/nbc-news-now</loc>
     <lastmod>2026-11-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -2270,6 +2282,12 @@
   </url>
   <url>
     <loc>https://worldstream-tv.pages.dev/channel/onda-digital-pe</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://worldstream-tv.pages.dev/channel/orf-sport-plus</loc>
     <lastmod>2026-11-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>

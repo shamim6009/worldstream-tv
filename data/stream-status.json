@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedAt": "2026-11-23T18:08:07.088Z",
+  "checkedAt": "2026-11-23T18:20:13.367Z",
   "sources": {
     "24-horas-es-s1": {
       "channelId": "24-horas-es",
@@ -627,12 +627,13 @@
     "atn-news-s1": {
       "channelId": "atn-news",
       "sourceId": "atn-news-s1",
-      "status": "unknown",
+      "status": "verified",
       "httpStatus": 200,
       "cors": null,
-      "error": "No live stream was detected at check time. The broadcaster may be offline or between broadcasts.",
-      "checkedAt": "2026-11-23T18:07:43.671Z",
-      "finalUrl": "https://www.youtube.com/channel/UCbgcYEdMsuypG2NJ-znBp3w/live"
+      "error": null,
+      "checkedAt": "2026-11-23T18:20:09.169Z",
+      "finalUrl": "https://www.youtube.com/channel/UCKlhfq1ILoAFav7iw5iCnfA/live",
+      "lastVerifiedAt": "2026-11-23T18:20:09.169Z"
     },
     "ava-family-ir-s1": {
       "channelId": "ava-family-ir",
@@ -3866,7 +3867,7 @@
       "httpStatus": 200,
       "cors": null,
       "error": "No live stream was detected at check time. The broadcaster may be offline or between broadcasts.",
-      "checkedAt": "2026-11-23T18:07:57.780Z",
+      "checkedAt": "2026-11-23T18:20:08.032Z",
       "finalUrl": "https://www.youtube.com/channel/UCCqIQrVd8vknHzLoYzg8OcQ/live"
     },
     "telekanal-rai-ua-s1": {
@@ -4094,6 +4095,53 @@
       "manifestKind": "hls-master",
       "finalUrl": "https://stream3.shopch.jp/HLS/master.m3u8",
       "lastVerifiedAt": "2026-11-23T18:07:58.622Z"
+    },
+    "t-sports-s0": {
+      "channelId": "t-sports",
+      "sourceId": "t-sports-s0",
+      "status": "verified",
+      "httpStatus": 200,
+      "cors": null,
+      "error": null,
+      "checkedAt": "2026-11-23T18:20:08.027Z",
+      "finalUrl": "https://www.youtube.com/channel/UC2t9imwIR7xlDfma3CmRKJQ/live",
+      "lastVerifiedAt": "2026-11-23T18:20:08.027Z"
+    },
+    "bein-sports-xtra-es-s1": {
+      "channelId": "bein-sports-xtra-es",
+      "sourceId": "bein-sports-xtra-es-s1",
+      "status": "verified",
+      "httpStatus": 200,
+      "cors": true,
+      "error": null,
+      "checkedAt": "2026-11-23T18:20:10.521Z",
+      "manifestKind": "hls-master",
+      "finalUrl": "https://dc1644a9jazgj.cloudfront.net/beIN_Sports_Xtra_Espanol.m3u8",
+      "lastVerifiedAt": "2026-11-23T18:20:10.521Z"
+    },
+    "orf-sport-plus-s1": {
+      "channelId": "orf-sport-plus",
+      "sourceId": "orf-sport-plus-s1",
+      "status": "verified",
+      "httpStatus": 200,
+      "cors": true,
+      "error": null,
+      "checkedAt": "2026-11-23T18:20:11.145Z",
+      "manifestKind": "hls-master",
+      "finalUrl": "https://test02.mdn.ors.at/orf/orfs/qxa/manifest.m3u8",
+      "lastVerifiedAt": "2026-11-23T18:20:11.145Z"
+    },
+    "nba-antenaplay-s1": {
+      "channelId": "nba-antenaplay",
+      "sourceId": "nba-antenaplay-s1",
+      "status": "verified",
+      "httpStatus": 200,
+      "cors": true,
+      "error": null,
+      "checkedAt": "2026-11-23T18:20:12.777Z",
+      "manifestKind": "hls-master",
+      "finalUrl": "https://stream1.antenaplay.ro/promo/nba-meci/playlist.m3u8",
+      "lastVerifiedAt": "2026-11-23T18:20:12.777Z"
     }
   }
 }
