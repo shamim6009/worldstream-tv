@@ -1105,13 +1105,55 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://worldstream-tv.pages.dev/channel/bloomberg-tv-asia-live-event-us</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://worldstream-tv.pages.dev/channel/bloomberg-tv-australia-us</loc>
     <lastmod>2026-11-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://worldstream-tv.pages.dev/channel/bloomberg-tv-emea-live-event-us</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://worldstream-tv.pages.dev/channel/bloomberg-tv-europe-us</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://worldstream-tv.pages.dev/channel/bloomberg-tv-live-event-us</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://worldstream-tv.pages.dev/channel/bloomberg-tv-politics-live-event-us</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://worldstream-tv.pages.dev/channel/boktv-za</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://worldstream-tv.pages.dev/channel/botflix-radioo-us</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://worldstream-tv.pages.dev/channel/botflix-tv-us</loc>
     <lastmod>2026-11-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1201,6 +1243,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://worldstream-tv.pages.dev/channel/cartoon-cartoons-us</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://worldstream-tv.pages.dev/channel/caruban-tv-id</loc>
     <lastmod>2026-11-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -1214,6 +1262,12 @@
   </url>
   <url>
     <loc>https://worldstream-tv.pages.dev/channel/cbs-news-247</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://worldstream-tv.pages.dev/channel/cbs-news-detroit-us</loc>
     <lastmod>2026-11-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1285,6 +1339,18 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://worldstream-tv.pages.dev/channel/cgtn-russian-cn</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://worldstream-tv.pages.dev/channel/cgtn-spanish-cn</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://worldstream-tv.pages.dev/channel/channel-24</loc>
     <lastmod>2026-11-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -1310,6 +1376,12 @@
   </url>
   <url>
     <loc>https://worldstream-tv.pages.dev/channel/clan-es</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://worldstream-tv.pages.dev/channel/cloudflare-tv-us</loc>
     <lastmod>2026-11-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1357,6 +1429,18 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://worldstream-tv.pages.dev/channel/dc-council-hearing-room-120-us</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://worldstream-tv.pages.dev/channel/dcc-us</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://worldstream-tv.pages.dev/channel/deepto-tv</loc>
     <lastmod>2026-11-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -1381,7 +1465,19 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://worldstream-tv.pages.dev/channel/district-of-columbia-network-us</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://worldstream-tv.pages.dev/channel/divya-darshan-tv-np</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://worldstream-tv.pages.dev/channel/dkn-us</loc>
     <lastmod>2026-11-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1429,7 +1525,19 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://worldstream-tv.pages.dev/channel/dltv-2-th</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://worldstream-tv.pages.dev/channel/dltv-3-th</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://worldstream-tv.pages.dev/channel/dltv-4-th</loc>
     <lastmod>2026-11-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1442,6 +1550,24 @@
   </url>
   <url>
     <loc>https://worldstream-tv.pages.dev/channel/dltv-6-th</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://worldstream-tv.pages.dev/channel/dltv-7-th</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://worldstream-tv.pages.dev/channel/dltv-8-th</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://worldstream-tv.pages.dev/channel/dltv-9-th</loc>
     <lastmod>2026-11-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1729,6 +1855,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://worldstream-tv.pages.dev/channel/ganj-e-hozour-tv-us</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://worldstream-tv.pages.dev/channel/geo-super</loc>
     <lastmod>2026-11-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -1789,6 +1921,24 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://worldstream-tv.pages.dev/channel/god-stands-tv-punjabi-pk</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://worldstream-tv.pages.dev/channel/god-stands-tv-tagalog-pk</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://worldstream-tv.pages.dev/channel/god-stands-tv-urdu-pk</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://worldstream-tv.pages.dev/channel/grand-cinema-tr</loc>
     <lastmod>2026-11-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -1807,13 +1957,61 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://worldstream-tv.pages.dev/channel/guangzhou-tv-cn</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://worldstream-tv.pages.dev/channel/hamdard-tv-ca</loc>
     <lastmod>2026-11-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://worldstream-tv.pages.dev/channel/harbin-comprehensive-news-channel-cn</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://worldstream-tv.pages.dev/channel/harbin-movie-channel-cn</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://worldstream-tv.pages.dev/channel/hechos-ecuador-ec</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://worldstream-tv.pages.dev/channel/hlaj-dtv-kr</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://worldstream-tv.pages.dev/channel/hlan-dtv-kr</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://worldstream-tv.pages.dev/channel/hlcq-dtv-kr</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://worldstream-tv.pages.dev/channel/hldh-dtv-kr</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://worldstream-tv.pages.dev/channel/hldp-dtv-kr</loc>
     <lastmod>2026-11-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1855,6 +2053,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://worldstream-tv.pages.dev/channel/impact-tv-manele-ro</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://worldstream-tv.pages.dev/channel/in-puii-mei-ro</loc>
     <lastmod>2026-11-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -1885,6 +2089,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://worldstream-tv.pages.dev/channel/intermedia-tv-ro</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://worldstream-tv.pages.dev/channel/ionian-channel-gr</loc>
     <lastmod>2026-11-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -1892,6 +2102,12 @@
   </url>
   <url>
     <loc>https://worldstream-tv.pages.dev/channel/iranefarda-tv-gb</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://worldstream-tv.pages.dev/channel/iroast-ro</loc>
     <lastmod>2026-11-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1915,6 +2131,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://worldstream-tv.pages.dev/channel/iumor-ro</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://worldstream-tv.pages.dev/channel/japanimtv-be</loc>
     <lastmod>2026-11-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -1928,6 +2150,12 @@
   </url>
   <url>
     <loc>https://worldstream-tv.pages.dev/channel/jc1-cz</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://worldstream-tv.pages.dev/channel/jingmen-comprehensive-news-channel-cn</loc>
     <lastmod>2026-11-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1957,7 +2185,19 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://worldstream-tv.pages.dev/channel/kanal-d-ro</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://worldstream-tv.pages.dev/channel/kanshi-tv-gb</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://worldstream-tv.pages.dev/channel/ktv-kr</loc>
     <lastmod>2026-11-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1970,6 +2210,30 @@
   </url>
   <url>
     <loc>https://worldstream-tv.pages.dev/channel/la-1-canarias-es</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://worldstream-tv.pages.dev/channel/la-1-catalunya-es</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://worldstream-tv.pages.dev/channel/la-2-es</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://worldstream-tv.pages.dev/channel/la-2-canarias-es</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://worldstream-tv.pages.dev/channel/la-2-catalunya-es</loc>
     <lastmod>2026-11-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2012,6 +2276,18 @@
   </url>
   <url>
     <loc>https://worldstream-tv.pages.dev/channel/livenow-from-fox</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://worldstream-tv.pages.dev/channel/lotte-home-shopping-kr</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://worldstream-tv.pages.dev/channel/lotte-onetv-kr</loc>
     <lastmod>2026-11-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2089,6 +2365,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://worldstream-tv.pages.dev/channel/medicool-tv-ro</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://worldstream-tv.pages.dev/channel/mercurio-noticias-ar</loc>
     <lastmod>2026-11-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -2101,7 +2383,25 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://worldstream-tv.pages.dev/channel/metaleitor-tv-us</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://worldstream-tv.pages.dev/channel/microvision-10-do</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://worldstream-tv.pages.dev/channel/mireasa-ro</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://worldstream-tv.pages.dev/channel/misa-tv-ro</loc>
     <lastmod>2026-11-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2149,6 +2449,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://worldstream-tv.pages.dev/channel/mtc-us</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://worldstream-tv.pages.dev/channel/mtna-tv-cl</loc>
     <lastmod>2026-11-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -2168,6 +2474,36 @@
   </url>
   <url>
     <loc>https://worldstream-tv.pages.dev/channel/nar-tv-fi</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://worldstream-tv.pages.dev/channel/nasul-tv-ro</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://worldstream-tv.pages.dev/channel/natick-education-channel-us</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://worldstream-tv.pages.dev/channel/natick-government-channel-us</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://worldstream-tv.pages.dev/channel/natick-public-access-channel-us</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://worldstream-tv.pages.dev/channel/national-iranian-congress-tv-us</loc>
     <lastmod>2026-11-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2251,6 +2587,24 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://worldstream-tv.pages.dev/channel/ntd-tv-canada-us</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://worldstream-tv.pages.dev/channel/ntd-tv-canada-west-us</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://worldstream-tv.pages.dev/channel/ntd-tv-china-us</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://worldstream-tv.pages.dev/channel/ntk-tv-ua</loc>
     <lastmod>2026-11-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -2299,7 +2653,19 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://worldstream-tv.pages.dev/channel/orange-government-access-tv-us</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://worldstream-tv.pages.dev/channel/orf-sport-plus</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://worldstream-tv.pages.dev/channel/oun-kr</loc>
     <lastmod>2026-11-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2329,6 +2695,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://worldstream-tv.pages.dev/channel/palm-beaches-tv-us</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://worldstream-tv.pages.dev/channel/paraguay-tv-py</loc>
     <lastmod>2026-11-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -2336,6 +2708,36 @@
   </url>
   <url>
     <loc>https://worldstream-tv.pages.dev/channel/parole-di-vita-it</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://worldstream-tv.pages.dev/channel/pbs-us</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://worldstream-tv.pages.dev/channel/pbs-kmos-tv-us</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://worldstream-tv.pages.dev/channel/pbs-kqed-us</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://worldstream-tv.pages.dev/channel/pbs-kvie-us</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://worldstream-tv.pages.dev/channel/pbs-wedq-us</loc>
     <lastmod>2026-11-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2474,6 +2876,12 @@
   </url>
   <url>
     <loc>https://worldstream-tv.pages.dev/channel/rai-sudtirol-it</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://worldstream-tv.pages.dev/channel/rctv3-us</loc>
     <lastmod>2026-11-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>

@@ -2771,6 +2771,46 @@
       ]
     },
     {
+      "id": "bloomberg-tv-asia-live-event-us",
+      "name": "Bloomberg TV Asia Live Event",
+      "altNames": [
+        "Bloomberg TV Asia Live Event ( )"
+      ],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "business"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/OuogLHx.png",
+      "provider": "Bloomberg TV Asia Live Event",
+      "description": "Bloomberg TV Asia Live Event is a business channel from United States, publishing a free official stream from its own domain (bloomberg.com).",
+      "region": "North America",
+      "quality": "720p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from bloomberg.com, the broadcaster's own domain. Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://www.bloomberg.com/live/us/btv",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "bloomberg-tv-asia-live-event-us-s1",
+          "type": "hls",
+          "url": "https://bloomberg.com/media-manifest/streams/asia-event.m3u8",
+          "provider": "bloomberg.com",
+          "quality": "720p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at bloomberg.com, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
       "id": "bloomberg-tv-australia-us",
       "name": "Bloomberg TV Australia",
       "altNames": [
@@ -2797,6 +2837,166 @@
           "type": "hls",
           "url": "https://bloomberg.com/media-manifest/streams/aus.m3u8",
           "provider": "bloomberg.com",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at bloomberg.com, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "bloomberg-tv-emea-live-event-us",
+      "name": "Bloomberg TV EMEA Live Event",
+      "altNames": [
+        "Bloomberg TV EMEA Live Event ( )"
+      ],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "business"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/OuogLHx.png",
+      "provider": "Bloomberg TV EMEA Live Event",
+      "description": "Bloomberg TV EMEA Live Event is a business channel from United States, publishing a free official stream from its own domain (bloomberg.com).",
+      "region": "North America",
+      "quality": "720p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from bloomberg.com, the broadcaster's own domain. Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://www.bloomberg.com/live/us/btv",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "bloomberg-tv-emea-live-event-us-s1",
+          "type": "hls",
+          "url": "https://bloomberg.com/media-manifest/streams/eu-event.m3u8",
+          "provider": "bloomberg.com",
+          "quality": "720p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at bloomberg.com, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "bloomberg-tv-europe-us",
+      "name": "Bloomberg TV Europe",
+      "altNames": [
+        "Bloomberg TV Europe ( )"
+      ],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "business"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/OuogLHx.png",
+      "provider": "Bloomberg TV Europe",
+      "description": "Bloomberg TV Europe is a business channel from United States, publishing a free official stream from its own domain (bloomberg.com).",
+      "region": "North America",
+      "quality": "720p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from bloomberg.com, the broadcaster's own domain. Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://www.bloomberg.com/live/us/btv",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "bloomberg-tv-europe-us-s1",
+          "type": "hls",
+          "url": "https://bloomberg.com/media-manifest/streams/eu.m3u8",
+          "provider": "bloomberg.com",
+          "quality": "720p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at bloomberg.com, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "bloomberg-tv-live-event-us",
+      "name": "Bloomberg TV Live Event",
+      "altNames": [
+        "Bloomberg TV Live Event ( )"
+      ],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "business"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/OuogLHx.png",
+      "provider": "Bloomberg TV Live Event",
+      "description": "Bloomberg TV Live Event is a business channel from United States, publishing a free official stream from its own domain (bloomberg.com).",
+      "region": "North America",
+      "quality": "720p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from bloomberg.com, the broadcaster's own domain. Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://www.bloomberg.com/live/us/btv",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "bloomberg-tv-live-event-us-s1",
+          "type": "hls",
+          "url": "https://bloomberg.com/media-manifest/streams/us-event.m3u8",
+          "provider": "bloomberg.com",
+          "quality": "720p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at bloomberg.com, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "bloomberg-tv-politics-live-event-us",
+      "name": "Bloomberg TV Politics Live Event",
+      "altNames": [
+        "Bloomberg TV Politics Live Event ( )"
+      ],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "business"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/OuogLHx.png",
+      "provider": "Bloomberg TV Politics Live Event",
+      "description": "Bloomberg TV Politics Live Event is a business channel from United States, publishing a free official stream from its own domain (bloomberg.com).",
+      "region": "North America",
+      "quality": "720p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from bloomberg.com, the broadcaster's own domain. Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://www.bloomberg.com/live/us/btv",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "bloomberg-tv-politics-live-event-us-s1",
+          "type": "hls",
+          "url": "https://bloomberg.com/media-manifest/streams/politics.m3u8",
+          "provider": "bloomberg.com",
+          "quality": "720p",
           "authorization": "official-broadcaster",
           "authorizationNote": "Official broadcaster endpoint at bloomberg.com, verified playable with CORS on 2026-11-23.",
           "isPrimary": true,
@@ -2839,6 +3039,87 @@
           "quality": "720p",
           "authorization": "official-broadcaster",
           "authorizationNote": "Official broadcaster endpoint at livestream2.bokradio.co.za, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "botflix-radioo-us",
+      "name": "Botflix Radioo",
+      "altNames": [
+        "Botflix Radioo ( )"
+      ],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "music"
+      ],
+      "sports": [],
+      "logo": "https://botflix.tv/assets/img/botflix-mark.90c6a6f9a4.webp",
+      "provider": "Botflix Radioo",
+      "description": "Botflix Radioo is a music channel from United States, publishing a free official stream from its own domain (botflix.tv).",
+      "region": "North America",
+      "quality": "1080p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from hls.botflix.tv, the broadcaster's own domain (channel website botflix.tv). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://botflix.tv/watch/radioo",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "botflix-radioo-us-s1",
+          "type": "hls",
+          "url": "https://hls.botflix.tv/radioo/index.m3u8",
+          "provider": "botflix.tv",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at hls.botflix.tv, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "botflix-tv-us",
+      "name": "Botflix TV",
+      "altNames": [
+        "Botflix TV ( )"
+      ],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "entertainment",
+        "kids"
+      ],
+      "sports": [],
+      "logo": "https://botflix.tv/assets/img/botflix-mark.90c6a6f9a4.webp",
+      "provider": "Botflix TV",
+      "description": "Botflix TV is a entertainment channel from United States, publishing a free official stream from its own domain (botflix.tv).",
+      "region": "North America",
+      "quality": "1080p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from hls.botflix.tv, the broadcaster's own domain (channel website botflix.tv). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://botflix.tv/watch/tv",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "botflix-tv-us-s1",
+          "type": "hls",
+          "url": "https://hls.botflix.tv/tv/index.m3u8",
+          "provider": "botflix.tv",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at hls.botflix.tv, verified playable with CORS on 2026-11-23.",
           "isPrimary": true,
           "status": "unknown",
           "lastCheckedAt": null,
@@ -3398,6 +3679,46 @@
       ]
     },
     {
+      "id": "cartoon-cartoons-us",
+      "name": "Cartoon Cartoons",
+      "altNames": [
+        "Cartoon Cartoons ( )"
+      ],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "kids"
+      ],
+      "sports": [],
+      "logo": "https://cartooncartoons.thatsoretro.com/logo",
+      "provider": "Cartoon Cartoons",
+      "description": "Cartoon Cartoons is a kids channel from United States, publishing a free official stream from its own domain (cartooncartoons.thatsoretro.com).",
+      "region": "North America",
+      "quality": "720p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from cartooncartoons.thatsoretro.com, the broadcaster's own domain. Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://cartooncartoons.thatsoretro.com/",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "cartoon-cartoons-us-s1",
+          "type": "hls",
+          "url": "https://cartooncartoons.thatsoretro.com/hls/stream.m3u8",
+          "provider": "cartooncartoons.thatsoretro.com",
+          "quality": "720p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at cartooncartoons.thatsoretro.com, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
       "id": "caruban-tv-id",
       "name": "Caruban TV",
       "altNames": [
@@ -3506,6 +3827,46 @@
           "quality": "720p",
           "authorization": "official-broadcaster",
           "authorizationNote": "Official CBS News 24/7 HLS endpoint.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "cbs-news-detroit-us",
+      "name": "CBS News Detroit",
+      "altNames": [
+        "CBS News Detroit ( )"
+      ],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/cMels2Y.png",
+      "provider": "CBS News Detroit",
+      "description": "CBS News Detroit is a news channel from United States, publishing a free official stream from its own domain (cbsnews.com).",
+      "region": "North America",
+      "quality": "720p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from cbsn-det.cbsnstream.cbsnews.com, the broadcaster's own domain (channel website cbsnews.com). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://www.cbsnews.com/detroit/live/",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "cbs-news-detroit-us-s1",
+          "type": "hls",
+          "url": "https://cbsn-det.cbsnstream.cbsnews.com/out/v1/169f5c001bc74fa7a179b19c20fea069/master.m3u8",
+          "provider": "cbsnews.com",
+          "quality": "720p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at cbsn-det.cbsnstream.cbsnews.com, verified playable with CORS on 2026-11-23.",
           "isPrimary": true,
           "status": "unknown",
           "lastCheckedAt": null,
@@ -3937,6 +4298,86 @@
       ]
     },
     {
+      "id": "cgtn-russian-cn",
+      "name": "CGTN Russian",
+      "altNames": [
+        "CGTN Russian ( )"
+      ],
+      "country": "CN",
+      "language": "zh",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/nDWkCmL.png",
+      "provider": "CGTN Russian",
+      "description": "CGTN Russian is a news channel from China, publishing a free official stream from its own domain (russian.cgtn.com).",
+      "region": "Asia",
+      "quality": "1080p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from russian-liveali.cgtn.com, the broadcaster's own domain (channel website russian.cgtn.com). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://russian.cgtn.com/",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "cgtn-russian-cn-s1",
+          "type": "hls",
+          "url": "https://russian-liveali.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802cd/playlist.m3u8",
+          "provider": "russian.cgtn.com",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at russian-liveali.cgtn.com, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "cgtn-spanish-cn",
+      "name": "CGTN Spanish",
+      "altNames": [
+        "CGTN Spanish ( )"
+      ],
+      "country": "CN",
+      "language": "zh",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/Poz3xfi.png",
+      "provider": "CGTN Spanish",
+      "description": "CGTN Spanish is a news channel from China, publishing a free official stream from its own domain (espanol.cgtn.com).",
+      "region": "Asia",
+      "quality": "1080p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from espanol-liveali.cgtn.com, the broadcaster's own domain (channel website espanol.cgtn.com). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://espanol.cgtn.com/",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "cgtn-spanish-cn-s1",
+          "type": "hls",
+          "url": "https://espanol-liveali.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd/playlist.m3u8",
+          "provider": "espanol.cgtn.com",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at espanol-liveali.cgtn.com, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
       "id": "channel-24",
       "name": "Channel 24",
       "altNames": [
@@ -4125,6 +4566,46 @@
           "provider": "rtve.es",
           "authorization": "official-broadcaster",
           "authorizationNote": "Official broadcaster endpoint at rtvelivestream.rtve.es, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "cloudflare-tv-us",
+      "name": "Cloudflare TV",
+      "altNames": [
+        "Cloudflare TV ( )"
+      ],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "education"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/l4m0is8.jpeg",
+      "provider": "Cloudflare TV",
+      "description": "Cloudflare TV is a education channel from United States, publishing a free official stream from its own domain (cloudflare.tv).",
+      "region": "North America",
+      "quality": "720p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from cloudflare.tv, the broadcaster's own domain. Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://cloudflare.tv/",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "cloudflare-tv-us-s1",
+          "type": "hls",
+          "url": "https://cloudflare.tv/hls/live.m3u8",
+          "provider": "cloudflare.tv",
+          "quality": "720p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at cloudflare.tv, verified playable with CORS on 2026-11-23.",
           "isPrimary": true,
           "status": "unknown",
           "lastCheckedAt": null,
@@ -4410,6 +4891,86 @@
       ]
     },
     {
+      "id": "dc-council-hearing-room-120-us",
+      "name": "DC Council Hearing Room 120",
+      "altNames": [
+        "DC Council Hearing Room 120 ( )"
+      ],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/8fljC7g.png",
+      "provider": "DC Council Hearing Room 120",
+      "description": "DC Council Hearing Room 120 is a news channel from United States, publishing a free official stream from its own domain (video.oct.dc.gov).",
+      "region": "North America",
+      "quality": "1080p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from video.oct.dc.gov, the broadcaster's own domain. Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://video.oct.dc.gov/120/jw.html",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "dc-council-hearing-room-120-us-s1",
+          "type": "hls",
+          "url": "https://video.oct.dc.gov/out/u/97_12.m3u8",
+          "provider": "video.oct.dc.gov",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at video.oct.dc.gov, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "dcc-us",
+      "name": "DCC",
+      "altNames": [
+        "DCC ( )"
+      ],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/YBWbiWZ.png",
+      "provider": "DCC",
+      "description": "DCC is a news channel from United States, publishing a free official stream from its own domain (video.oct.dc.gov).",
+      "region": "North America",
+      "quality": "1080p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from video.oct.dc.gov, the broadcaster's own domain. Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://video.oct.dc.gov/DCC/jw.html",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "dcc-us-s1",
+          "type": "hls",
+          "url": "https://video.oct.dc.gov/out/u/15_12.m3u8",
+          "provider": "video.oct.dc.gov",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at video.oct.dc.gov, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
       "id": "deepto-tv",
       "name": "Deepto TV",
       "altNames": [
@@ -4568,6 +5129,46 @@
       ]
     },
     {
+      "id": "district-of-columbia-network-us",
+      "name": "District of Columbia Network",
+      "altNames": [
+        "District of Columbia Network ( )"
+      ],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/GGZ8BQ8.png",
+      "provider": "District of Columbia Network",
+      "description": "District of Columbia Network is a news channel from United States, publishing a free official stream from its own domain (entertainment.dc.gov).",
+      "region": "North America",
+      "quality": "1080p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from video.oct.dc.gov, the broadcaster's own domain (channel website entertainment.dc.gov). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://entertainment.dc.gov/page/district-columbia-network-dcn",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "district-of-columbia-network-us-s1",
+          "type": "hls",
+          "url": "https://video.oct.dc.gov/out/u/DCN.m3u8",
+          "provider": "entertainment.dc.gov",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at video.oct.dc.gov, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
       "id": "divya-darshan-tv-np",
       "name": "Divya Darshan TV",
       "altNames": [
@@ -4598,6 +5199,46 @@
           "quality": "1080p",
           "authorization": "official-broadcaster",
           "authorizationNote": "Official broadcaster endpoint at live.divyadarshantv.com, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "dkn-us",
+      "name": "DKN",
+      "altNames": [
+        "DKN ( )"
+      ],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "education"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/DIau0GB.png",
+      "provider": "DKN",
+      "description": "DKN is a education channel from United States, publishing a free official stream from its own domain (video.oct.dc.gov).",
+      "region": "North America",
+      "quality": "1080p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from video.oct.dc.gov, the broadcaster's own domain. Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://video.oct.dc.gov/DKN/jw.html",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "dkn-us-s1",
+          "type": "hls",
+          "url": "https://video.oct.dc.gov/out/u/DKN.m3u8",
+          "provider": "video.oct.dc.gov",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at video.oct.dc.gov, verified playable with CORS on 2026-11-23.",
           "isPrimary": true,
           "status": "unknown",
           "lastCheckedAt": null,
@@ -4888,6 +5529,46 @@
       ]
     },
     {
+      "id": "dltv-2-th",
+      "name": "DLTV 2",
+      "altNames": [
+        "DLTV 2 ( )"
+      ],
+      "country": "TH",
+      "language": "th",
+      "categories": [
+        "education"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/lDBSTfE.png",
+      "provider": "DLTV 2",
+      "description": "DLTV 2 is a education channel from Thailand, publishing a free official stream from its own domain (dltv.ac.th).",
+      "region": "Asia",
+      "quality": "1080p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from cdn-live.dltv.ac.th, the broadcaster's own domain (channel website dltv.ac.th). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://www.dltv.ac.th/DLTV2",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "dltv-2-th-s1",
+          "type": "hls",
+          "url": "https://cdn-live.dltv.ac.th/dltv02.m3u8",
+          "provider": "dltv.ac.th",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at cdn-live.dltv.ac.th, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
       "id": "dltv-3-th",
       "name": "DLTV 3",
       "altNames": [
@@ -4914,6 +5595,46 @@
           "id": "dltv-3-th-s1",
           "type": "hls",
           "url": "https://cdn-live.dltv.ac.th/dltv03.m3u8",
+          "provider": "dltv.ac.th",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at cdn-live.dltv.ac.th, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "dltv-4-th",
+      "name": "DLTV 4",
+      "altNames": [
+        "DLTV 4 ( )"
+      ],
+      "country": "TH",
+      "language": "th",
+      "categories": [
+        "education"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/WkpoQhU.png",
+      "provider": "DLTV 4",
+      "description": "DLTV 4 is a education channel from Thailand, publishing a free official stream from its own domain (dltv.ac.th).",
+      "region": "Asia",
+      "quality": "1080p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from cdn-live.dltv.ac.th, the broadcaster's own domain (channel website dltv.ac.th). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://www.dltv.ac.th/DLTV4",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "dltv-4-th-s1",
+          "type": "hls",
+          "url": "https://cdn-live.dltv.ac.th/dltv04.m3u8",
           "provider": "dltv.ac.th",
           "quality": "1080p",
           "authorization": "official-broadcaster",
@@ -4994,6 +5715,126 @@
           "id": "dltv-6-th-s1",
           "type": "hls",
           "url": "https://cdn-live.dltv.ac.th/dltv06.m3u8",
+          "provider": "dltv.ac.th",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at cdn-live.dltv.ac.th, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "dltv-7-th",
+      "name": "DLTV 7",
+      "altNames": [
+        "DLTV 7 ( )"
+      ],
+      "country": "TH",
+      "language": "th",
+      "categories": [
+        "education"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/OjYwMe3.png",
+      "provider": "DLTV 7",
+      "description": "DLTV 7 is a education channel from Thailand, publishing a free official stream from its own domain (dltv.ac.th).",
+      "region": "Asia",
+      "quality": "1080p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from cdn-live.dltv.ac.th, the broadcaster's own domain (channel website dltv.ac.th). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://www.dltv.ac.th/DLTV7",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "dltv-7-th-s1",
+          "type": "hls",
+          "url": "https://cdn-live.dltv.ac.th/dltv07.m3u8",
+          "provider": "dltv.ac.th",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at cdn-live.dltv.ac.th, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "dltv-8-th",
+      "name": "DLTV 8",
+      "altNames": [
+        "DLTV 8 ( )"
+      ],
+      "country": "TH",
+      "language": "th",
+      "categories": [
+        "education"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/xIwn5Ha.png",
+      "provider": "DLTV 8",
+      "description": "DLTV 8 is a education channel from Thailand, publishing a free official stream from its own domain (dltv.ac.th).",
+      "region": "Asia",
+      "quality": "1080p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from cdn-live.dltv.ac.th, the broadcaster's own domain (channel website dltv.ac.th). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://www.dltv.ac.th/DLTV8",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "dltv-8-th-s1",
+          "type": "hls",
+          "url": "https://cdn-live.dltv.ac.th/dltv08.m3u8",
+          "provider": "dltv.ac.th",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at cdn-live.dltv.ac.th, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "dltv-9-th",
+      "name": "DLTV 9",
+      "altNames": [
+        "DLTV 9 ( )"
+      ],
+      "country": "TH",
+      "language": "th",
+      "categories": [
+        "education"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/yPeSAry.png",
+      "provider": "DLTV 9",
+      "description": "DLTV 9 is a education channel from Thailand, publishing a free official stream from its own domain (dltv.ac.th).",
+      "region": "Asia",
+      "quality": "1080p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from cdn-live.dltv.ac.th, the broadcaster's own domain (channel website dltv.ac.th). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://www.dltv.ac.th/DLTV9",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "dltv-9-th-s1",
+          "type": "hls",
+          "url": "https://cdn-live.dltv.ac.th/dltv09.m3u8",
           "provider": "dltv.ac.th",
           "quality": "1080p",
           "authorization": "official-broadcaster",
@@ -6931,6 +7772,45 @@
       ]
     },
     {
+      "id": "ganj-e-hozour-tv-us",
+      "name": "Ganj e Hozour TV",
+      "altNames": [
+        "Ganj e Hozour TV ( )"
+      ],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "entertainment"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/TnQYtKh.png",
+      "provider": "Ganj e Hozour TV",
+      "description": "Ganj e Hozour TV is a entertainment channel from United States, publishing a free official stream from its own domain (parvizshahbazi.com).",
+      "region": "North America",
+      "quality": "1080p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from media.parvizshahbazi.com, the broadcaster's own domain (channel website parvizshahbazi.com). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "ganj-e-hozour-tv-us-s1",
+          "type": "hls",
+          "url": "https://media.parvizshahbazi.com/ganjehozour/Main_tv/playlist.m3u8",
+          "provider": "parvizshahbazi.com",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at media.parvizshahbazi.com, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
       "id": "geo-super",
       "name": "Geo Super",
       "altNames": [
@@ -7302,6 +8182,114 @@
       ]
     },
     {
+      "id": "god-stands-tv-punjabi-pk",
+      "name": "God Stands TV Punjabi",
+      "altNames": [],
+      "country": "PK",
+      "language": "ur",
+      "categories": [
+        "religious"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/EO6cYUI.png",
+      "provider": "God Stands TV Punjabi",
+      "description": "God Stands TV Punjabi is a religious channel from Pakistan, publishing a free official stream from its own domain (godstands.tv).",
+      "region": "Asia",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from online.godstands.tv, the broadcaster's own domain (channel website godstands.tv). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://www.godstands.tv/",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "god-stands-tv-punjabi-pk-s1",
+          "type": "hls",
+          "url": "https://online.godstands.tv:5443/WebRTCApp/streams/PunjabiStreaming.m3u8",
+          "provider": "godstands.tv",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at online.godstands.tv, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "god-stands-tv-tagalog-pk",
+      "name": "God Stands TV Tagalog",
+      "altNames": [],
+      "country": "PK",
+      "language": "ur",
+      "categories": [
+        "religious"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/EO6cYUI.png",
+      "provider": "God Stands TV Tagalog",
+      "description": "God Stands TV Tagalog is a religious channel from Pakistan, publishing a free official stream from its own domain (godstands.tv).",
+      "region": "Asia",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from online.godstands.tv, the broadcaster's own domain (channel website godstands.tv). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://www.godstands.tv/",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "god-stands-tv-tagalog-pk-s1",
+          "type": "hls",
+          "url": "https://online.godstands.tv:5443/WebRTCApp/streams/Tagalog.m3u8",
+          "provider": "godstands.tv",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at online.godstands.tv, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "god-stands-tv-urdu-pk",
+      "name": "God Stands TV Urdu",
+      "altNames": [],
+      "country": "PK",
+      "language": "ur",
+      "categories": [
+        "religious"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/EO6cYUI.png",
+      "provider": "God Stands TV Urdu",
+      "description": "God Stands TV Urdu is a religious channel from Pakistan, publishing a free official stream from its own domain (godstands.tv).",
+      "region": "Asia",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from online.godstands.tv, the broadcaster's own domain (channel website godstands.tv). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://www.godstands.tv/",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "god-stands-tv-urdu-pk-s1",
+          "type": "hls",
+          "url": "https://online.godstands.tv:5443/WebRTCApp/streams/UrduStreaming.m3u8",
+          "provider": "godstands.tv",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at online.godstands.tv, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
       "id": "grand-cinema-tr",
       "name": "Grand Cinema",
       "altNames": [],
@@ -7417,6 +8405,41 @@
       ]
     },
     {
+      "id": "guangzhou-tv-cn",
+      "name": "Guangzhou TV",
+      "altNames": [],
+      "country": "CN",
+      "language": "zh",
+      "categories": [
+        "entertainment"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/ff3KQXp.png",
+      "provider": "Guangzhou TV",
+      "description": "Guangzhou TV is a entertainment channel from China, publishing a free official stream from its own domain (gztv.com).",
+      "region": "Asia",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from tencentplaybusiness.gztv.com, the broadcaster's own domain (channel website gztv.com). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "guangzhou-tv-cn-s1",
+          "type": "hls",
+          "url": "https://tencentplaybusiness.gztv.com/live/zonghes.m3u8",
+          "provider": "gztv.com",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at tencentplaybusiness.gztv.com, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
       "id": "hamdard-tv-ca",
       "name": "Hamdard TV",
       "altNames": [
@@ -7457,6 +8480,78 @@
       ]
     },
     {
+      "id": "harbin-comprehensive-news-channel-cn",
+      "name": "Harbin Comprehensive News Channel",
+      "altNames": [],
+      "country": "CN",
+      "language": "zh",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://www.tvchinese.net/uploads/tv/haerbin.jpg",
+      "provider": "Harbin Comprehensive News Channel",
+      "description": "Harbin Comprehensive News Channel is a news channel from China, publishing a free official stream from its own domain (hrbtv.net).",
+      "region": "Asia",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from stream.hrbtv.net, the broadcaster's own domain (channel website hrbtv.net). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://www.hrbtv.net/folder79/folder81/",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "harbin-comprehensive-news-channel-cn-s1",
+          "type": "hls",
+          "url": "https://stream.hrbtv.net/xwzh/playlist.m3u8?_upt=ef41dd531755913594",
+          "provider": "hrbtv.net",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at stream.hrbtv.net, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "harbin-movie-channel-cn",
+      "name": "Harbin Movie Channel",
+      "altNames": [],
+      "country": "CN",
+      "language": "zh",
+      "categories": [
+        "movies"
+      ],
+      "sports": [],
+      "logo": "https://www.tvchinese.net/uploads/tv/haerbin.jpg",
+      "provider": "Harbin Movie Channel",
+      "description": "Harbin Movie Channel is a movies channel from China, publishing a free official stream from its own domain (hrbtv.net).",
+      "region": "Asia",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from stream.hrbtv.net, the broadcaster's own domain (channel website hrbtv.net). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://www.hrbtv.net/folder79/folder87/",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "harbin-movie-channel-cn-s1",
+          "type": "hls",
+          "url": "https://stream.hrbtv.net/yspd/playlist.m3u8",
+          "provider": "hrbtv.net",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at stream.hrbtv.net, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
       "id": "hechos-ecuador-ec",
       "name": "Hechos Ecuador",
       "altNames": [
@@ -7487,6 +8582,201 @@
           "quality": "1080p",
           "authorization": "official-broadcaster",
           "authorizationNote": "Official broadcaster endpoint at online.hechosecuador.com, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "hlaj-dtv-kr",
+      "name": "HLAJ-DTV",
+      "altNames": [
+        "HLAJ-DTV (352p)"
+      ],
+      "country": "KR",
+      "language": "ko",
+      "categories": [
+        "entertainment"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/JM4rxGU.png",
+      "provider": "HLAJ-DTV",
+      "description": "HLAJ-DTV is a entertainment channel from South Korea, publishing a free official stream from its own domain (jejumbc.com).",
+      "region": "Asia",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from wowza.jejumbc.com, the broadcaster's own domain (channel website jejumbc.com). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://jejumbc.com/",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "hlaj-dtv-kr-s1",
+          "type": "hls",
+          "url": "https://wowza.jejumbc.com/live/tv_jejumbc/playlist.m3u8",
+          "provider": "jejumbc.com",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at wowza.jejumbc.com, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "hlan-dtv-kr",
+      "name": "HLAN-DTV",
+      "altNames": [
+        "HLAN-DTV ( )"
+      ],
+      "country": "KR",
+      "language": "ko",
+      "categories": [
+        "entertainment"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/lthyx2P.png",
+      "provider": "HLAN-DTV",
+      "description": "HLAN-DTV is a entertainment channel from South Korea, publishing a free official stream from its own domain (chmbc.co.kr).",
+      "region": "Asia",
+      "quality": "480p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from stream.chmbc.co.kr, the broadcaster's own domain (channel website chmbc.co.kr). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "hlan-dtv-kr-s1",
+          "type": "hls",
+          "url": "https://stream.chmbc.co.kr/TV/myStream/playlist.m3u8",
+          "provider": "chmbc.co.kr",
+          "quality": "480p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at stream.chmbc.co.kr, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "hlcq-dtv-kr",
+      "name": "HLCQ-DTV",
+      "altNames": [
+        "HLCQ-DTV ( )"
+      ],
+      "country": "KR",
+      "language": "ko",
+      "categories": [
+        "entertainment"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/HCbvAiM.png",
+      "provider": "HLCQ-DTV",
+      "description": "HLCQ-DTV is a entertainment channel from South Korea, publishing a free official stream from its own domain (tjmbc.co.kr).",
+      "region": "Asia",
+      "quality": "720p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from ns1.tjmbc.co.kr, the broadcaster's own domain (channel website tjmbc.co.kr). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://tjmbc.co.kr/",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "hlcq-dtv-kr-s1",
+          "type": "hls",
+          "url": "https://ns1.tjmbc.co.kr/live/myStream.sdp/playlist.m3u8",
+          "provider": "tjmbc.co.kr",
+          "quality": "720p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at ns1.tjmbc.co.kr, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "hldh-dtv-kr",
+      "name": "HLDH-DTV",
+      "altNames": [
+        "HLDH-DTV ( )"
+      ],
+      "country": "KR",
+      "language": "ko",
+      "categories": [
+        "entertainment"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/Srsw4Mi.png",
+      "provider": "HLDH-DTV",
+      "description": "HLDH-DTV is a entertainment channel from South Korea, publishing a free official stream from its own domain (ikbc.co.kr).",
+      "region": "Asia",
+      "quality": "1080p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from vod.ikbc.co.kr, the broadcaster's own domain (channel website ikbc.co.kr). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "hldh-dtv-kr-s1",
+          "type": "hls",
+          "url": "https://vod.ikbc.co.kr/KBCTV/tv/playlist.m3u8",
+          "provider": "ikbc.co.kr",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at vod.ikbc.co.kr, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "hldp-dtv-kr",
+      "name": "HLDP-DTV",
+      "altNames": [
+        "HLDP-DTV ( )"
+      ],
+      "country": "KR",
+      "language": "ko",
+      "categories": [
+        "entertainment"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/BBCoqIf.png",
+      "provider": "HLDP-DTV",
+      "description": "HLDP-DTV is a entertainment channel from South Korea, publishing a free official stream from its own domain (web.ubc.co.kr).",
+      "region": "Asia",
+      "quality": "540p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from stream.ubc.co.kr, the broadcaster's own domain (channel website web.ubc.co.kr). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "hldp-dtv-kr-s1",
+          "type": "hls",
+          "url": "https://stream.ubc.co.kr/hls/ubctvstream/index.m3u8",
+          "provider": "web.ubc.co.kr",
+          "quality": "540p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at stream.ubc.co.kr, verified playable with CORS on 2026-11-23.",
           "isPrimary": true,
           "status": "unknown",
           "lastCheckedAt": null,
@@ -7728,6 +9018,45 @@
       ]
     },
     {
+      "id": "impact-tv-manele-ro",
+      "name": "Impact TV Manele",
+      "altNames": [
+        "Impact TV Manele ( )"
+      ],
+      "country": "RO",
+      "language": "ro",
+      "categories": [
+        "music"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/4JdnUAd.png",
+      "provider": "Impact TV Manele",
+      "description": "Impact TV Manele is a music channel from Romania, publishing a free official stream from its own domain (tvimpact.live).",
+      "region": "Europe",
+      "quality": "1080p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from online.tvimpact.live, the broadcaster's own domain (channel website tvimpact.live). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "impact-tv-manele-ro-s1",
+          "type": "hls",
+          "url": "https://online.tvimpact.live/hls/impact_tv.m3u8",
+          "provider": "tvimpact.live",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at online.tvimpact.live, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
       "id": "in-puii-mei-ro",
       "name": "In Puii Mei",
       "altNames": [
@@ -7928,6 +9257,45 @@
       ]
     },
     {
+      "id": "intermedia-tv-ro",
+      "name": "Intermedia TV",
+      "altNames": [
+        "Intermedia TV ( )"
+      ],
+      "country": "RO",
+      "language": "ro",
+      "categories": [
+        "entertainment"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/cNXM4Mu.png",
+      "provider": "Intermedia TV",
+      "description": "Intermedia TV is a entertainment channel from Romania, publishing a free official stream from its own domain (intermediatv.ro).",
+      "region": "Europe",
+      "quality": "576p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from live.intermediatv.ro, the broadcaster's own domain (channel website intermediatv.ro). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "intermedia-tv-ro-s1",
+          "type": "hls",
+          "url": "https://live.intermediatv.ro/ram/playlist.m3u8",
+          "provider": "intermediatv.ro",
+          "quality": "576p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at live.intermediatv.ro, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
       "id": "ionian-channel-gr",
       "name": "Ionian Channel",
       "altNames": [],
@@ -7989,6 +9357,46 @@
           "provider": "iranefardalive.com",
           "authorization": "official-broadcaster",
           "authorizationNote": "Official broadcaster endpoint at iranefardalive.com, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "iroast-ro",
+      "name": "iRoast",
+      "altNames": [
+        "iRoast ( )"
+      ],
+      "country": "RO",
+      "language": "ro",
+      "categories": [
+        "entertainment"
+      ],
+      "sports": [],
+      "logo": "https://assets.antenaplay.ro/2026/05/07/1CKR5EoJo1qeSZCe9lkT.png",
+      "provider": "iRoast",
+      "description": "iRoast is a entertainment channel from Romania, publishing a free official stream from its own domain (antenaplay.ro).",
+      "region": "Europe",
+      "quality": "576p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from live77cdn2.antenaplay.ro, the broadcaster's own domain (channel website antenaplay.ro). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://antenaplay.ro/live/iroast",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "iroast-ro-s1",
+          "type": "hls",
+          "url": "https://live77cdn2.antenaplay.ro/live2_fast/ch3/stream.m3u8",
+          "provider": "antenaplay.ro",
+          "quality": "576p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at live77cdn2.antenaplay.ro, verified playable with CORS on 2026-11-23.",
           "isPrimary": true,
           "status": "unknown",
           "lastCheckedAt": null,
@@ -8107,6 +9515,46 @@
           "provider": "iteltv.com.ar",
           "authorization": "official-broadcaster",
           "authorizationNote": "Official broadcaster endpoint at proxystream.iteltv.com.ar, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "iumor-ro",
+      "name": "iUmor",
+      "altNames": [
+        "iUmor ( )"
+      ],
+      "country": "RO",
+      "language": "ro",
+      "categories": [
+        "entertainment"
+      ],
+      "sports": [],
+      "logo": "https://assets.antenaplay.ro/2026/05/07/pB32HtJzC1i0xlH75Rb0.png",
+      "provider": "iUmor",
+      "description": "iUmor is a entertainment channel from Romania, publishing a free official stream from its own domain (antenaplay.ro).",
+      "region": "Europe",
+      "quality": "576p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from live77cdn2.antenaplay.ro, the broadcaster's own domain (channel website antenaplay.ro). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://antenaplay.ro/live/iumor",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "iumor-ro-s1",
+          "type": "hls",
+          "url": "https://live77cdn2.antenaplay.ro/live2_fast/ch2/stream.m3u8",
+          "provider": "antenaplay.ro",
+          "quality": "576p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at live77cdn2.antenaplay.ro, verified playable with CORS on 2026-11-23.",
           "isPrimary": true,
           "status": "unknown",
           "lastCheckedAt": null,
@@ -8278,6 +9726,41 @@
       ]
     },
     {
+      "id": "jingmen-comprehensive-news-channel-cn",
+      "name": "Jingmen Comprehensive News Channel",
+      "altNames": [],
+      "country": "CN",
+      "language": "zh",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://www.tvchinese.net/uploads/tv/jmsxwpd.jpg",
+      "provider": "Jingmen Comprehensive News Channel",
+      "description": "Jingmen Comprehensive News Channel is a news channel from China, publishing a free official stream from its own domain (jmtv.com.cn).",
+      "region": "Asia",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from stream.jmtv.com.cn, the broadcaster's own domain (channel website jmtv.com.cn). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "jingmen-comprehensive-news-channel-cn-s1",
+          "type": "hls",
+          "url": "https://stream.jmtv.com.cn/xwzh/sd/live.m3u8?_upt=341f4b8e1791883036",
+          "provider": "jmtv.com.cn",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at stream.jmtv.com.cn, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
       "id": "jtbs-classic-in",
       "name": "JTBS Classic",
       "altNames": [],
@@ -8434,6 +9917,46 @@
       ]
     },
     {
+      "id": "kanal-d-ro",
+      "name": "Kanal D",
+      "altNames": [
+        "Kanal D (Romania) ( )"
+      ],
+      "country": "RO",
+      "language": "ro",
+      "categories": [
+        "entertainment"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/15ILp0P.png",
+      "provider": "Kanal D",
+      "description": "Kanal D is a entertainment channel from Romania, publishing a free official stream from its own domain (kanald.ro).",
+      "region": "Europe",
+      "quality": "480p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from stream1.kanald.ro, the broadcaster's own domain (channel website kanald.ro). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://www.kanald.ro/",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "kanal-d-ro-s1",
+          "type": "hls",
+          "url": "https://stream1.kanald.ro/iphone/knd-live.m3u8",
+          "provider": "kanald.ro",
+          "quality": "480p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at stream1.kanald.ro, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
       "id": "kanshi-tv-gb",
       "name": "Kanshi TV",
       "altNames": [
@@ -8464,6 +9987,46 @@
           "quality": "720p",
           "authorization": "official-broadcaster",
           "authorizationNote": "Official broadcaster endpoint at live.kanshitv.co.uk, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "ktv-kr",
+      "name": "KTV",
+      "altNames": [
+        "KTV (South Korea) ( )"
+      ],
+      "country": "KR",
+      "language": "ko",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://i.ibb.co/WkrLDJW/Screenshot-20230714-135036-removebg-preview.png",
+      "provider": "KTV",
+      "description": "KTV is a news channel from South Korea, publishing a free official stream from its own domain (ktv.go.kr).",
+      "region": "Asia",
+      "quality": "1080p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from hlive.ktv.go.kr, the broadcaster's own domain (channel website ktv.go.kr). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://www.ktv.go.kr/",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "ktv-kr-s1",
+          "type": "hls",
+          "url": "https://hlive.ktv.go.kr/live/klive_h.stream/playlist.m3u8",
+          "provider": "ktv.go.kr",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at hlive.ktv.go.kr, verified playable with CORS on 2026-11-23.",
           "isPrimary": true,
           "status": "unknown",
           "lastCheckedAt": null,
@@ -8534,6 +10097,161 @@
           "id": "la-1-canarias-es-s1",
           "type": "hls",
           "url": "https://ztnr.rtve.es/ztnr/5190066.m3u8",
+          "provider": "rtve.es",
+          "quality": "720p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at ztnr.rtve.es, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "la-1-catalunya-es",
+      "name": "La 1 Catalunya",
+      "altNames": [
+        "La 1 Catalunya ( )"
+      ],
+      "country": "ES",
+      "language": "es",
+      "categories": [
+        "entertainment"
+      ],
+      "sports": [],
+      "logo": "https://i.ibb.co/MxJNPHsn/La-1.png",
+      "provider": "La 1 Catalunya",
+      "description": "La 1 Catalunya is a entertainment channel from Spain, publishing a free official stream from its own domain (rtve.es).",
+      "region": "Europe",
+      "quality": "720p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from ztnr.rtve.es, the broadcaster's own domain (channel website rtve.es). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://www.rtve.es/television/catalunya/",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "la-1-catalunya-es-s1",
+          "type": "hls",
+          "url": "https://ztnr.rtve.es/ztnr/3293681.m3u8",
+          "provider": "rtve.es",
+          "quality": "720p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at ztnr.rtve.es, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "la-2-es",
+      "name": "La 2",
+      "altNames": [],
+      "country": "ES",
+      "language": "es",
+      "categories": [
+        "entertainment"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/DmuTwDw.png",
+      "provider": "La 2",
+      "description": "La 2 is a entertainment channel from Spain, publishing a free official stream from its own domain (rtve.es).",
+      "region": "Europe",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from rtvelivestream.rtve.es, the broadcaster's own domain (channel website rtve.es). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://www.rtve.es/television/",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "la-2-es-s1",
+          "type": "hls",
+          "url": "https://rtvelivestream.rtve.es/rtvesec/la2/la2_main_dvr.m3u8",
+          "provider": "rtve.es",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at rtvelivestream.rtve.es, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "la-2-canarias-es",
+      "name": "La 2 Canarias",
+      "altNames": [
+        "La 2 Canarias ( )"
+      ],
+      "country": "ES",
+      "language": "es",
+      "categories": [
+        "entertainment"
+      ],
+      "sports": [],
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Logo_La_2_Canarias.png/960px-Logo_La_2_Canarias.png",
+      "provider": "La 2 Canarias",
+      "description": "La 2 Canarias is a entertainment channel from Spain, publishing a free official stream from its own domain (rtve.es).",
+      "region": "Europe",
+      "quality": "720p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from ztnr.rtve.es, the broadcaster's own domain (channel website rtve.es). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "la-2-canarias-es-s1",
+          "type": "hls",
+          "url": "https://ztnr.rtve.es/ztnr/5468585.m3u8",
+          "provider": "rtve.es",
+          "quality": "720p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at ztnr.rtve.es, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "la-2-catalunya-es",
+      "name": "La 2 Catalunya",
+      "altNames": [
+        "La 2 Catalunya ( )"
+      ],
+      "country": "ES",
+      "language": "es",
+      "categories": [
+        "entertainment"
+      ],
+      "sports": [],
+      "logo": "https://i.ibb.co/Lztt9rgr/La-2-Catalunya.png",
+      "provider": "La 2 Catalunya",
+      "description": "La 2 Catalunya is a entertainment channel from Spain, publishing a free official stream from its own domain (rtve.es).",
+      "region": "Europe",
+      "quality": "720p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from ztnr.rtve.es, the broadcaster's own domain (channel website rtve.es). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://www.rtve.es/television/catalunya/",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "la-2-catalunya-es-s1",
+          "type": "hls",
+          "url": "https://ztnr.rtve.es/ztnr/3987218.m3u8",
           "provider": "rtve.es",
           "quality": "720p",
           "authorization": "official-broadcaster",
@@ -8807,6 +10525,84 @@
           "quality": "720p",
           "authorization": "official-broadcaster",
           "authorizationNote": "Publisher-operated FAST feed.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "lotte-home-shopping-kr",
+      "name": "Lotte Home Shopping",
+      "altNames": [
+        "Lotte Home Shopping ( )"
+      ],
+      "country": "KR",
+      "language": "ko",
+      "categories": [
+        "entertainment"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/dJeNehc.png",
+      "provider": "Lotte Home Shopping",
+      "description": "Lotte Home Shopping is a entertainment channel from South Korea, publishing a free official stream from its own domain (lotteimall.com).",
+      "region": "Asia",
+      "quality": "720p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from pchlslivesw.lotteimall.com, the broadcaster's own domain (channel website lotteimall.com). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "lotte-home-shopping-kr-s1",
+          "type": "hls",
+          "url": "https://pchlslivesw.lotteimall.com/live/livestream/lotteimalllive_mp4.m3u8",
+          "provider": "lotteimall.com",
+          "quality": "720p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at pchlslivesw.lotteimall.com, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "lotte-onetv-kr",
+      "name": "Lotte OneTV",
+      "altNames": [
+        "Lotte OneTV ( )"
+      ],
+      "country": "KR",
+      "language": "ko",
+      "categories": [
+        "entertainment"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/bXe7tYE.png",
+      "provider": "Lotte OneTV",
+      "description": "Lotte OneTV is a entertainment channel from South Korea, publishing a free official stream from its own domain (lotteimall.com).",
+      "region": "Asia",
+      "quality": "720p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from onetvhlslive.lotteimall.com, the broadcaster's own domain (channel website lotteimall.com). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "lotte-onetv-kr-s1",
+          "type": "hls",
+          "url": "https://onetvhlslive.lotteimall.com/lotteonetvlive/lotteonetvlive.mp4.m3u8",
+          "provider": "lotteimall.com",
+          "quality": "720p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at onetvhlslive.lotteimall.com, verified playable with CORS on 2026-11-23.",
           "isPrimary": true,
           "status": "unknown",
           "lastCheckedAt": null,
@@ -9288,6 +11084,42 @@
       ]
     },
     {
+      "id": "medicool-tv-ro",
+      "name": "MediCOOL TV",
+      "altNames": [],
+      "country": "RO",
+      "language": "ro",
+      "categories": [
+        "lifestyle"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/Xe7x1k2.png",
+      "provider": "MediCOOL TV",
+      "description": "MediCOOL TV is a lifestyle channel from Romania, publishing a free official stream from its own domain (antenaplay.ro).",
+      "region": "Europe",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from live77cdn2.antenaplay.ro, the broadcaster's own domain (channel website antenaplay.ro). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://antenaplay.ro/live/medicool-tv",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "medicool-tv-ro-s1",
+          "type": "hls",
+          "url": "https://live77cdn2.antenaplay.ro/live2_fast/ch1/stream.m3u8",
+          "provider": "antenaplay.ro",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at live77cdn2.antenaplay.ro, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
       "id": "mercurio-noticias-ar",
       "name": "Mercurio Noticias",
       "altNames": [],
@@ -9359,6 +11191,42 @@
       ]
     },
     {
+      "id": "metaleitor-tv-us",
+      "name": "Metaleitor TV",
+      "altNames": [],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "music"
+      ],
+      "sports": [],
+      "logo": "https://new.opencaster.com/uploads/logos/logo_14_1752798826.png",
+      "provider": "Metaleitor TV",
+      "description": "Metaleitor TV is a music channel from United States, publishing a free official stream from its own domain (new.opencaster.com).",
+      "region": "North America",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from vs20.live.opencaster.com, the broadcaster's own domain (channel website new.opencaster.com). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://new.opencaster.com/player?user=MetaleitorTv",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "metaleitor-tv-us-s1",
+          "type": "hls",
+          "url": "https://vs20.live.opencaster.com/metaleitortv_423d3342/index.m3u8",
+          "provider": "new.opencaster.com",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at vs20.live.opencaster.com, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
       "id": "microvision-10-do",
       "name": "Microvision 10",
       "altNames": [
@@ -9389,6 +11257,86 @@
           "quality": "720p",
           "authorization": "official-broadcaster",
           "authorizationNote": "Official broadcaster endpoint at streaming.telecablecentral.com.do, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "mireasa-ro",
+      "name": "Mireasa+",
+      "altNames": [
+        "Mireasa+ ( )"
+      ],
+      "country": "RO",
+      "language": "ro",
+      "categories": [
+        "entertainment"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/URwmGuY.png",
+      "provider": "Mireasa+",
+      "description": "Mireasa+ is a entertainment channel from Romania, publishing a free official stream from its own domain (antenaplay.ro).",
+      "region": "Europe",
+      "quality": "480p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from live77cdn2.antenaplay.ro, the broadcaster's own domain (channel website antenaplay.ro). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://antenaplay.ro/live/mireasa-plus",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "mireasa-ro-s1",
+          "type": "hls",
+          "url": "https://live77cdn2.antenaplay.ro/live2_mireasadoi/live2_mireasadoi.m3u8",
+          "provider": "antenaplay.ro",
+          "quality": "480p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at live77cdn2.antenaplay.ro, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "misa-tv-ro",
+      "name": "MISA TV",
+      "altNames": [
+        "MISA TV ( )"
+      ],
+      "country": "RO",
+      "language": "ro",
+      "categories": [
+        "religious"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/2RxQNm6.png",
+      "provider": "MISA TV",
+      "description": "MISA TV is a religious channel from Romania, publishing a free official stream from its own domain (misatv.ro).",
+      "region": "Europe",
+      "quality": "720p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from vidl.misatv.ro, the broadcaster's own domain (channel website misatv.ro). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://misatv.ro/",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "misa-tv-ro-s1",
+          "type": "hls",
+          "url": "https://vidl.misatv.ro:5050/MSTV/romanian_720p_baseline/playlist.m3u8",
+          "provider": "misatv.ro",
+          "quality": "720p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at vidl.misatv.ro, verified playable with CORS on 2026-11-23.",
           "isPrimary": true,
           "status": "unknown",
           "lastCheckedAt": null,
@@ -9665,6 +11613,42 @@
       ]
     },
     {
+      "id": "mtc-us",
+      "name": "MTC",
+      "altNames": [],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "entertainment"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/JxoAR4j.png",
+      "provider": "MTC",
+      "description": "MTC is a entertainment channel from United States, publishing a free official stream from its own domain (mtc.wns.live).",
+      "region": "North America",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from mtchls.wns.live, the broadcaster's own domain (channel website mtc.wns.live). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://mtc.wns.live/",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "mtc-us-s1",
+          "type": "hls",
+          "url": "https://mtchls.wns.live/hls/stream.m3u8",
+          "provider": "mtc.wns.live",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at mtchls.wns.live, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
       "id": "mtna-tv-cl",
       "name": "MTNA TV",
       "altNames": [],
@@ -9853,6 +11837,202 @@
           "quality": "1080p",
           "authorization": "official-broadcaster",
           "authorizationNote": "Official NASA TV HLS endpoint.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "nasul-tv-ro",
+      "name": "Nasul TV",
+      "altNames": [
+        "Nasul TV ( )"
+      ],
+      "country": "RO",
+      "language": "ro",
+      "categories": [
+        "entertainment"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/MoguWme.png",
+      "provider": "Nasul TV",
+      "description": "Nasul TV is a entertainment channel from Romania, publishing a free official stream from its own domain (nasul.tv).",
+      "region": "Europe",
+      "quality": "720p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from live.nasul.tv, the broadcaster's own domain (channel website nasul.tv). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://www.nasul.tv/",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "nasul-tv-ro-s1",
+          "type": "hls",
+          "url": "https://live.nasul.tv/live/stream.m3u8",
+          "provider": "nasul.tv",
+          "quality": "720p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at live.nasul.tv, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "natick-education-channel-us",
+      "name": "Natick Education Channel",
+      "altNames": [
+        "Natick Education Channel ( )"
+      ],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "education"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/VKU9qwy.png",
+      "provider": "Natick Education Channel",
+      "description": "Natick Education Channel is a education channel from United States, publishing a free official stream from its own domain (videoplayer.telvue.com).",
+      "region": "North America",
+      "quality": "720p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from livestream.telvue.com, the broadcaster's own domain (channel website videoplayer.telvue.com). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://videoplayer.telvue.com/player/994DtmGEsi0VDYK3jJI2BJ72GfgNIpU2/stream/440",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "natick-education-channel-us-s1",
+          "type": "hls",
+          "url": "https://livestream.telvue.com/natickpegasus1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8",
+          "provider": "videoplayer.telvue.com",
+          "quality": "720p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at livestream.telvue.com, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "natick-government-channel-us",
+      "name": "Natick Government Channel",
+      "altNames": [
+        "Natick Government Channel ( )"
+      ],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/eA2WSXa.png",
+      "provider": "Natick Government Channel",
+      "description": "Natick Government Channel is a news channel from United States, publishing a free official stream from its own domain (videoplayer.telvue.com).",
+      "region": "North America",
+      "quality": "720p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from livestream.telvue.com, the broadcaster's own domain (channel website videoplayer.telvue.com). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://videoplayer.telvue.com/player/994DtmGEsi0VDYK3jJI2BJ72GfgNIpU2/stream/438",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "natick-government-channel-us-s1",
+          "type": "hls",
+          "url": "https://livestream.telvue.com/natickpegasus3/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8",
+          "provider": "videoplayer.telvue.com",
+          "quality": "720p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at livestream.telvue.com, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "natick-public-access-channel-us",
+      "name": "Natick Public Access Channel",
+      "altNames": [
+        "Natick Public Access Channel ( )"
+      ],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "entertainment"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/G4a3gW0.png",
+      "provider": "Natick Public Access Channel",
+      "description": "Natick Public Access Channel is a entertainment channel from United States, publishing a free official stream from its own domain (videoplayer.telvue.com).",
+      "region": "North America",
+      "quality": "720p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from livestream.telvue.com, the broadcaster's own domain (channel website videoplayer.telvue.com). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://videoplayer.telvue.com/player/994DtmGEsi0VDYK3jJI2BJ72GfgNIpU2/categories/1296/stream/439",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "natick-public-access-channel-us-s1",
+          "type": "hls",
+          "url": "https://livestream.telvue.com/natickpegasus2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8",
+          "provider": "videoplayer.telvue.com",
+          "quality": "720p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at livestream.telvue.com, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "national-iranian-congress-tv-us",
+      "name": "National Iranian Congress TV",
+      "altNames": [],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://iraniancongress.com/tv/logo.png",
+      "provider": "National Iranian Congress TV",
+      "description": "National Iranian Congress TV is a news channel from United States, publishing a free official stream from its own domain (iraniancongress.com).",
+      "region": "North America",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from tv.iraniancongress.com, the broadcaster's own domain (channel website iraniancongress.com). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://iraniancongress.com",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "national-iranian-congress-tv-us-s1",
+          "type": "hls",
+          "url": "https://tv.iraniancongress.com/stream/tv.m3u8",
+          "provider": "iraniancongress.com",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at tv.iraniancongress.com, verified playable with CORS on 2026-11-23.",
           "isPrimary": true,
           "status": "unknown",
           "lastCheckedAt": null,
@@ -10414,6 +12594,112 @@
       ]
     },
     {
+      "id": "ntd-tv-canada-us",
+      "name": "NTD TV Canada",
+      "altNames": [],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "entertainment"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/iyFXcDy.png",
+      "provider": "NTD TV Canada",
+      "description": "NTD TV Canada is a entertainment channel from United States, publishing a free official stream from its own domain (ca.ntdtv.com).",
+      "region": "North America",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from live.ntdtv.com, the broadcaster's own domain (channel website ca.ntdtv.com). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "ntd-tv-canada-us-s1",
+          "type": "hls",
+          "url": "https://live.ntdtv.com/mllive860/playlist.m3u8",
+          "provider": "ca.ntdtv.com",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at live.ntdtv.com, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "ntd-tv-canada-west-us",
+      "name": "NTD TV Canada West",
+      "altNames": [],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "entertainment"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/iyFXcDy.png",
+      "provider": "NTD TV Canada West",
+      "description": "NTD TV Canada West is a entertainment channel from United States, publishing a free official stream from its own domain (ca.ntdtv.com).",
+      "region": "North America",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from live.ntdtv.com, the broadcaster's own domain (channel website ca.ntdtv.com). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "ntd-tv-canada-west-us-s1",
+          "type": "hls",
+          "url": "https://live.ntdtv.com/cwlive220/playlist.m3u8",
+          "provider": "ca.ntdtv.com",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at live.ntdtv.com, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "ntd-tv-china-us",
+      "name": "NTD TV China",
+      "altNames": [],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "entertainment"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/OpWTWdh.png",
+      "provider": "NTD TV China",
+      "description": "NTD TV China is a entertainment channel from United States, publishing a free official stream from its own domain (ntdtv.com).",
+      "region": "North America",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from live.ntdtv.com, the broadcaster's own domain (channel website ntdtv.com). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://www.ntdtv.com/",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "ntd-tv-china-us-s1",
+          "type": "hls",
+          "url": "https://live.ntdtv.com/cnlive900/playlist.m3u8",
+          "provider": "ntdtv.com",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at live.ntdtv.com, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
       "id": "ntk-tv-ua",
       "name": "NTK TV",
       "altNames": [
@@ -10736,6 +13022,46 @@
       ]
     },
     {
+      "id": "orange-government-access-tv-us",
+      "name": "Orange Government Access TV",
+      "altNames": [
+        "Orange Government Access TV ( )"
+      ],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "news"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/hyPTfxA.png",
+      "provider": "Orange Government Access TV",
+      "description": "Orange Government Access TV is a news channel from United States, publishing a free official stream from its own domain (videoplayer.telvue.com).",
+      "region": "North America",
+      "quality": "720p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from livestream.telvue.com, the broadcaster's own domain (channel website videoplayer.telvue.com). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://videoplayer.telvue.com/player/BUJHRRxhCf0u3AtXMrx7Sx7CjdW8zUFT/stream/851?autostart=false&showtabssearch=true",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "orange-government-access-tv-us-s1",
+          "type": "hls",
+          "url": "https://livestream.telvue.com/ogat1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8",
+          "provider": "videoplayer.telvue.com",
+          "quality": "720p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at livestream.telvue.com, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
       "id": "orf-sport-plus",
       "name": "ORF Sport+",
       "altNames": [],
@@ -10766,6 +13092,45 @@
           "quality": "720p",
           "authorization": "public-broadcaster",
           "authorizationNote": "Austrian public broadcaster ORF, served from ORS (ORF's own media delivery subsidiary) at mdn.ors.at. Verified playable with CORS 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "oun-kr",
+      "name": "OUN",
+      "altNames": [
+        "OUN ( )"
+      ],
+      "country": "KR",
+      "language": "ko",
+      "categories": [
+        "education"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/7s6JtcU.png",
+      "provider": "OUN",
+      "description": "OUN is a education channel from South Korea, publishing a free official stream from its own domain (oun.knou.ac.kr).",
+      "region": "Asia",
+      "quality": "1080p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from live.knou.ac.kr, the broadcaster's own domain (channel website oun.knou.ac.kr). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "oun-kr-s1",
+          "type": "hls",
+          "url": "https://live.knou.ac.kr/knou1/live1/playlist.m3u8",
+          "provider": "oun.knou.ac.kr",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at live.knou.ac.kr, verified playable with CORS on 2026-11-23.",
           "isPrimary": true,
           "status": "unknown",
           "lastCheckedAt": null,
@@ -10932,6 +13297,46 @@
       ]
     },
     {
+      "id": "palm-beaches-tv-us",
+      "name": "Palm Beaches TV",
+      "altNames": [
+        "Palm Beaches TV ( )"
+      ],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "lifestyle"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/kBol4Pf.png",
+      "provider": "Palm Beaches TV",
+      "description": "Palm Beaches TV is a lifestyle channel from United States, publishing a free official stream from its own domain (thepalmbeaches.tv).",
+      "region": "North America",
+      "quality": "720p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from live.feed.thepalmbeaches.tv, the broadcaster's own domain (channel website thepalmbeaches.tv). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://www.thepalmbeaches.tv/",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "palm-beaches-tv-us-s1",
+          "type": "hls",
+          "url": "https://live.feed.thepalmbeaches.tv/index.m3u8",
+          "provider": "thepalmbeaches.tv",
+          "quality": "720p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at live.feed.thepalmbeaches.tv, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
       "id": "paraguay-tv-py",
       "name": "Paraguay TV",
       "altNames": [
@@ -11012,6 +13417,46 @@
       ]
     },
     {
+      "id": "pbs-us",
+      "name": "PBS",
+      "altNames": [
+        "PBS ( )"
+      ],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "education"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/8c8isLj.png",
+      "provider": "PBS",
+      "description": "PBS is a education channel from United States, publishing a free official stream from its own domain (pbs.org).",
+      "region": "North America",
+      "quality": "1080p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from pbs.lls.cdn.pbs.org, the broadcaster's own domain (channel website pbs.org). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://www.pbs.org/",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "pbs-us-s1",
+          "type": "hls",
+          "url": "https://pbs.lls.cdn.pbs.org/est/index.m3u8",
+          "provider": "pbs.org",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at pbs.lls.cdn.pbs.org, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
       "id": "pbs-kids",
       "name": "PBS Kids",
       "altNames": [],
@@ -11043,6 +13488,166 @@
           "quality": "720p",
           "authorization": "official-broadcaster",
           "authorizationNote": "Official PBS Kids HLS endpoint.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "pbs-kmos-tv-us",
+      "name": "PBS KMOS-TV",
+      "altNames": [
+        "PBS KMOS-TV ( )"
+      ],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "education"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/8c8isLj.png",
+      "provider": "PBS KMOS-TV",
+      "description": "PBS KMOS-TV is a education channel from United States, publishing a free official stream from its own domain (pbs.org).",
+      "region": "North America",
+      "quality": "1080p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from hls-kmosdt.lls.cdn.pbs.org, the broadcaster's own domain (channel website pbs.org). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://www.pbs.org/",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "pbs-kmos-tv-us-s1",
+          "type": "hls",
+          "url": "https://hls-kmosdt.lls.cdn.pbs.org/hls/live/index.m3u8",
+          "provider": "pbs.org",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at hls-kmosdt.lls.cdn.pbs.org, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "pbs-kqed-us",
+      "name": "PBS KQED",
+      "altNames": [
+        "PBS KQED ( )"
+      ],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "education"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/8c8isLj.png",
+      "provider": "PBS KQED",
+      "description": "PBS KQED is a education channel from United States, publishing a free official stream from its own domain (pbs.org).",
+      "region": "North America",
+      "quality": "1080p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from kqeddt2.lls.pbs.org, the broadcaster's own domain (channel website pbs.org). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://www.pbs.org/",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "pbs-kqed-us-s1",
+          "type": "hls",
+          "url": "https://kqeddt2.lls.pbs.org/kqeddt2-hls.m3u8",
+          "provider": "pbs.org",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at kqeddt2.lls.pbs.org, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "pbs-kvie-us",
+      "name": "PBS KVIE",
+      "altNames": [
+        "PBS KVIE ( )"
+      ],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "education"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/8c8isLj.png",
+      "provider": "PBS KVIE",
+      "description": "PBS KVIE is a education channel from United States, publishing a free official stream from its own domain (pbs.org).",
+      "region": "North America",
+      "quality": "1080p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from kviedt2.lls.pbs.org, the broadcaster's own domain (channel website pbs.org). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://www.pbs.org/",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "pbs-kvie-us-s1",
+          "type": "hls",
+          "url": "https://kviedt2.lls.pbs.org/kviedt2-hls.m3u8",
+          "provider": "pbs.org",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at kviedt2.lls.pbs.org, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "pbs-wedq-us",
+      "name": "PBS WEDQ",
+      "altNames": [
+        "PBS WEDQ ( )"
+      ],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "education"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/8c8isLj.png",
+      "provider": "PBS WEDQ",
+      "description": "PBS WEDQ is a education channel from United States, publishing a free official stream from its own domain (pbs.org).",
+      "region": "North America",
+      "quality": "1080p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from wedqdt4.lls.pbs.org, the broadcaster's own domain (channel website pbs.org). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://www.pbs.org/",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "pbs-wedq-us-s1",
+          "type": "hls",
+          "url": "https://wedqdt4.lls.pbs.org/wedqdt4-hls.m3u8",
+          "provider": "pbs.org",
+          "quality": "1080p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at wedqdt4.lls.pbs.org, verified playable with CORS on 2026-11-23.",
           "isPrimary": true,
           "status": "unknown",
           "lastCheckedAt": null,
@@ -11925,6 +14530,46 @@
           "quality": "1080p",
           "authorization": "official-broadcaster",
           "authorizationNote": "Official broadcaster endpoint at wzstreaming.rai.it, verified playable with CORS on 2026-11-23.",
+          "isPrimary": true,
+          "status": "unknown",
+          "lastCheckedAt": null,
+          "httpStatus": null,
+          "cors": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "rctv3-us",
+      "name": "RCTV3",
+      "altNames": [
+        "RCTV3 ( )"
+      ],
+      "country": "US",
+      "language": "en",
+      "categories": [
+        "entertainment"
+      ],
+      "sports": [],
+      "logo": "https://i.imgur.com/TvFKG35.png",
+      "provider": "RCTV3",
+      "description": "RCTV3 is a entertainment channel from United States, publishing a free official stream from its own domain (cityofrc.us).",
+      "region": "North America",
+      "quality": "480p",
+      "authorization": "official-broadcaster",
+      "authorizationNote": "Stream served from vod.cityofrc.us, the broadcaster's own domain (channel website cityofrc.us). Broadcaster website recorded in the iptv-org registry. Manifest and CORS verified 2026-11-23.",
+      "officialWatchUrl": "https://www.cityofrc.us/your-government/city-council-agendas",
+      "addedAt": "2026-11-23",
+      "updatedAt": "2026-11-23",
+      "sources": [
+        {
+          "id": "rctv3-us-s1",
+          "type": "hls",
+          "url": "https://vod.cityofrc.us/live-6/live/stream-1/live.m3u8",
+          "provider": "cityofrc.us",
+          "quality": "480p",
+          "authorization": "official-broadcaster",
+          "authorizationNote": "Official broadcaster endpoint at vod.cityofrc.us, verified playable with CORS on 2026-11-23.",
           "isPrimary": true,
           "status": "unknown",
           "lastCheckedAt": null,
