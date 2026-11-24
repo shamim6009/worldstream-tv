@@ -62,7 +62,9 @@ test.describe('core pages', () => {
     await expect(page.getByRole('link', { name: /Willow TV/ })).toHaveAttribute('href', 'https://www.willow.tv/');
     await page.getByRole('button', { name: /Cricket/ }).click();
     await expect(page).toHaveURL(/\/sports\/cricket/);
-    await expect(page.getByText('No verified events listed')).toBeVisible();
+    // The fixtures come from the ESPN sync. Real ones may be listed, but a
+    // placeholder ("TBA v TBC") must never reach the page.
+    await expect(page.getByText(/^TB[ACD]$/)).toHaveCount(0);
   });
 
   test('TV guide shows "Schedule unavailable" without guide data', async ({ page }) => {

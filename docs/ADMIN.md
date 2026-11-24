@@ -94,6 +94,31 @@ Add more entries to `sources`, in order of preference. Only add streams from the
 
 Edit `data/categories.json` (id, name, slug, description, a lucide icon name from `src/components/CategoryIcon.tsx`, and color) or `data/countries.json`. Countries with no channels get no page.
 
+## Live scores and fixtures
+
+`npm run sync:scores` pulls football and cricket scoreboards from ESPN's public,
+key-less API and writes `data/sports-live.json`. `.github/workflows/sync-scores.yml`
+runs it every 30 minutes and commits the result, which triggers a deploy.
+
+| | |
+| --- | --- |
+| Leagues | configured in `ESPN_LEAGUES` (`scripts/lib/espn.ts`) |
+| Output | `data/sports-live.json` → served as `public/data/sports-live.json` |
+| Kept | live matches, results from the last 36 hours, fixtures up to 14 days out |
+| Dropped | anything with a placeholder side (`TBA`, `TBC`, `TBD`) |
+
+Two things to know before relying on it:
+
+1. **It runs in CI, never in the browser.** The site is a static build and ESPN's
+   endpoints are undocumented, so keeping the calls server-side means a rename on
+   their end breaks a cron job instead of every visitor's page.
+2. **This is fixture data, not an authorization grant.** A match appearing here
+   does not mean we may restream it; the catalog still only lists streams its
+   rights holder publishes. The card links out to ESPN.
+
+The feed is separate from `data/sports-events.json` on purpose: that file is
+hand-curated and should only ever hold events you verified yourself.
+
 ## Sports events
 
 Add events to `data/sports-events.json` only from an official broadcaster announcement or a licensed data provider. Include `watchUrl`, `region`, `source` and `verifiedAt`. Never add placeholder fixtures.

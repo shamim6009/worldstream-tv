@@ -9,7 +9,7 @@ import { PageHeader } from '../components/PageHeader';
 import { SearchBox } from '../components/SearchBox';
 import { SectionHeading } from '../components/SectionHeading';
 import { OFFICIAL_SPORTS_DESTINATIONS, PREMIUM_SPORTS_SERVICES, SPORT_CATEGORIES, sportName } from '../data/reference';
-import { useSportsEvents } from '../hooks/useCatalog';
+import { useSportsEvents, useSportsLive } from '../hooks/useCatalog';
 import { searchChannels } from '../lib/search';
 import { useSeo } from '../lib/seo';
 import { cn, countdown, formatDate, formatTime, normalizeText, safeExternal } from '../lib/utils';
@@ -37,7 +37,11 @@ function EventCard({ event, now, catalog }: { event: SportsEvent; now: number; c
         <span className="chip py-1">
           {SPORT_CATEGORIES.find((sport) => sport.id === event.sport)?.emoji ?? '🏅'} {sportName(event.sport)}
         </span>
-        {live ? (
+        {event.status === 'finished' ? (
+          <span className="inline-flex items-center gap-1.5 rounded bg-slate-700 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider text-slate-200">
+            Full time
+          </span>
+        ) : live ? (
           <span className="inline-flex items-center gap-1.5 rounded bg-rose-600 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider text-white">
             <span className="h-1.5 w-1.5 animate-pulse-soft rounded-full bg-white" /> Live now
           </span>
@@ -50,6 +54,11 @@ function EventCard({ event, now, catalog }: { event: SportsEvent; now: number; c
       <div>
         <h3 className="font-heading text-base font-semibold text-slate-100">{event.title}</h3>
         <p className="text-xs text-slate-400">{event.competition}</p>
+        {event.homeScore || event.awayScore ? (
+          <p className="mt-1 font-mono text-sm font-semibold text-slate-200" data-testid="event-score">
+            {event.homeTeam} {event.homeScore ?? '–'} · {event.awayTeam} {event.awayScore ?? '–'}
+          </p>
+        ) : null}
       </div>
       <p className="flex items-center gap-1.5 text-sm text-slate-300">
         <CalendarDays className="h-4 w-4 text-slate-500" aria-hidden="true" />
@@ -113,10 +122,21 @@ function SportsContent({ catalog, sport }: { catalog: Catalog; sport: string | n
     return query ? searchChannels(list, query) : list;
   }, [sportsChannels, activeSport, country, query]);
 
+  const live = useSportsLive();
+  const allEvents = useMemo(
+    () => [...(eventsData?.events ?? []), ...(live.data?.events ?? [])],
+    [eventsData, live.data],
+  );
+
   const events = useMemo(() => {
     const needle = normalizeText(query);
-    return (eventsData?.events ?? [])
-      .filter((event) => Date.parse(event.endTime) > now)
+    return allEvents
+      // Results stay visible for a while; fixtures drop off once they have ended.
+      .filter((event) =>
+        event.status === 'finished'
+          ? Date.parse(event.startTime) > now - 36 * 3_600_000
+          : Date.parse(event.endTime) > now,
+      )
       .filter((event) => !activeSport || event.sport === activeSport)
       .filter(
         (event) =>
@@ -125,7 +145,7 @@ function SportsContent({ catalog, sport }: { catalog: Catalog; sport: string | n
       .sort((a, b) => a.startTime.localeCompare(b.startTime));
     // `now` ticks every second; events only need re-filtering each minute.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [eventsData, activeSport, query, Math.floor(now / 60_000)]);
+  }, [allEvents, activeSport, query, Math.floor(now / 60_000)]);
 
   const liveEvents = events.filter((event) => Date.parse(event.startTime) <= now);
   const upcoming = events.filter((event) => Date.parse(event.startTime) > now);

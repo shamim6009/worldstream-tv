@@ -138,6 +138,15 @@ export interface SportsEvent {
   verifiedAt: string;
   source: string;
   note?: string;
+  /** Present on auto-synced fixtures; absent on hand-curated events. */
+  status?: 'scheduled' | 'live' | 'finished';
+  homeTeam?: string;
+  awayTeam?: string;
+  /** Cricket scores can be "187/6", so scores stay strings. */
+  homeScore?: string | null;
+  awayScore?: string | null;
+  /** Where the data came from, so the card can link to it. */
+  sourceUrl?: string;
 }
 
 export interface SportsEventData {

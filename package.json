@@ -21,6 +21,7 @@
     "sync:catalog": "tsx scripts/sync-playlists.ts",
     "review:candidates": "tsx scripts/review-candidates.ts",
     "sync:epg": "tsx scripts/sync-epg.ts",
+    "sync:scores": "tsx scripts/sync-scores.ts",
     "validate:streams": "tsx scripts/validate-streams.ts",
     "generate:catalog": "tsx scripts/generate-catalog.ts",
     "prerender": "tsx scripts/prerender.ts",

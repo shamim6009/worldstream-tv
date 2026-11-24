@@ -34,3 +34,7 @@ export async function fetchEpg(): Promise<EpgData> {
 export async function fetchSportsEvents(): Promise<SportsEventData> {
   return fetchJson<SportsEventData>('sports-events.json');
 }
+
+export async function fetchSportsLive(): Promise<SportsEventData> {
+  return fetchJson<SportsEventData>('sports-live.json');
+}

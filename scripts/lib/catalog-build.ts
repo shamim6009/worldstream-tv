@@ -308,4 +308,10 @@ export function writeCatalogArtifacts(root: string, catalog: Catalog, absoluteBa
     const sports = readJson<SportsEventData>(sportsPath);
     fs.writeFileSync(path.join(dataDir, 'sports-events.json'), `${JSON.stringify(sports, null, 2)}\n`);
   }
+  // Auto-synced fixtures stay in their own file so curated events keep provenance.
+  const livePath = path.join(root, 'data', 'sports-live.json');
+  if (fs.existsSync(livePath)) {
+    const live = readJson<SportsEventData>(livePath);
+    fs.writeFileSync(path.join(dataDir, 'sports-live.json'), `${JSON.stringify(live, null, 2)}\n`);
+  }
 }

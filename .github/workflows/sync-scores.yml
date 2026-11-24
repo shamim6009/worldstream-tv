@@ -1,0 +1,42 @@
+name: Sync live scores
+
+# ESPN's scoreboards are free and key-less, but they are third-party calls, so
+# they run here rather than in the browser. The commit triggers the Pages deploy.
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-scores
+  cancel-in-progress: true
+
+jobs:
+  scores:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - name: Sync scores and fixtures
+        run: npm run sync:scores
+      - name: Validate the generated feed
+        run: npx tsx -e "const d=require('./data/sports-live.json'); if(!Array.isArray(d.events)) throw new Error('events missing'); if(d.events.some(e=>/^(tba|tbc|tbd)$/i.test(e.homeTeam)||/^(tba|tbc|tbd)$/i.test(e.awayTeam))) throw new Error('placeholder fixture leaked into the feed'); console.log('ok', d.events.length, 'events');"
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- data/sports-live.json; then
+            echo "No score changes."
+            exit 0
+          fi
+          git config user.name "shamim6009"
+          git config user.email "shamimitsofts@gmail.com"
+          git add data/sports-live.json
+          git commit -m "chore: sync live scores"
+          git push
