@@ -119,6 +119,17 @@ Two things to know before relying on it:
 The feed is separate from `data/sports-events.json` on purpose: that file is
 hand-curated and should only ever hold events you verified yourself.
 
+### Headlines
+
+`npm run sync:news` fills `data/sports-news.json` from two feeds: ESPNcricinfo's
+public RSS (`cricinfo.com/rss/content/story/feeds/0.xml`) and ESPN's news
+endpoint. The same CI job runs it every 30 minutes.
+
+Only a headline, a summary capped at 240 characters, the publication time and
+the link are stored — **the article itself stays with the publisher**, and every
+card opens their page. Do not extend this to full article bodies: an RSS feed is
+a syndication channel, not a content licence.
+
 ## Sports events
 
 Add events to `data/sports-events.json` only from an official broadcaster announcement or a licensed data provider. Include `watchUrl`, `region`, `source` and `verifiedAt`. Never add placeholder fixtures.

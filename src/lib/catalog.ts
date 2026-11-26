@@ -1,6 +1,6 @@
-import type { Catalog, EpgData, SportsEventData } from '../types/catalog';
+import type { Catalog, EpgData, SportsEventData, SportsNewsData } from '../types/catalog';
 
-export type { Catalog, EpgData, SportsEventData };
+export type { Catalog, EpgData, SportsEventData, SportsNewsData };
 
 function dataUrl(file: string): string {
   const base = import.meta.env.BASE_URL || '/';
@@ -37,4 +37,8 @@ export async function fetchSportsEvents(): Promise<SportsEventData> {
 
 export async function fetchSportsLive(): Promise<SportsEventData> {
   return fetchJson<SportsEventData>('sports-live.json');
+}
+
+export async function fetchSportsNews(): Promise<SportsNewsData> {
+  return fetchJson<SportsNewsData>('sports-news.json');
 }

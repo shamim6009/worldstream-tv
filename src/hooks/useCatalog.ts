@@ -1,5 +1,5 @@
 import { useQuery } from '@tanstack/react-query';
-import { fetchCatalog, fetchEpg, fetchSportsEvents, fetchSportsLive } from '../lib/catalog';
+import { fetchCatalog, fetchEpg, fetchSportsEvents, fetchSportsLive, fetchSportsNews } from '../lib/catalog';
 
 export function useCatalog() {
   return useQuery({
@@ -15,6 +15,16 @@ export function useEpg() {
   return useQuery({
     queryKey: ['epg'],
     queryFn: fetchEpg,
+    staleTime: 10 * 60 * 1000,
+    gcTime: 60 * 60 * 1000,
+    retry: 1,
+  });
+}
+
+export function useSportsNews() {
+  return useQuery({
+    queryKey: ['sports-news'],
+    queryFn: fetchSportsNews,
     staleTime: 10 * 60 * 1000,
     gcTime: 60 * 60 * 1000,
     retry: 1,

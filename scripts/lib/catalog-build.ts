@@ -8,6 +8,7 @@ import type {
   EpgData,
   Region,
   SportsEventData,
+  SportsNewsData,
   StreamSource,
 } from '../../src/types/catalog';
 import { applyStatuses, deriveChannelStatus, firstVerifiedAt, readStatusFile } from './status';
@@ -309,6 +310,11 @@ export function writeCatalogArtifacts(root: string, catalog: Catalog, absoluteBa
     fs.writeFileSync(path.join(dataDir, 'sports-events.json'), `${JSON.stringify(sports, null, 2)}\n`);
   }
   // Auto-synced fixtures stay in their own file so curated events keep provenance.
+  const newsPath = path.join(root, 'data', 'sports-news.json');
+  if (fs.existsSync(newsPath)) {
+    const news = readJson<SportsNewsData>(newsPath);
+    fs.writeFileSync(path.join(dataDir, 'sports-news.json'), `${JSON.stringify(news, null, 2)}\n`);
+  }
   const livePath = path.join(root, 'data', 'sports-live.json');
   if (fs.existsSync(livePath)) {
     const live = readJson<SportsEventData>(livePath);

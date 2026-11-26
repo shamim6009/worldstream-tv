@@ -27,16 +27,18 @@ jobs:
       - run: npm ci
       - name: Sync scores and fixtures
         run: npm run sync:scores
+      - name: Sync cricket and football headlines
+        run: npm run sync:news
       - name: Validate the generated feed
         run: npx tsx -e "const d=require('./data/sports-live.json'); if(!Array.isArray(d.events)) throw new Error('events missing'); if(d.events.some(e=>/^(tba|tbc|tbd)$/i.test(e.homeTeam)||/^(tba|tbc|tbd)$/i.test(e.awayTeam))) throw new Error('placeholder fixture leaked into the feed'); console.log('ok', d.events.length, 'events');"
       - name: Commit if changed
         run: |
-          if git diff --quiet -- data/sports-live.json; then
+          if git diff --quiet -- data/sports-live.json data/sports-news.json; then
             echo "No score changes."
             exit 0
           fi
           git config user.name "shamim6009"
           git config user.email "shamimitsofts@gmail.com"
-          git add data/sports-live.json
-          git commit -m "chore: sync live scores"
+          git add data/sports-live.json data/sports-news.json
+          git commit -m "chore: sync live scores and sports headlines"
           git push

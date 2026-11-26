@@ -9,7 +9,7 @@ import { PageHeader } from '../components/PageHeader';
 import { SearchBox } from '../components/SearchBox';
 import { SectionHeading } from '../components/SectionHeading';
 import { OFFICIAL_SPORTS_DESTINATIONS, PREMIUM_SPORTS_SERVICES, SPORT_CATEGORIES, sportName } from '../data/reference';
-import { useSportsEvents, useSportsLive } from '../hooks/useCatalog';
+import { useSportsEvents, useSportsLive, useSportsNews } from '../hooks/useCatalog';
 import { searchChannels } from '../lib/search';
 import { useSeo } from '../lib/seo';
 import { cn, countdown, formatDate, formatTime, normalizeText, safeExternal } from '../lib/utils';
@@ -27,7 +27,7 @@ function useNow(intervalMs = 1000): number {
 function EventCard({ event, now, catalog }: { event: SportsEvent; now: number; catalog: Catalog }) {
   const start = Date.parse(event.startTime);
   const end = Date.parse(event.endTime);
-  const live = now >= start && now < end;
+  const live = event.status === 'live' || (event.status !== 'finished' && now >= start && now < end);
   const watch = safeExternal(event.watchUrl);
   const channels = catalog.channels.filter((channel) => event.channelIds.includes(channel.id));
 
@@ -123,6 +123,7 @@ function SportsContent({ catalog, sport }: { catalog: Catalog; sport: string | n
   }, [sportsChannels, activeSport, country, query]);
 
   const live = useSportsLive();
+  const newsFeed = useSportsNews();
   const allEvents = useMemo(
     () => [...(eventsData?.events ?? []), ...(live.data?.events ?? [])],
     [eventsData, live.data],
@@ -132,11 +133,13 @@ function SportsContent({ catalog, sport }: { catalog: Catalog; sport: string | n
     const needle = normalizeText(query);
     return allEvents
       // Results stay visible for a while; fixtures drop off once they have ended.
-      .filter((event) =>
-        event.status === 'finished'
-          ? Date.parse(event.startTime) > now - 36 * 3_600_000
-          : Date.parse(event.endTime) > now,
-      )
+      .filter((event) => {
+        // endTime is a duration estimate, not a fact from the provider, so it
+        // must never hide a match the feed says is still being played.
+        if (event.status === 'live') return true;
+        if (event.status === 'finished') return Date.parse(event.startTime) > now - 36 * 3_600_000;
+        return Date.parse(event.endTime) > now;
+      })
       .filter((event) => !activeSport || event.sport === activeSport)
       .filter(
         (event) =>
@@ -146,6 +149,12 @@ function SportsContent({ catalog, sport }: { catalog: Catalog; sport: string | n
     // `now` ticks every second; events only need re-filtering each minute.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [allEvents, activeSport, query, Math.floor(now / 60_000)]);
+
+  const news = useMemo(() => {
+    const items = newsFeed.data?.items ?? [];
+    if (!activeSport) return items.slice(0, 9);
+    return items.filter((item) => item.sport === activeSport).slice(0, 9);
+  }, [newsFeed.data, activeSport]);
 
   const liveEvents = events.filter((event) => Date.parse(event.startTime) <= now);
   const upcoming = events.filter((event) => Date.parse(event.startTime) > now);
@@ -180,25 +189,6 @@ function SportsContent({ catalog, sport }: { catalog: Catalog; sport: string | n
         </div>
       </PageHeader>
 
-      <nav aria-label="Sport categories" className="scrollbar-none -mx-4 flex gap-2 overflow-x-auto px-4 sm:mx-0 sm:flex-wrap sm:px-0">
-        <button type="button" onClick={() => navigate('/sports')} className={cn('chip', !activeSport && 'chip-active')}>
-          <Trophy className="h-3.5 w-3.5" aria-hidden="true" /> All sports
-          <span className="text-slate-500">{sportsChannels.length}</span>
-        </button>
-        {SPORT_CATEGORIES.map((entry) => (
-          <button
-            key={entry.id}
-            type="button"
-            onClick={() => navigate(`/sports/${entry.id}`)}
-            aria-pressed={activeSport === entry.id}
-            className={cn('chip', activeSport === entry.id && 'chip-active')}
-          >
-            <span aria-hidden="true">{entry.emoji}</span> {entry.name}
-            <span className="text-slate-500">{counts.get(entry.id) ?? 0}</span>
-          </button>
-        ))}
-      </nav>
-
       <section className="space-y-4" aria-label="Events">
         <SectionHeading
           title={liveEvents.length ? 'Live now & upcoming' : 'Upcoming matches'}
@@ -227,6 +217,58 @@ function SportsContent({ catalog, sport }: { catalog: Catalog; sport: string | n
           />
         )}
       </section>
+
+
+      {news.length ? (
+        <section className="space-y-4" aria-label="Sports news">
+          <SectionHeading
+            title="Cricket & football news"
+            description="Headlines from ESPNcricinfo and ESPN. Each card opens the publisher’s article — the story stays there."
+          />
+          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {news.map((item) => (
+              <a
+                key={item.id}
+                href={item.url}
+                target="_blank"
+                rel="noreferrer noopener"
+                className="panel group flex flex-col gap-2 p-4 transition hover:border-white/25"
+              >
+                <span className="flex items-center justify-between gap-2 text-[10px] font-bold uppercase tracking-wider text-slate-500">
+                  <span>
+                    {item.sport === 'cricket' ? '🏏' : '⚽'} {item.source}
+                  </span>
+                  {item.publishedAt ? (
+                    <span className="font-medium normal-case tracking-normal text-slate-500">{formatDate(item.publishedAt)}</span>
+                  ) : null}
+                </span>
+                <span className="font-heading text-sm font-semibold leading-5 text-slate-100 group-hover:text-white">
+                  {item.title}
+                </span>
+                {item.summary ? <span className="text-xs leading-5 text-slate-400">{item.summary}</span> : null}
+              </a>
+            ))}
+          </div>
+        </section>
+      ) : null}
+      <nav aria-label="Sport categories" className="scrollbar-none -mx-4 flex gap-2 overflow-x-auto px-4 sm:mx-0 sm:flex-wrap sm:px-0">
+        <button type="button" onClick={() => navigate('/sports')} className={cn('chip', !activeSport && 'chip-active')}>
+          <Trophy className="h-3.5 w-3.5" aria-hidden="true" /> All sports
+          <span className="text-slate-500">{sportsChannels.length}</span>
+        </button>
+        {SPORT_CATEGORIES.map((entry) => (
+          <button
+            key={entry.id}
+            type="button"
+            onClick={() => navigate(`/sports/${entry.id}`)}
+            aria-pressed={activeSport === entry.id}
+            className={cn('chip', activeSport === entry.id && 'chip-active')}
+          >
+            <span aria-hidden="true">{entry.emoji}</span> {entry.name}
+            <span className="text-slate-500">{counts.get(entry.id) ?? 0}</span>
+          </button>
+        ))}
+      </nav>
 
       <section className="space-y-4" aria-label="Sports channels">
         <SectionHeading

@@ -149,6 +149,23 @@ export interface SportsEvent {
   sourceUrl?: string;
 }
 
+export interface SportsNewsItem {
+  id: string;
+  title: string;
+  summary: string;
+  url: string;
+  publishedAt: string | null;
+  sport: 'cricket' | 'football';
+  /** Publisher name, shown on the card so the source is never ambiguous. */
+  source: string;
+}
+
+export interface SportsNewsData {
+  generatedAt: string;
+  note?: string;
+  items: SportsNewsItem[];
+}
+
 export interface SportsEventData {
   generatedAt: string;
   events: SportsEvent[];
