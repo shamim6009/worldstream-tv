@@ -1,7 +1,43 @@
 {
-  "generatedAt": "2026-11-26T18:06:23.048Z",
+  "generatedAt": "2026-11-26T21:50:05.696Z",
   "note": "Headlines and links only, collected from publisher RSS/API feeds. Articles stay with their publisher.",
   "items": [
+    {
+      "id": "football-https-www-espn-com-soccer-story-id-50605310-dominic-calvert-lewin-leeds-united-c",
+      "title": "Man United-linked Dominic Calvert-Lewin signs new Leeds contract",
+      "summary": "Leeds United have announced striker Dominic Calvert-Lewin has signed a new two-and-a-half-year contract with the club.",
+      "url": "https://www.espn.com/soccer/story/_/id/50605310/dominic-calvert-lewin-leeds-united-contract",
+      "publishedAt": "2026-11-26T18:54:10.000Z",
+      "sport": "football",
+      "source": "ESPN"
+    },
+    {
+      "id": "football-https-www-espn-com-soccer-story-id-50602698-transfer-rumors-news-manchester-unit",
+      "title": "Transfer rumors, news: Barça, Madrid jockey for position in Erling Haaland chase",
+      "summary": "Barcelona and Real Madrid are positioning themselves for a move for Man City striker Erling Haaland. Transfer Talk has the latest.",
+      "url": "https://www.espn.com/soccer/story/_/id/50602698/transfer-rumors-news-manchester-united-barcelona-heaven",
+      "publishedAt": "2026-11-26T18:35:42.000Z",
+      "sport": "football",
+      "source": "ESPN"
+    },
+    {
+      "id": "cricket-https-www-cricinfo-com-ci-content-story-1564343-html",
+      "title": "SL A storm into final after Croospulle, Jayawardena tons",
+      "summary": "Sri Lanka A posted a commanding win, chasing down India A's 317 with 51 balls to spare",
+      "url": "https://www.cricinfo.com/ci/content/story/1564343.html?ex_cid=OTC-RSS",
+      "publishedAt": "2026-11-26T18:15:43.000Z",
+      "sport": "cricket",
+      "source": "ESPNcricinfo"
+    },
+    {
+      "id": "cricket-https-www-cricinfo-com-ci-content-story-1564346-html",
+      "title": "Afridi, Abrar shine amid concerns over tight Quaid-e-Azam Trophy schedule",
+      "summary": "The PCB's revised schedule has left teams with just one day between four-day matches, prompting concerns over fatigue, injuries and travel demands",
+      "url": "https://www.cricinfo.com/ci/content/story/1564346.html?ex_cid=OTC-RSS",
+      "publishedAt": "2026-11-26T18:08:48.000Z",
+      "sport": "cricket",
+      "source": "ESPNcricinfo"
+    },
     {
       "id": "football-https-www-espn-com-soccer-story-id-50605027-liverpool-virgil-van-dijk-alexander-",
       "title": "Liverpool captain Virgil Van Dijk lauds 'outstanding striker' Alexander Isak",
@@ -45,15 +81,6 @@
       "url": "https://www.espn.com/cricket/story/_/id/50604463/2027-world-cup-mosi-oa-tunya-international-stadium-victoria-falls-stages-first-official-match",
       "publishedAt": "2026-11-26T15:52:02.000Z",
       "sport": "cricket",
-      "source": "ESPN"
-    },
-    {
-      "id": "football-https-www-espn-com-soccer-story-id-50602698-transfer-rumors-news-manchester-unit",
-      "title": "Transfer rumors, news: Barcelona among clubs eyeing Man United's Ayden Heaven",
-      "summary": "Barcelona are interested in a loan move for Manchester United defender Ayden Heaven. Transfer Talk has the latest.",
-      "url": "https://www.espn.com/soccer/story/_/id/50602698/transfer-rumors-news-manchester-united-barcelona-heaven",
-      "publishedAt": "2026-11-26T15:05:13.000Z",
-      "sport": "football",
       "source": "ESPN"
     },
     {
@@ -102,15 +129,6 @@
       "source": "ESPN"
     },
     {
-      "id": "football-https-www-espn-com-soccer-story-id-50603870-cesc-fabregas-barcelona-como-hansi-f",
-      "title": "Cesc Fàbregas plays down Barcelona links, pledges immediate future to Como",
-      "summary": "Cesc Fabregas has pledged his immediate future to Como amid speculation that he could one day succeed Hansi Flick at Barcelona.",
-      "url": "https://www.espn.com/soccer/story/_/id/50603870/cesc-fabregas-barcelona-como-hansi-flick",
-      "publishedAt": "2026-11-26T13:07:29.000Z",
-      "sport": "football",
-      "source": "ESPN"
-    },
-    {
       "id": "cricket-https-www-espn-com-cricket-story-id-50603027-psl-2027-shaun-tait-appointed-lahor",
       "title": "Shaun Tait appointed Lahore Qalandars head coach ahead of PSL 2027",
       "summary": "Currently Pakistan's fast-bowling coach, he had worked with Qalandars at the Global Super League earlier this year",
@@ -125,24 +143,6 @@
       "summary": "Chasing a fourth innings target of 142 runs off 13 overs, WA fell agonisingly short at 137 for 6 with Bancroft finishing 57 not out from 36 balls",
       "url": "https://www.cricinfo.com/ci/content/story/1564286.html?ex_cid=OTC-RSS",
       "publishedAt": "2026-11-26T12:32:26.000Z",
-      "sport": "cricket",
-      "source": "ESPNcricinfo"
-    },
-    {
-      "id": "cricket-https-www-cricinfo-com-county-cricket-2017-content-story-1562889-html",
-      "title": "Women's county ins and outs 2026-27",
-      "summary": "Keep up to date with all the player movements ahead of the 2027 women's Tier 1 county season",
-      "url": "https://www.cricinfo.com/county-cricket-2017/content/story/1562889.html?ex_cid=OTC-RSS",
-      "publishedAt": "2026-11-26T11:16:56.000Z",
-      "sport": "cricket",
-      "source": "ESPNcricinfo"
-    },
-    {
-      "id": "cricket-https-www-cricinfo-com-ci-content-story-1564307-html",
-      "title": "Hampshire re-sign Amanda-Jade Wellington for 2027 season",
-      "summary": "Australia legspinner took 58 wickets across formats for south-coast club last summer",
-      "url": "https://www.cricinfo.com/ci/content/story/1564307.html?ex_cid=OTC-RSS",
-      "publishedAt": "2026-11-26T11:06:38.000Z",
       "sport": "cricket",
       "source": "ESPNcricinfo"
     }
