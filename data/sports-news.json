@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-11-26T21:50:05.696Z",
+  "generatedAt": "2026-11-27T03:57:14.921Z",
   "note": "Headlines and links only, collected from publisher RSS/API feeds. Articles stay with their publisher.",
   "items": [
+    {
+      "id": "cricket-https-www-espn-com-cricket-story-id-50607866-nathan-lyon-set-dropped-first-new-z",
+      "title": "Lyon set to be dropped for first New Zealand Test in Perth",
+      "summary": "The offspinner is not expected to be part of the group for the opening Test after a lean run with the ball",
+      "url": "https://www.espn.com/cricket/story/_/id/50607866/nathan-lyon-set-dropped-first-new-zealand-test-perth",
+      "publishedAt": "2026-11-27T03:23:23.000Z",
+      "sport": "cricket",
+      "source": "ESPN"
+    },
+    {
+      "id": "cricket-https-www-espn-com-cricket-story-id-50607431-cricket-australia-announces-sandpap",
+      "title": "CA announces sandpaper forum will be 'confidential', includes 2017-18 Ashes",
+      "summary": "The independent forum will be open for six weeks, led by Independent Senior Counsel Fiona McLeod AO SC, with a report of 'themes' to be published but individual accounts to be kept private",
+      "url": "https://www.espn.com/cricket/story/_/id/50607431/cricket-australia-announces-sandpaper-forum-confidential-includes-2017-18-ashes",
+      "publishedAt": "2026-11-27T02:16:38.000Z",
+      "sport": "cricket",
+      "source": "ESPN"
+    },
+    {
+      "id": "cricket-https-www-cricinfo-com-ci-content-story-1564351-html",
+      "title": "India bowl in Christchurch; Brar debuts in place of Prasidh",
+      "summary": "Mohammed Siraj was left out as India made just the one change while New Zealand named the same XI as the Wellington Test",
+      "url": "https://www.cricinfo.com/ci/content/story/1564351.html?ex_cid=OTC-RSS",
+      "publishedAt": "2026-11-26T22:14:54.000Z",
+      "sport": "cricket",
+      "source": "ESPNcricinfo"
+    },
     {
       "id": "football-https-www-espn-com-soccer-story-id-50605310-dominic-calvert-lewin-leeds-united-c",
       "title": "Man United-linked Dominic Calvert-Lewin signs new Leeds contract",
@@ -111,15 +138,6 @@
       "source": "ESPN"
     },
     {
-      "id": "cricket-https-www-espn-com-cricket-story-id-50604068-playing-white-ball-cricket-people-m",
-      "title": "'Carefree' Shami content to focus on white-ball cricket after Test retirement",
-      "summary": "Looking ahead to the Vijay Hazare Trophy, the Bengal quick said he can \"pick and choose\" games now",
-      "url": "https://www.espn.com/cricket/story/_/id/50604068/playing-white-ball-cricket-people-my-skills-red-ball-cricket",
-      "publishedAt": "2026-11-26T14:23:03.000Z",
-      "sport": "cricket",
-      "source": "ESPN"
-    },
-    {
       "id": "football-https-www-espn-com-soccer-story-id-50604016-leny-yoro-manchester-united-red-card",
       "title": "FA panel details 'obvious error' in Leny Yoro red card against Liverpool",
       "summary": "Referee Sam Barrott made an \"obvious error\" in sending off Manchester United defender Leny Yoro against Liverpool, an independent regulatory commission unanimously concluded.",
@@ -127,24 +145,6 @@
       "publishedAt": "2026-11-26T13:29:12.000Z",
       "sport": "football",
       "source": "ESPN"
-    },
-    {
-      "id": "cricket-https-www-espn-com-cricket-story-id-50603027-psl-2027-shaun-tait-appointed-lahor",
-      "title": "Shaun Tait appointed Lahore Qalandars head coach ahead of PSL 2027",
-      "summary": "Currently Pakistan's fast-bowling coach, he had worked with Qalandars at the Global Super League earlier this year",
-      "url": "https://www.espn.com/cricket/story/_/id/50603027/psl-2027-shaun-tait-appointed-lahore-qalandars-head-coach",
-      "publishedAt": "2026-11-26T13:00:56.000Z",
-      "sport": "cricket",
-      "source": "ESPN"
-    },
-    {
-      "id": "cricket-https-www-cricinfo-com-ci-content-story-1564286-html",
-      "title": "Bancroft leads WA's late charge in thrilling Tasmania draw",
-      "summary": "Chasing a fourth innings target of 142 runs off 13 overs, WA fell agonisingly short at 137 for 6 with Bancroft finishing 57 not out from 36 balls",
-      "url": "https://www.cricinfo.com/ci/content/story/1564286.html?ex_cid=OTC-RSS",
-      "publishedAt": "2026-11-26T12:32:26.000Z",
-      "sport": "cricket",
-      "source": "ESPNcricinfo"
     }
   ]
 }
