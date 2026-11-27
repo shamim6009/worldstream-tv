@@ -1,31 +1,121 @@
 {
-  "generatedAt": "2026-11-27T03:57:14.921Z",
+  "generatedAt": "2026-11-27T13:33:02.684Z",
   "note": "Headlines and links only, collected from publisher RSS/API feeds. Articles stay with their publisher.",
   "items": [
     {
-      "id": "cricket-https-www-espn-com-cricket-story-id-50607866-nathan-lyon-set-dropped-first-new-z",
+      "id": "cricket-https-www-cricinfo-com-ci-content-story-1563366-html",
+      "title": "Rohit Sharma to lead Mumbai Indians again in IPL 2027",
+      "summary": "Rohit Sharma, who turns 40 next April, last led Mumbai Indians in IPL 2023, when the team lost in Qualifier 2 to Gujarat Titans",
+      "url": "https://www.cricinfo.com/ci/content/story/1563366.html?ex_cid=OTC-RSS",
+      "publishedAt": "2026-11-27T13:16:53.000Z",
+      "sport": "cricket",
+      "source": "ESPNcricinfo"
+    },
+    {
+      "id": "cricket-https-www-cricinfo-com-ci-content-story-1564453-html",
+      "title": "Jamie Overton skittles Australia with five as England surge to series lead",
+      "summary": "The home side were bundled out for just 108 at the Gabba in a miserable batting display",
+      "url": "https://www.cricinfo.com/ci/content/story/1564453.html?ex_cid=OTC-RSS",
+      "publishedAt": "2026-11-27T11:46:13.000Z",
+      "sport": "cricket",
+      "source": "ESPNcricinfo"
+    },
+    {
+      "id": "cricket-https-www-cricinfo-com-ci-content-story-1564381-html",
+      "title": "Victoria cling on after Weatherald's back-to-back hundreds",
+      "summary": "South Australia pushed harder for a shock victory late on the final but couldn't quite close it out",
+      "url": "https://www.cricinfo.com/ci/content/story/1564381.html?ex_cid=OTC-RSS",
+      "publishedAt": "2026-11-27T11:13:08.000Z",
+      "sport": "cricket",
+      "source": "ESPNcricinfo"
+    },
+    {
+      "id": "football-https-www-espn-com-soccer-story-id-50610604-jose-mourinho-jude-bellingham-zidane",
+      "title": "José Mourinho hails Jude Bellingham but refuses Zinedine Zidane comparison",
+      "summary": "José Mourinho called Jude Bellingham \"one of the best players of his generation\" on Friday, but refused to compare the England star with Real Madrid legend Zinedine Zidane.",
+      "url": "https://www.espn.com/soccer/story/_/id/50610604/jose-mourinho-jude-bellingham-zidane",
+      "publishedAt": "2026-11-27T11:09:02.000Z",
+      "sport": "football",
+      "source": "ESPN"
+    },
+    {
+      "id": "football-https-www-espn-com-soccer-story-id-50610575-bruno-fernandes-man-united-brentford",
+      "title": "Bruno Fernandes: Late call due to illness for Man United vs. Brentford - sources",
+      "summary": "Bruno Fernandes will be assessed ahead of Manchester United's Premier League clash with Brentford on Saturday after missing training on Friday because of illness, sources have told ESPN.",
+      "url": "https://www.espn.com/soccer/story/_/id/50610575/bruno-fernandes-man-united-brentford",
+      "publishedAt": "2026-11-27T10:48:10.000Z",
+      "sport": "football",
+      "source": "ESPN"
+    },
+    {
+      "id": "cricket-https-www-cricinfo-com-ci-content-story-1564361-html",
       "title": "Lyon set to be dropped for first New Zealand Test in Perth",
       "summary": "The offspinner is not expected to be part of the group for the opening Test after a lean run with the ball",
-      "url": "https://www.espn.com/cricket/story/_/id/50607866/nathan-lyon-set-dropped-first-new-zealand-test-perth",
-      "publishedAt": "2026-11-27T03:23:23.000Z",
+      "url": "https://www.cricinfo.com/ci/content/story/1564361.html?ex_cid=OTC-RSS",
+      "publishedAt": "2026-11-27T10:35:49.000Z",
       "sport": "cricket",
+      "source": "ESPNcricinfo"
+    },
+    {
+      "id": "football-https-www-espn-com-soccer-story-id-50610420-cole-palmer-best-no-10-premier-leagu",
+      "title": "'Cole Palmer is the best No. 10 in the Premier League' - Tosin Adarabioyo",
+      "summary": "Tottenham's Tosin Adarabioyo has said that Cole Palmer is \"the best No. 10 in the Premier League\" and \"one of the best players he has ever seen.\"",
+      "url": "https://www.espn.com/soccer/story/_/id/50610420/cole-palmer-best-no-10-premier-league-says-tosin",
+      "publishedAt": "2026-11-27T10:07:07.000Z",
+      "sport": "football",
       "source": "ESPN"
     },
     {
-      "id": "cricket-https-www-espn-com-cricket-story-id-50607431-cricket-australia-announces-sandpap",
+      "id": "football-https-www-espn-com-soccer-story-id-50607825-usmnt-man-united-pochettino-transfer",
+      "title": "Would any USMNT players really make Man United better if they followed Poch?",
+      "summary": "Now that USMNT manager Mauricio Pochettino has taken over Man United, would it make sense for USMNT players to join their ex-coach?",
+      "url": "https://www.espn.com/soccer/story/_/id/50607825/usmnt-man-united-pochettino-transfers-sign-premier-league-usa",
+      "publishedAt": "2026-11-27T09:02:01.000Z",
+      "sport": "football",
+      "source": "ESPN"
+    },
+    {
+      "id": "football-https-www-espn-com-soccer-story-id-50610066-transfer-rumors-news-nico-paz-man-un",
+      "title": "Transfer rumors, news:Transfer rumors, news: Nico Paz open to Man United; against Real Madrid return",
+      "summary": "Manchester United see Como's Nico Paz as a possible replacement for Bruno Fernandes. For his part, Paz is at least open to it. Transfer Talk has the latest.",
+      "url": "https://www.espn.com/soccer/story/_/id/50610066/transfer-rumors-news-nico-paz-man-united-real-madrid-como",
+      "publishedAt": "2026-11-27T08:56:05.000Z",
+      "sport": "football",
+      "source": "ESPN"
+    },
+    {
+      "id": "cricket-https-www-cricinfo-com-ci-content-story-1564421-html",
+      "title": "PCB slashes women's central contracts from 20 to eight",
+      "summary": "The PCB has scrapped Categories D and E altogether for the contracts that will run until the end of June 2027",
+      "url": "https://www.cricinfo.com/ci/content/story/1564421.html?ex_cid=OTC-RSS",
+      "publishedAt": "2026-11-27T08:55:37.000Z",
+      "sport": "cricket",
+      "source": "ESPNcricinfo"
+    },
+    {
+      "id": "cricket-https-www-cricinfo-com-ci-content-story-1564389-html",
+      "title": "Latham, Blundell fifties give NZ advantage after hard-fought opening day",
+      "summary": "Bumrah went wicketless after India won the toss and inserted the hosts in Christchurch",
+      "url": "https://www.cricinfo.com/ci/content/story/1564389.html?ex_cid=OTC-RSS",
+      "publishedAt": "2026-11-27T08:35:14.000Z",
+      "sport": "cricket",
+      "source": "ESPNcricinfo"
+    },
+    {
+      "id": "cricket-https-www-cricinfo-com-ci-content-story-1564420-html",
+      "title": "England bowl, Owen and Stanlake come in for Australia",
+      "summary": "Billy Stanlake plays first T20I in seven years as hosts look to bounce back from Carrara mauling",
+      "url": "https://www.cricinfo.com/ci/content/story/1564420.html?ex_cid=OTC-RSS",
+      "publishedAt": "2026-11-27T08:20:58.000Z",
+      "sport": "cricket",
+      "source": "ESPNcricinfo"
+    },
+    {
+      "id": "cricket-https-www-cricinfo-com-ci-content-story-1564356-html",
       "title": "CA announces sandpaper forum will be 'confidential', includes 2017-18 Ashes",
       "summary": "The independent forum will be open for six weeks, led by Independent Senior Counsel Fiona McLeod AO SC, with a report of 'themes' to be published but individual accounts to be kept private",
-      "url": "https://www.espn.com/cricket/story/_/id/50607431/cricket-australia-announces-sandpaper-forum-confidential-includes-2017-18-ashes",
-      "publishedAt": "2026-11-27T02:16:38.000Z",
-      "sport": "cricket",
-      "source": "ESPN"
-    },
-    {
-      "id": "cricket-https-www-cricinfo-com-ci-content-story-1564351-html",
-      "title": "India bowl in Christchurch; Brar debuts in place of Prasidh",
-      "summary": "Mohammed Siraj was left out as India made just the one change while New Zealand named the same XI as the Wellington Test",
-      "url": "https://www.cricinfo.com/ci/content/story/1564351.html?ex_cid=OTC-RSS",
-      "publishedAt": "2026-11-26T22:14:54.000Z",
+      "url": "https://www.cricinfo.com/ci/content/story/1564356.html?ex_cid=OTC-RSS",
+      "publishedAt": "2026-11-27T05:42:34.000Z",
       "sport": "cricket",
       "source": "ESPNcricinfo"
     },
@@ -48,101 +138,11 @@
       "source": "ESPN"
     },
     {
-      "id": "cricket-https-www-cricinfo-com-ci-content-story-1564343-html",
-      "title": "SL A storm into final after Croospulle, Jayawardena tons",
-      "summary": "Sri Lanka A posted a commanding win, chasing down India A's 317 with 51 balls to spare",
-      "url": "https://www.cricinfo.com/ci/content/story/1564343.html?ex_cid=OTC-RSS",
-      "publishedAt": "2026-11-26T18:15:43.000Z",
-      "sport": "cricket",
-      "source": "ESPNcricinfo"
-    },
-    {
-      "id": "cricket-https-www-cricinfo-com-ci-content-story-1564346-html",
-      "title": "Afridi, Abrar shine amid concerns over tight Quaid-e-Azam Trophy schedule",
-      "summary": "The PCB's revised schedule has left teams with just one day between four-day matches, prompting concerns over fatigue, injuries and travel demands",
-      "url": "https://www.cricinfo.com/ci/content/story/1564346.html?ex_cid=OTC-RSS",
-      "publishedAt": "2026-11-26T18:08:48.000Z",
-      "sport": "cricket",
-      "source": "ESPNcricinfo"
-    },
-    {
       "id": "football-https-www-espn-com-soccer-story-id-50605027-liverpool-virgil-van-dijk-alexander-",
       "title": "Liverpool captain Virgil Van Dijk lauds 'outstanding striker' Alexander Isak",
       "summary": "Liverpool Virgil van Dijk is expecting \"fireworks\" during Sunday's Merseyside derby and praised the impact of Alexander Isak and Florain Wirtz.",
       "url": "https://www.espn.com/soccer/story/_/id/50605027/liverpool-virgil-van-dijk-alexander-isak",
       "publishedAt": "2026-11-26T17:48:30.000Z",
-      "sport": "football",
-      "source": "ESPN"
-    },
-    {
-      "id": "football-https-www-espn-com-video-clip-id-50605063-next-games-barometer-man-united-relega",
-      "title": "Hislop: Next games a 'barometer' in Man United relegation battle",
-      "summary": "Shaka Hislop and Steve Nicol question whether Manchester United are at risk of relegation from the Premier League.",
-      "url": "https://www.espn.com/video/clip/_/id/50605063/next-games-barometer-man-united-relegation-battle",
-      "publishedAt": "2026-11-26T17:43:52.000Z",
-      "sport": "football",
-      "source": "ESPN"
-    },
-    {
-      "id": "football-https-www-espn-com-soccer-story-id-50602935-bayern-munich-jamal-musiala-health-i",
-      "title": "Joshua Kimmich blasts Bayern Munich over Jamal Musiala treatment: 'Absolute no-go'",
-      "summary": "Bayern Munich midfielder Joshua Kimmich has launched a stinging attack on the club's \"not Bayern-like\" treatment of his teammate Jamal Musiala, who has a condition which causes seizures.",
-      "url": "https://www.espn.com/soccer/story/_/id/50602935/bayern-munich-jamal-musiala-health-issues-kimmich",
-      "publishedAt": "2026-11-26T16:21:13.000Z",
-      "sport": "football",
-      "source": "ESPN"
-    },
-    {
-      "id": "football-https-www-espn-com-soccer-story-id-50604615-xabi-alonso-wesley-fofana-chelsea",
-      "title": "Xabi Alonso: Wesley Fofana interview row 'closed' after apology",
-      "summary": "Xabi Alonso called the matter \"closed\" after Wesley Fofana appeared to joke about Chelsea's Carabao Cup exit to Liverpool during an unauthorised interview.",
-      "url": "https://www.espn.com/soccer/story/_/id/50604615/xabi-alonso-wesley-fofana-chelsea",
-      "publishedAt": "2026-11-26T15:59:44.000Z",
-      "sport": "football",
-      "source": "ESPN"
-    },
-    {
-      "id": "cricket-https-www-espn-com-cricket-story-id-50604463-2027-world-cup-mosi-oa-tunya-intern",
-      "title": "2027 World Cup venue at Victoria Falls stages first official match",
-      "summary": "The Mosi-oa-Tunya Cricket Stadium in Zimbabwe will be hosting four games during next year's World Cup",
-      "url": "https://www.espn.com/cricket/story/_/id/50604463/2027-world-cup-mosi-oa-tunya-international-stadium-victoria-falls-stages-first-official-match",
-      "publishedAt": "2026-11-26T15:52:02.000Z",
-      "sport": "cricket",
-      "source": "ESPN"
-    },
-    {
-      "id": "football-https-www-espn-com-soccer-story-id-50604314-omar-marmoush-luca-williams-barnett-",
-      "title": "Omar Marmoush hails Luca Williams-Barnett as 'unbelievable' after full Spurs debut",
-      "summary": "Omar Marmoush has hailed Luca Williams-Barnett as \"unbelievable\" and believes the teen sensation has a \"very promising future ahead of him.\"",
-      "url": "https://www.espn.com/soccer/story/_/id/50604314/omar-marmoush-luca-williams-barnett-tottenham",
-      "publishedAt": "2026-11-26T15:05:02.000Z",
-      "sport": "football",
-      "source": "ESPN"
-    },
-    {
-      "id": "cricket-https-www-espn-com-cricket-story-id-50604283-matthew-breetzke-tony-de-zorzi-sout",
-      "title": "Breetzke or de Zorzi? South Africa's winning formula faces one selection puzzle",
-      "summary": "With Bavuma set to return, SA must choose between Breetzke, de Zorzi and potentially a few other contenders for No. 5 with England Tests looming",
-      "url": "https://www.espn.com/cricket/story/_/id/50604283/matthew-breetzke-tony-de-zorzi-south-africa-winning-formula-faces-one-selection-puzzle",
-      "publishedAt": "2026-11-26T14:40:17.000Z",
-      "sport": "cricket",
-      "source": "ESPN"
-    },
-    {
-      "id": "cricket-https-www-espn-com-cricket-story-id-50603682-daniel-sams-back-somerset-2027-blas",
-      "title": "Daniel Sams back at Somerset for 2027 Blast",
-      "summary": "Australia allrounder returning after successful first spell at Taunton; Hilton Cartwright re-signs for Hampshire",
-      "url": "https://www.espn.com/cricket/story/_/id/50603682/daniel-sams-back-somerset-2027-blast",
-      "publishedAt": "2026-11-26T14:30:35.000Z",
-      "sport": "cricket",
-      "source": "ESPN"
-    },
-    {
-      "id": "football-https-www-espn-com-soccer-story-id-50604016-leny-yoro-manchester-united-red-card",
-      "title": "FA panel details 'obvious error' in Leny Yoro red card against Liverpool",
-      "summary": "Referee Sam Barrott made an \"obvious error\" in sending off Manchester United defender Leny Yoro against Liverpool, an independent regulatory commission unanimously concluded.",
-      "url": "https://www.espn.com/soccer/story/_/id/50604016/leny-yoro-manchester-united-red-card",
-      "publishedAt": "2026-11-26T13:29:12.000Z",
       "sport": "football",
       "source": "ESPN"
     }
