@@ -1,15 +1,123 @@
 {
-  "generatedAt": "2026-11-27T13:33:02.684Z",
+  "generatedAt": "2026-11-27T22:29:27.158Z",
   "note": "Headlines and links only, collected from publisher RSS/API feeds. Articles stay with their publisher.",
   "items": [
     {
-      "id": "cricket-https-www-cricinfo-com-ci-content-story-1563366-html",
-      "title": "Rohit Sharma to lead Mumbai Indians again in IPL 2027",
-      "summary": "Rohit Sharma, who turns 40 next April, last led Mumbai Indians in IPL 2023, when the team lost in Qualifier 2 to Gujarat Titans",
-      "url": "https://www.cricinfo.com/ci/content/story/1563366.html?ex_cid=OTC-RSS",
-      "publishedAt": "2026-11-27T13:16:53.000Z",
+      "id": "football-https-www-espn-com-soccer-story-id-50614098-wesley-fofana-chelsea-nottingham-for",
+      "title": "Wesley Fofana booed by Chelsea fans against Nottingham Forest over interview comments",
+      "summary": "Chelsea fans booed Wesley Fofana during the early stages of the visit to Nottingham Forest after his controversial unauthorised interview.",
+      "url": "https://www.espn.com/soccer/story/_/id/50614098/wesley-fofana-chelsea-nottingham-forest-booing",
+      "publishedAt": "2026-11-27T22:01:56.000Z",
+      "sport": "football",
+      "source": "ESPN"
+    },
+    {
+      "id": "football-https-www-espn-com-soccer-story-id-50612391-arsenal-man-city-preview-premier-lea",
+      "title": "Is Arsenal-Man City still the biggest PL match of the season?",
+      "summary": "Arsenal vs. Man City was supposed to be the Premier League's marquee fixture, but it feels anything but in light of City's guilty verdict. What does Sunday's game really mean?",
+      "url": "https://www.espn.com/soccer/story/_/id/50612391/arsenal-man-city-preview-premier-league",
+      "publishedAt": "2026-11-27T19:38:30.000Z",
+      "sport": "football",
+      "source": "ESPN"
+    },
+    {
+      "id": "football-https-www-espn-com-soccer-story-id-50613029-unai-emery-alejandro-garnacho-aston-",
+      "title": "Emery hails Garnacho's 'fantastic' attitude despite Aston Villa exclusion",
+      "summary": "Unai Emery has praised the attitude of forgotten man Alejandro Garnacho and has insisted there is no bad blood between the pair.",
+      "url": "https://www.espn.com/soccer/story/_/id/50613029/unai-emery-alejandro-garnacho-aston-villa-respect",
+      "publishedAt": "2026-11-27T18:55:48.000Z",
+      "sport": "football",
+      "source": "ESPN"
+    },
+    {
+      "id": "cricket-https-www-espn-com-cricket-story-id-50612176-csa-4-day-match-newlands-abandoned-",
+      "title": "CSA 4-day match in Newlands abandoned due to dangerous pitch",
+      "summary": "The game between Western Province and Titans was abandoned on the second morning after 14 wickets fell on the opening day",
+      "url": "https://www.espn.com/cricket/story/_/id/50612176/csa-4-day-match-newlands-abandoned-due-dangerous-pitch",
+      "publishedAt": "2026-11-27T18:24:24.000Z",
+      "sport": "cricket",
+      "source": "ESPN"
+    },
+    {
+      "id": "football-https-www-espn-com-video-clip-id-50612866-arteta-call-man-city-clash-title-decid",
+      "title": "Arteta won't call Man City clash a title decider",
+      "summary": "Mikel Arteta plays down the significance of Arsenal's Premier League clash with Manchester City.",
+      "url": "https://www.espn.com/video/clip/_/id/50612866/arteta-call-man-city-clash-title-decider",
+      "publishedAt": "2026-11-27T18:18:42.000Z",
+      "sport": "football",
+      "source": "ESPN"
+    },
+    {
+      "id": "cricket-https-www-cricinfo-com-ci-content-story-1564479-html",
+      "title": "Nawaz's all-round show, Moqim's three-for lead Pakistan A to final",
+      "summary": "Shahadat's 103* pushed Bangladesh A to 232, before Pakistan A's middle order bailed them out from 21 for 2",
+      "url": "https://www.cricinfo.com/ci/content/story/1564479.html?ex_cid=OTC-RSS",
+      "publishedAt": "2026-11-27T18:18:26.000Z",
       "sport": "cricket",
       "source": "ESPNcricinfo"
+    },
+    {
+      "id": "football-https-www-espn-com-soccer-story-id-50612479-tottenham-savio-roberto-de-zerbi",
+      "title": "Tottenham's Sávio out for rest of 2026 with hamstring injury - De Zerbi",
+      "summary": "Roberto De Zerbi has confirmed that Tottenham are set to be without Sávio for the rest of 2026 and beyond due to a hamstring issue sustained late on against Ipswich.",
+      "url": "https://www.espn.com/soccer/story/_/id/50612479/tottenham-savio-roberto-de-zerbi",
+      "publishedAt": "2026-11-27T17:19:28.000Z",
+      "sport": "football",
+      "source": "ESPN"
+    },
+    {
+      "id": "football-https-www-espn-com-video-clip-id-50612253-not-magician-four-months-man-city",
+      "title": "Maresca: I'm not a magician after four months at Man City",
+      "summary": "Manchester City head coach Enzo Maresca has hit back at criticism aimed at their current poor form in the Premier League.",
+      "url": "https://www.espn.com/video/clip/_/id/50612253/not-magician-four-months-man-city",
+      "publishedAt": "2026-11-27T16:15:26.000Z",
+      "sport": "football",
+      "source": "ESPN"
+    },
+    {
+      "id": "football-https-www-espn-com-soccer-story-id-50612072-pochettino-defends-management-style-",
+      "title": "Pochettino defends his Man United management style: 'I'm not nice'",
+      "summary": "Manchester United head coach Mauricio Pochettino has hit back at criticism of his management style by insisting: \"I am not nice.\"",
+      "url": "https://www.espn.com/soccer/story/_/id/50612072/pochettino-defends-management-style-man-united",
+      "publishedAt": "2026-11-27T16:04:46.000Z",
+      "sport": "football",
+      "source": "ESPN"
+    },
+    {
+      "id": "cricket-https-www-espn-com-cricket-story-id-50611744-syed-mushtaq-ali-trophy-shreyas-iye",
+      "title": "Shreyas Iyer to join Mumbai's squad for Super League phase of Syed Mushtaq Ali Trophy",
+      "summary": "His inclusion further strengthens an already robust Mumbai batting line-up",
+      "url": "https://www.espn.com/cricket/story/_/id/50611744/syed-mushtaq-ali-trophy-shreyas-iyer-join-mumbai-squad-super-league-phase",
+      "publishedAt": "2026-11-27T15:33:56.000Z",
+      "sport": "cricket",
+      "source": "ESPN"
+    },
+    {
+      "id": "football-https-www-espn-com-soccer-story-id-50610604-jose-mourinho-jude-bellingham-zidane",
+      "title": "José Mourinho hails Jude Bellingham but refuses Zinedine Zidane comparison",
+      "summary": "José Mourinho called Jude Bellingham \"one of the best players of his generation\" on Friday, but refused to compare the England star with Real Madrid legend Zinedine Zidane.",
+      "url": "https://www.espn.com/soccer/story/_/id/50610604/jose-mourinho-jude-bellingham-zidane",
+      "publishedAt": "2026-11-27T14:59:16.000Z",
+      "sport": "football",
+      "source": "ESPN"
+    },
+    {
+      "id": "cricket-https-www-espn-com-cricket-story-id-50609738-stats-wiaan-mulder-melie-kerr-stuar",
+      "title": "No. 1 in a field of one - Wiaan Mulder joins extraordinary league",
+      "summary": "Wiaan Mulder already had a Test triple century and now has a seven-for; here's a look at some other cricketers - men and women - who own extraordinary individual records",
+      "url": "https://www.espn.com/cricket/story/_/id/50609738/stats-wiaan-mulder-melie-kerr-stuart-broad-jacques-kallis-shahid-afridi-others-fields-one",
+      "publishedAt": "2026-11-27T14:39:41.000Z",
+      "sport": "cricket",
+      "source": "ESPN"
+    },
+    {
+      "id": "cricket-https-www-espn-com-cricket-story-id-50611082-ipl-2027-rohit-sharma-captain-mumba",
+      "title": "Rohit Sharma to lead Mumbai Indians again in IPL 2027",
+      "summary": "Rohit Sharma, who turns 40 next April, last led Mumbai Indians in IPL 2023, when the team lost in Qualifier 2 to Gujarat Titans",
+      "url": "https://www.espn.com/cricket/story/_/id/50611082/ipl-2027-rohit-sharma-captain-mumbai-indians-hardik-pandya-traded-pbks",
+      "publishedAt": "2026-11-27T13:20:59.000Z",
+      "sport": "cricket",
+      "source": "ESPN"
     },
     {
       "id": "cricket-https-www-cricinfo-com-ci-content-story-1564453-html",
@@ -30,120 +138,12 @@
       "source": "ESPNcricinfo"
     },
     {
-      "id": "football-https-www-espn-com-soccer-story-id-50610604-jose-mourinho-jude-bellingham-zidane",
-      "title": "José Mourinho hails Jude Bellingham but refuses Zinedine Zidane comparison",
-      "summary": "José Mourinho called Jude Bellingham \"one of the best players of his generation\" on Friday, but refused to compare the England star with Real Madrid legend Zinedine Zidane.",
-      "url": "https://www.espn.com/soccer/story/_/id/50610604/jose-mourinho-jude-bellingham-zidane",
-      "publishedAt": "2026-11-27T11:09:02.000Z",
-      "sport": "football",
-      "source": "ESPN"
-    },
-    {
-      "id": "football-https-www-espn-com-soccer-story-id-50610575-bruno-fernandes-man-united-brentford",
-      "title": "Bruno Fernandes: Late call due to illness for Man United vs. Brentford - sources",
-      "summary": "Bruno Fernandes will be assessed ahead of Manchester United's Premier League clash with Brentford on Saturday after missing training on Friday because of illness, sources have told ESPN.",
-      "url": "https://www.espn.com/soccer/story/_/id/50610575/bruno-fernandes-man-united-brentford",
-      "publishedAt": "2026-11-27T10:48:10.000Z",
-      "sport": "football",
-      "source": "ESPN"
-    },
-    {
-      "id": "cricket-https-www-cricinfo-com-ci-content-story-1564361-html",
+      "id": "cricket-https-www-espn-com-cricket-story-id-50607866-nathan-lyon-set-dropped-first-new-z",
       "title": "Lyon set to be dropped for first New Zealand Test in Perth",
       "summary": "The offspinner is not expected to be part of the group for the opening Test after a lean run with the ball",
-      "url": "https://www.cricinfo.com/ci/content/story/1564361.html?ex_cid=OTC-RSS",
-      "publishedAt": "2026-11-27T10:35:49.000Z",
+      "url": "https://www.espn.com/cricket/story/_/id/50607866/nathan-lyon-set-dropped-first-new-zealand-test-perth",
+      "publishedAt": "2026-11-27T10:40:16.000Z",
       "sport": "cricket",
-      "source": "ESPNcricinfo"
-    },
-    {
-      "id": "football-https-www-espn-com-soccer-story-id-50610420-cole-palmer-best-no-10-premier-leagu",
-      "title": "'Cole Palmer is the best No. 10 in the Premier League' - Tosin Adarabioyo",
-      "summary": "Tottenham's Tosin Adarabioyo has said that Cole Palmer is \"the best No. 10 in the Premier League\" and \"one of the best players he has ever seen.\"",
-      "url": "https://www.espn.com/soccer/story/_/id/50610420/cole-palmer-best-no-10-premier-league-says-tosin",
-      "publishedAt": "2026-11-27T10:07:07.000Z",
-      "sport": "football",
-      "source": "ESPN"
-    },
-    {
-      "id": "football-https-www-espn-com-soccer-story-id-50607825-usmnt-man-united-pochettino-transfer",
-      "title": "Would any USMNT players really make Man United better if they followed Poch?",
-      "summary": "Now that USMNT manager Mauricio Pochettino has taken over Man United, would it make sense for USMNT players to join their ex-coach?",
-      "url": "https://www.espn.com/soccer/story/_/id/50607825/usmnt-man-united-pochettino-transfers-sign-premier-league-usa",
-      "publishedAt": "2026-11-27T09:02:01.000Z",
-      "sport": "football",
-      "source": "ESPN"
-    },
-    {
-      "id": "football-https-www-espn-com-soccer-story-id-50610066-transfer-rumors-news-nico-paz-man-un",
-      "title": "Transfer rumors, news:Transfer rumors, news: Nico Paz open to Man United; against Real Madrid return",
-      "summary": "Manchester United see Como's Nico Paz as a possible replacement for Bruno Fernandes. For his part, Paz is at least open to it. Transfer Talk has the latest.",
-      "url": "https://www.espn.com/soccer/story/_/id/50610066/transfer-rumors-news-nico-paz-man-united-real-madrid-como",
-      "publishedAt": "2026-11-27T08:56:05.000Z",
-      "sport": "football",
-      "source": "ESPN"
-    },
-    {
-      "id": "cricket-https-www-cricinfo-com-ci-content-story-1564421-html",
-      "title": "PCB slashes women's central contracts from 20 to eight",
-      "summary": "The PCB has scrapped Categories D and E altogether for the contracts that will run until the end of June 2027",
-      "url": "https://www.cricinfo.com/ci/content/story/1564421.html?ex_cid=OTC-RSS",
-      "publishedAt": "2026-11-27T08:55:37.000Z",
-      "sport": "cricket",
-      "source": "ESPNcricinfo"
-    },
-    {
-      "id": "cricket-https-www-cricinfo-com-ci-content-story-1564389-html",
-      "title": "Latham, Blundell fifties give NZ advantage after hard-fought opening day",
-      "summary": "Bumrah went wicketless after India won the toss and inserted the hosts in Christchurch",
-      "url": "https://www.cricinfo.com/ci/content/story/1564389.html?ex_cid=OTC-RSS",
-      "publishedAt": "2026-11-27T08:35:14.000Z",
-      "sport": "cricket",
-      "source": "ESPNcricinfo"
-    },
-    {
-      "id": "cricket-https-www-cricinfo-com-ci-content-story-1564420-html",
-      "title": "England bowl, Owen and Stanlake come in for Australia",
-      "summary": "Billy Stanlake plays first T20I in seven years as hosts look to bounce back from Carrara mauling",
-      "url": "https://www.cricinfo.com/ci/content/story/1564420.html?ex_cid=OTC-RSS",
-      "publishedAt": "2026-11-27T08:20:58.000Z",
-      "sport": "cricket",
-      "source": "ESPNcricinfo"
-    },
-    {
-      "id": "cricket-https-www-cricinfo-com-ci-content-story-1564356-html",
-      "title": "CA announces sandpaper forum will be 'confidential', includes 2017-18 Ashes",
-      "summary": "The independent forum will be open for six weeks, led by Independent Senior Counsel Fiona McLeod AO SC, with a report of 'themes' to be published but individual accounts to be kept private",
-      "url": "https://www.cricinfo.com/ci/content/story/1564356.html?ex_cid=OTC-RSS",
-      "publishedAt": "2026-11-27T05:42:34.000Z",
-      "sport": "cricket",
-      "source": "ESPNcricinfo"
-    },
-    {
-      "id": "football-https-www-espn-com-soccer-story-id-50605310-dominic-calvert-lewin-leeds-united-c",
-      "title": "Man United-linked Dominic Calvert-Lewin signs new Leeds contract",
-      "summary": "Leeds United have announced striker Dominic Calvert-Lewin has signed a new two-and-a-half-year contract with the club.",
-      "url": "https://www.espn.com/soccer/story/_/id/50605310/dominic-calvert-lewin-leeds-united-contract",
-      "publishedAt": "2026-11-26T18:54:10.000Z",
-      "sport": "football",
-      "source": "ESPN"
-    },
-    {
-      "id": "football-https-www-espn-com-soccer-story-id-50602698-transfer-rumors-news-manchester-unit",
-      "title": "Transfer rumors, news: Barça, Madrid jockey for position in Erling Haaland chase",
-      "summary": "Barcelona and Real Madrid are positioning themselves for a move for Man City striker Erling Haaland. Transfer Talk has the latest.",
-      "url": "https://www.espn.com/soccer/story/_/id/50602698/transfer-rumors-news-manchester-united-barcelona-heaven",
-      "publishedAt": "2026-11-26T18:35:42.000Z",
-      "sport": "football",
-      "source": "ESPN"
-    },
-    {
-      "id": "football-https-www-espn-com-soccer-story-id-50605027-liverpool-virgil-van-dijk-alexander-",
-      "title": "Liverpool captain Virgil Van Dijk lauds 'outstanding striker' Alexander Isak",
-      "summary": "Liverpool Virgil van Dijk is expecting \"fireworks\" during Sunday's Merseyside derby and praised the impact of Alexander Isak and Florain Wirtz.",
-      "url": "https://www.espn.com/soccer/story/_/id/50605027/liverpool-virgil-van-dijk-alexander-isak",
-      "publishedAt": "2026-11-26T17:48:30.000Z",
-      "sport": "football",
       "source": "ESPN"
     }
   ]
