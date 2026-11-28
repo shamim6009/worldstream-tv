@@ -1,13 +1,85 @@
 {
-  "generatedAt": "2026-11-27T22:29:27.158Z",
+  "generatedAt": "2026-11-28T04:10:50.392Z",
   "note": "Headlines and links only, collected from publisher RSS/API feeds. Articles stay with their publisher.",
   "items": [
     {
+      "id": "cricket-https-www-cricinfo-com-ci-content-story-1564510-html",
+      "title": "Clayton reveals Labuschagne backing amid Test switch",
+      "summary": "The left hander is set to bat at either No. 3 or No. 4 in the first Test in Perth after being rewarded for consistent Sheffield Shield returns",
+      "url": "https://www.cricinfo.com/ci/content/story/1564510.html?ex_cid=OTC-RSS",
+      "publishedAt": "2026-11-28T03:58:57.000Z",
+      "sport": "cricket",
+      "source": "ESPNcricinfo"
+    },
+    {
+      "id": "cricket-https-www-cricinfo-com-ci-content-story-1564497-html",
+      "title": "'Hope it's not the end' - Lyon given path to India, if he wants it",
+      "summary": "Australia's chair of selectors George Bailey all but guaranteed Lyon would tour India but the offspinner is considering his future after being dropped from the series against New Zealand",
+      "url": "https://www.cricinfo.com/ci/content/story/1564497.html?ex_cid=OTC-RSS",
+      "publishedAt": "2026-11-28T03:55:24.000Z",
+      "sport": "cricket",
+      "source": "ESPNcricinfo"
+    },
+    {
+      "id": "cricket-https-www-cricinfo-com-ci-content-story-1564502-html",
+      "title": "Kemp keeps helps Perth Scorchers lock in top two finish",
+      "summary": "Scorchers still have a chance of finishing top, and hosting the grand final, if Sydney Sixers lose their final game",
+      "url": "https://www.cricinfo.com/ci/content/story/1564502.html?ex_cid=OTC-RSS",
+      "publishedAt": "2026-11-28T03:02:47.000Z",
+      "sport": "cricket",
+      "source": "ESPNcricinfo"
+    },
+    {
+      "id": "cricket-https-www-espn-com-cricket-story-id-50616549-will-orourke-returns-new-zealand-te",
+      "title": "O'Rourke returns to New Zealand Test squad for Australia tour",
+      "summary": "Tom Latham, the New Zealand captain, is set to play his 100th Test at the MCG",
+      "url": "https://www.espn.com/cricket/story/_/id/50616549/will-orourke-returns-new-zealand-test-squad-australia-tour",
+      "publishedAt": "2026-11-28T01:36:43.000Z",
+      "sport": "cricket",
+      "source": "ESPN"
+    },
+    {
+      "id": "football-https-www-espn-com-soccer-story-id-50615700-alonso-chelsea-stick-together-run-th",
+      "title": "Alonso urges Chelsea to 'stick together' amid run of three losses",
+      "summary": "Chelsea boss Xabi Alonso said his team should \"stick together\" after a 3-2 loss to Nottingham Forest on Friday made it three Premier League defeats in a row for the Stamford Bridge side.",
+      "url": "https://www.espn.com/soccer/story/_/id/50615700/alonso-chelsea-stick-together-run-three-losses",
+      "publishedAt": "2026-11-28T01:05:32.000Z",
+      "sport": "football",
+      "source": "ESPN"
+    },
+    {
+      "id": "cricket-https-www-cricinfo-com-ci-content-story-1564482-html",
+      "title": "Clayton and Rocchiccioli named in Australia Test squad for New Zealand series",
+      "summary": "The selectors have left one spot open to be filled after the next round of Sheffield Shield matches",
+      "url": "https://www.cricinfo.com/ci/content/story/1564482.html?ex_cid=OTC-RSS",
+      "publishedAt": "2026-11-28T00:59:41.000Z",
+      "sport": "cricket",
+      "source": "ESPNcricinfo"
+    },
+    {
       "id": "football-https-www-espn-com-soccer-story-id-50614098-wesley-fofana-chelsea-nottingham-for",
       "title": "Wesley Fofana booed by Chelsea fans against Nottingham Forest over interview comments",
-      "summary": "Chelsea fans booed Wesley Fofana during the early stages of the visit to Nottingham Forest after his controversial unauthorised interview.",
+      "summary": "Chelsea fans booed Wesley Fofana during the early stages of the visit to Nottingham Forest after his controversial unauthorized interview.",
       "url": "https://www.espn.com/soccer/story/_/id/50614098/wesley-fofana-chelsea-nottingham-forest-booing",
-      "publishedAt": "2026-11-27T22:01:56.000Z",
+      "publishedAt": "2026-11-27T23:13:21.000Z",
+      "sport": "football",
+      "source": "ESPN"
+    },
+    {
+      "id": "football-https-www-espn-com-video-clip-id-50615678-alonso-drop-fofana-chelsea-benefit",
+      "title": "Moreno: Alonso must drop Fofana for Chelsea's benefit",
+      "summary": "The ESPN FC crew react to Nottingham Forest beating Chelsea 3-2 in the Premier League.",
+      "url": "https://www.espn.com/video/clip/_/id/50615678/alonso-drop-fofana-chelsea-benefit",
+      "publishedAt": "2026-11-27T23:07:34.000Z",
+      "sport": "football",
+      "source": "ESPN"
+    },
+    {
+      "id": "football-https-www-espn-com-soccer-story-id-50610066-transfer-rumors-news-nico-paz-man-un",
+      "title": "Transfer rumors, news: Chelsea, Tottenham eye move for Wolfsburg's Kumbedi",
+      "summary": "Both Chelsea and Tottenham are reportedly looking at Wolfsburg's Saël Kumbedi are a possible new signing. Transfer Talk has the latest.",
+      "url": "https://www.espn.com/soccer/story/_/id/50610066/transfer-rumors-news-nico-paz-man-united-real-madrid-como",
+      "publishedAt": "2026-11-27T22:53:50.000Z",
       "sport": "football",
       "source": "ESPN"
     },
@@ -57,33 +129,6 @@
       "source": "ESPNcricinfo"
     },
     {
-      "id": "football-https-www-espn-com-soccer-story-id-50612479-tottenham-savio-roberto-de-zerbi",
-      "title": "Tottenham's Sávio out for rest of 2026 with hamstring injury - De Zerbi",
-      "summary": "Roberto De Zerbi has confirmed that Tottenham are set to be without Sávio for the rest of 2026 and beyond due to a hamstring issue sustained late on against Ipswich.",
-      "url": "https://www.espn.com/soccer/story/_/id/50612479/tottenham-savio-roberto-de-zerbi",
-      "publishedAt": "2026-11-27T17:19:28.000Z",
-      "sport": "football",
-      "source": "ESPN"
-    },
-    {
-      "id": "football-https-www-espn-com-video-clip-id-50612253-not-magician-four-months-man-city",
-      "title": "Maresca: I'm not a magician after four months at Man City",
-      "summary": "Manchester City head coach Enzo Maresca has hit back at criticism aimed at their current poor form in the Premier League.",
-      "url": "https://www.espn.com/video/clip/_/id/50612253/not-magician-four-months-man-city",
-      "publishedAt": "2026-11-27T16:15:26.000Z",
-      "sport": "football",
-      "source": "ESPN"
-    },
-    {
-      "id": "football-https-www-espn-com-soccer-story-id-50612072-pochettino-defends-management-style-",
-      "title": "Pochettino defends his Man United management style: 'I'm not nice'",
-      "summary": "Manchester United head coach Mauricio Pochettino has hit back at criticism of his management style by insisting: \"I am not nice.\"",
-      "url": "https://www.espn.com/soccer/story/_/id/50612072/pochettino-defends-management-style-man-united",
-      "publishedAt": "2026-11-27T16:04:46.000Z",
-      "sport": "football",
-      "source": "ESPN"
-    },
-    {
       "id": "cricket-https-www-espn-com-cricket-story-id-50611744-syed-mushtaq-ali-trophy-shreyas-iye",
       "title": "Shreyas Iyer to join Mumbai's squad for Super League phase of Syed Mushtaq Ali Trophy",
       "summary": "His inclusion further strengthens an already robust Mumbai batting line-up",
@@ -99,51 +144,6 @@
       "url": "https://www.espn.com/soccer/story/_/id/50610604/jose-mourinho-jude-bellingham-zidane",
       "publishedAt": "2026-11-27T14:59:16.000Z",
       "sport": "football",
-      "source": "ESPN"
-    },
-    {
-      "id": "cricket-https-www-espn-com-cricket-story-id-50609738-stats-wiaan-mulder-melie-kerr-stuar",
-      "title": "No. 1 in a field of one - Wiaan Mulder joins extraordinary league",
-      "summary": "Wiaan Mulder already had a Test triple century and now has a seven-for; here's a look at some other cricketers - men and women - who own extraordinary individual records",
-      "url": "https://www.espn.com/cricket/story/_/id/50609738/stats-wiaan-mulder-melie-kerr-stuart-broad-jacques-kallis-shahid-afridi-others-fields-one",
-      "publishedAt": "2026-11-27T14:39:41.000Z",
-      "sport": "cricket",
-      "source": "ESPN"
-    },
-    {
-      "id": "cricket-https-www-espn-com-cricket-story-id-50611082-ipl-2027-rohit-sharma-captain-mumba",
-      "title": "Rohit Sharma to lead Mumbai Indians again in IPL 2027",
-      "summary": "Rohit Sharma, who turns 40 next April, last led Mumbai Indians in IPL 2023, when the team lost in Qualifier 2 to Gujarat Titans",
-      "url": "https://www.espn.com/cricket/story/_/id/50611082/ipl-2027-rohit-sharma-captain-mumbai-indians-hardik-pandya-traded-pbks",
-      "publishedAt": "2026-11-27T13:20:59.000Z",
-      "sport": "cricket",
-      "source": "ESPN"
-    },
-    {
-      "id": "cricket-https-www-cricinfo-com-ci-content-story-1564453-html",
-      "title": "Jamie Overton skittles Australia with five as England surge to series lead",
-      "summary": "The home side were bundled out for just 108 at the Gabba in a miserable batting display",
-      "url": "https://www.cricinfo.com/ci/content/story/1564453.html?ex_cid=OTC-RSS",
-      "publishedAt": "2026-11-27T11:46:13.000Z",
-      "sport": "cricket",
-      "source": "ESPNcricinfo"
-    },
-    {
-      "id": "cricket-https-www-cricinfo-com-ci-content-story-1564381-html",
-      "title": "Victoria cling on after Weatherald's back-to-back hundreds",
-      "summary": "South Australia pushed harder for a shock victory late on the final but couldn't quite close it out",
-      "url": "https://www.cricinfo.com/ci/content/story/1564381.html?ex_cid=OTC-RSS",
-      "publishedAt": "2026-11-27T11:13:08.000Z",
-      "sport": "cricket",
-      "source": "ESPNcricinfo"
-    },
-    {
-      "id": "cricket-https-www-espn-com-cricket-story-id-50607866-nathan-lyon-set-dropped-first-new-z",
-      "title": "Lyon set to be dropped for first New Zealand Test in Perth",
-      "summary": "The offspinner is not expected to be part of the group for the opening Test after a lean run with the ball",
-      "url": "https://www.espn.com/cricket/story/_/id/50607866/nathan-lyon-set-dropped-first-new-zealand-test-perth",
-      "publishedAt": "2026-11-27T10:40:16.000Z",
-      "sport": "cricket",
       "source": "ESPN"
     }
   ]
